@@ -61,6 +61,7 @@ def modify (f: path.Path):
     f = str(f.relpath())
     f = f.replace('\\', '/')
     f = f.replace('../', '')
+    f = f.replace(' ', '&#32;')
     return f 
 
 error_indictators = ('TLE', )
@@ -70,7 +71,7 @@ def fetch_sols(fdir):
         sols = fdir.glob('**' + ext) + fdir.glob('**/**' + ext)
         ok = lambda f: not any(e in f for e in error_indictators)
         sols = [f for f in sols if ok(f)]
-        sols = [modify(f) for f in sols]
+        sols = [modify(f) for f in sols][:3]
         sols_links += [ f'[{lang}]({sol})' for sol in sols ]
     return ', '.join(sols_links)
 
