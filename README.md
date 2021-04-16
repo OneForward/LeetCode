@@ -504,49 +504,49 @@
 
 | # | Title | Solution | Tags |
 |---| ----- | -------- | ---------- |
-|1037|[sjtu1037](https://acm.sjtu.edu.cn/OnlineJudge/problem/1037)|[C++](OJ/sjtu1037/sjtu1037.cpp)|<pre>贪心算法, 快排序+堆排序<br></pre>|
-|1038|[sjtu1038](https://acm.sjtu.edu.cn/OnlineJudge/problem/1038)|[C++](OJ/sjtu1038/sjtu1038.cpp)|<pre>约瑟夫环问题<br></pre>|
-|1051|[sjtu1051](https://acm.sjtu.edu.cn/OnlineJudge/problem/1051)|[C++](OJ/sjtu1051/sjtu1051.cpp)|<pre>[模拟], [单链表]<br></pre>|
-|1053|[sjtu1053](https://acm.sjtu.edu.cn/OnlineJudge/problem/1053)|[C++](OJ/sjtu1053/sjtu1053.cpp)|<pre>(稀疏数组)<br>动作: 交换行列<br>问询: 值<br>技巧: 保存行行、列列映射, O(N)空间<br>链表+链表保存稀疏数据<br></pre>|
-|1112|[sjtu1112](https://acm.sjtu.edu.cn/OnlineJudge/problem/1112)|[C++](OJ/sjtu1112/sjtu1112.cpp)|<pre>堆, 堆排序, extract_max(), push(x), max_heapify()操作<br></pre>|
-|1215|[sjtu1215](https://acm.sjtu.edu.cn/OnlineJudge/problem/1215)|[C++](OJ/sjtu1215/sjtu1215.cpp)|<pre>实现一个优先级队列<br>操作: insert, delete min, get min<br>[最小堆]<br></pre>|
-|1216|[sjtu1216](https://acm.sjtu.edu.cn/OnlineJudge/problem/1216)|[C++](OJ/sjtu1216/sjtu1216.cpp)|<pre>实现一个优先级队列<br>操作: insert, decrease key, find x(大于x的最小的数字下标)<br>[最小堆]<br></pre>|
-|1218|[sjtu1218](https://acm.sjtu.edu.cn/OnlineJudge/problem/1218)|[C++](OJ/sjtu1218/sjtu1218.cpp)|<pre>集合<br>操作: union / difference / intersection<br>[Binary Search Tree(BST)]<br></pre>|
-|1228|[sjtu1228](https://acm.sjtu.edu.cn/OnlineJudge/problem/1228)|[C++](OJ/sjtu1228/sjtu1228.cpp)|<pre>Matrix Sum: 求奇子阵的总数<br></pre>|
-|1233|[sjtu1233](https://acm.sjtu.edu.cn/OnlineJudge/problem/1233)|[C++](OJ/sjtu1233/sjtu1233.cpp)|<pre>DFS求从某一顶点出发到长度为2的简单路径的数目<br></pre>|
-|1234|[sjtu1234](https://acm.sjtu.edu.cn/OnlineJudge/problem/1234)|[C++](OJ/sjtu1234/sjtu1234.cpp)|<pre>Kruskal 最小生成树算法<br></pre>|
-|1235|[sjtu1235](https://acm.sjtu.edu.cn/OnlineJudge/problem/1235)|[C++](OJ/sjtu1235/sjtu1235.cpp)|<pre>Dijkstra 单源最短路径算法<br></pre>|
-|1236|[sjtu1236](https://acm.sjtu.edu.cn/OnlineJudge/problem/1236)|[C++](OJ/sjtu1236/sjtu1236.cpp)|<pre>Bellman-Ford 单源最短路径算法<br></pre>|
-|1237|[sjtu1237](https://acm.sjtu.edu.cn/OnlineJudge/problem/1237)|[C++](OJ/sjtu1237/sjtu1237.cpp)|<pre>Topological Sort 拓扑排序<br></pre>|
-|1245|[sjtu1245](https://acm.sjtu.edu.cn/OnlineJudge/problem/1245)|[C++](OJ/sjtu1245/sjtu1245.cpp)|<pre>stack, Token<br>中缀表达式转前缀表达式，并计算前缀表达式的值<br></pre>|
-|1377|[sjtu1377](https://acm.sjtu.edu.cn/OnlineJudge/problem/1377)|[C++](OJ/sjtu1377/sjtu1377.cpp)|<pre>长度为N的数列 A[1..N] , 这N个数字恰好是1...N的一个排列, 这个序列的中值为B<br>求出这个序列有多少个(连续)子序列 A[i..j] 满足： i <= j  且  j-i+1  为奇数, 且中值为 B<br>O(N) 复杂度, 抽象大于中值的为+1, 小于中值的为-1，然后稍作统计即可<br></pre>|
-|1541|[sjtu1541](https://acm.sjtu.edu.cn/OnlineJudge/problem/1541)|[C++](OJ/sjtu1541/sjtu1541.cpp)|<pre>区间最大问题<br>Sliding Window with velocity = 1, print the maximal in the window range<br>[线段树]<br></pre>|
-|1558|[sjtu1558](https://acm.sjtu.edu.cn/OnlineJudge/problem/1558)|[C++](OJ/sjtu1558/sjtu1558.cpp)|<pre>求移除哪几个数后，使得最长连续相同数的序列长度最长<br>动态规划<br></pre>|
-|1564|[sjtu1564](https://acm.sjtu.edu.cn/OnlineJudge/problem/1564)|[C++](OJ/sjtu1564/sjtu1564.cpp)|<pre>[DFS]<br></pre>|
-|1593|[sjtu1593](https://acm.sjtu.edu.cn/OnlineJudge/problem/1593)|[C++](OJ/sjtu1593/sjtu1593.cpp)|<pre>struct Mouse<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;int index;<br>&nbsp;&nbsp;&nbsp;&nbsp;int points;<br>&nbsp;&nbsp;&nbsp;&nbsp;int strength;<br>};<br>mergeSort() + bubbleSort()<br>mergeSort() 可以换成 qsort(), 注意 Cmp() 类的书写<br></pre>|
-|1602|[sjtu1602](https://acm.sjtu.edu.cn/OnlineJudge/problem/1602)|[C++](OJ/sjtu1602/sjtu1602.cpp)|<pre>归并排序的归并操作<br>merge A[0,..,mid], A[mid+1,...,rht]<br></pre>|
-|1605|[sjtu1605](https://acm.sjtu.edu.cn/OnlineJudge/problem/1605)|[C++](OJ/sjtu1605/sjtu1605v1.cpp), [C++](OJ/sjtu1605/sjtu1605v2.cpp), [C++](OJ/sjtu1605/sjtu1605v3.cpp)|<pre>括号栈：提供 全部 O(1) 的 push, pop, top, query(是否为合法括号栈)<br></pre>|
-|1607|[sjtu1607](https://acm.sjtu.edu.cn/OnlineJudge/problem/1607)|[C++](OJ/sjtu1607/sjtu1607.cpp)|<pre>队列, 队列的队列, 延迟哈希<br></pre>|
-|1634|[sjtu1634](https://acm.sjtu.edu.cn/OnlineJudge/problem/1634)|[C++](OJ/sjtu1634/sjtu1634.cpp)|<pre>统计堆排序, 归并排序, 快排的比较次数<br></pre>|
-|1990|[sjtu1990](https://acm.sjtu.edu.cn/OnlineJudge/problem/1990)|[C++](OJ/sjtu1990/sjtu1990.cpp)|<pre>问询：最小值位置<br>动作：单点自增自减<br></pre>|
-|1994|[sjtu1994](https://acm.sjtu.edu.cn/OnlineJudge/problem/1994)|[C++](OJ/sjtu1994/sjtu1994.cpp)|<pre>dfs, 邻接数组, 求连通分量的个数<br></pre>|
-|1999|[sjtu1999](https://acm.sjtu.edu.cn/OnlineJudge/problem/1999)|[C++](OJ/sjtu1999/sjtu1999.cpp)|<pre>旅行商问题-TSP<br>城市数目C<=5，暴力穷举，至多120种情况<br></pre>|
-|3008|[sjtu3008](https://acm.sjtu.edu.cn/OnlineJudge/problem/3008)|[C++](OJ/sjtu3008/sjtu3008.cpp)|<pre>迷宫<br>bfs, 注意细节<br></pre>|
-|3020|[sjtu3020](https://acm.sjtu.edu.cn/OnlineJudge/problem/3020)|[C++](OJ/sjtu3020/sjtu3020.cpp)|<pre>哈夫曼树, K叉, 计算最终的带权路径长度(WPL)<br>K-way HauffmanTree, heap<br></pre>|
-|4011|[sjtu4011](https://acm.sjtu.edu.cn/OnlineJudge/problem/4011)|[C++](OJ/sjtu4011/sjtu4011.cpp)|<pre>A[h+1, K] = A[h, 1]<br>A[h+1, k] = sum(A[h, K..K-k+1])<br>[大数加法]<br></pre>|
-|4012|[sjtu4012](https://acm.sjtu.edu.cn/OnlineJudge/problem/4012)|[C++](OJ/sjtu4012/sjtu4012.cpp)|<pre>给定一组数(果子), 每次合并两个数(两堆果子), 消耗的体力为两个数之和<br>求最小消耗的体力<br>[最小堆]<br></pre>|
-|4057|[sjtu4057](https://acm.sjtu.edu.cn/OnlineJudge/problem/4057)|[C++](OJ/sjtu4057/sjtu4057.cpp)|<pre>最长回文字符串<br></pre>|
-|4082|[sjtu4082](https://acm.sjtu.edu.cn/OnlineJudge/problem/4082)|[C++](OJ/sjtu4082/sjtu4082.cpp)|<pre>使用并查集<br>需要判断不同的连通分量<br>并计算每隔连通图内部的边数和节点数<br></pre>|
-|4096|[sjtu4096](https://acm.sjtu.edu.cn/OnlineJudge/problem/4096)|[C++](OJ/sjtu4096/sjtu4096.cpp)|<pre>搬箱子, 模拟, 数组实现双向链表, 计算双向链表的头尾<br></pre>|
-|4119|[sjtu4119](https://acm.sjtu.edu.cn/OnlineJudge/problem/4119)|[C++](OJ/sjtu4119/sjtu4119.cpp)|<pre>求一棵树中到三个节点距离之和最短的节点<br>将其视为寻找公共祖先的问题<br></pre>|
-|4171|[sjtu4171](https://acm.sjtu.edu.cn/OnlineJudge/problem/4171)|[C++](OJ/sjtu4171/sjtu4171.cpp)|<pre>给定 A[1..N], B[1..N], 求两数列的N^2种和中最小的前N项<br>[快排+堆]<br>对 A, B 快排排序, 对相加的和采用最小优先队列, pop最小者, push最小者对应的索引附近的数<br></pre>|
-|4172|[sjtu4172](https://acm.sjtu.edu.cn/OnlineJudge/problem/4172)|[C++](OJ/sjtu4172/sjtu4172.cpp)|<pre>0, 1数组<br>操作: 将区间[l, r]全部变为x<br>查询: 区间[l, r]中1的数目或者问询最长的连续的1的数目<br>[线段树]<br></pre>|
-|4173|[sjtu4173](https://acm.sjtu.edu.cn/OnlineJudge/problem/4173)|[C++](OJ/sjtu4173/sjtu4173.cpp)|<pre>二分搜索，滑动窗口 O(N log L)<br></pre>|
-|4184|[sjtu4184](https://acm.sjtu.edu.cn/OnlineJudge/problem/4184)|[C++](OJ/sjtu4184/sjtu4184.cpp)|<pre>通过dfs遍历全树并记录每个节点所对应的子树的规模<br></pre>|
-|4188|[sjtu4188](https://acm.sjtu.edu.cn/OnlineJudge/problem/4188)|[C++](OJ/sjtu4188/sjtu4188.cpp)|<pre>字符串哈希<br>给定字符串S1...SN, 随机问询如下三个问题<br>1 x : Sx 是否在 S1...Sx-1中出现, O(1)<br>2 x y: 询问 Sx, Sy 的最长公共前缀长度, O(log L)<br>3 x y: 询问 Sx, Sy 的最长公共后缀长度, O(log L)<br></pre>|
-|4189|[sjtu4189](https://acm.sjtu.edu.cn/OnlineJudge/problem/4189)|[C++](OJ/sjtu4189/sjtu4189.cpp), [C++](OJ/sjtu4189/sjtu4189v2.cpp)|<pre>找到所有这样的节点，满足断开该节点后，子树规模的最大值不超过N/2<br></pre>|
-|4190|[sjtu4190](https://acm.sjtu.edu.cn/OnlineJudge/problem/4190)|[C++](OJ/sjtu4190/sjtu4190-划分树.cpp), [C++](OJ/sjtu4190/sjtu4190-对顶堆.cpp), [C++](OJ/sjtu4190/sjtu4190-平衡树.cpp)|<pre>问询区间[1..2k+1]的第k大值(即中位数)<br>划分树, 快排<br></pre>|
-|4370|[sjtu4370](https://acm.sjtu.edu.cn/OnlineJudge/problem/4370)|[C++](OJ/sjtu4370/sjtu4370.cpp)|<pre>最小数栈：提供O(1)时间复杂度的push，pop，top，getMin操作<br></pre>|
+|1037|[sjtu1037](https://acm.sjtu.edu.cn/OnlineJudge/problem/1037)|[C++](OJ/sjtu1037/sjtu1037.cpp)|<pre>贪心算法, 快排序+堆排序</pre>|
+|1038|[sjtu1038](https://acm.sjtu.edu.cn/OnlineJudge/problem/1038)|[C++](OJ/sjtu1038/sjtu1038.cpp)|<pre>约瑟夫环问题</pre>|
+|1051|[sjtu1051](https://acm.sjtu.edu.cn/OnlineJudge/problem/1051)|[C++](OJ/sjtu1051/sjtu1051.cpp)|<pre>[模拟], [单链表]</pre>|
+|1053|[sjtu1053](https://acm.sjtu.edu.cn/OnlineJudge/problem/1053)|[C++](OJ/sjtu1053/sjtu1053.cpp)|<pre>(稀疏数组)<br>动作: 交换行列<br>问询: 值<br>技巧: 保存行行、列列映射, O(N)空间<br>链表+链表保存稀疏数据</pre>|
+|1112|[sjtu1112](https://acm.sjtu.edu.cn/OnlineJudge/problem/1112)|[C++](OJ/sjtu1112/sjtu1112.cpp)|<pre>堆, 堆排序, extract_max(), push(x), max_heapify()操作</pre>|
+|1215|[sjtu1215](https://acm.sjtu.edu.cn/OnlineJudge/problem/1215)|[C++](OJ/sjtu1215/sjtu1215.cpp)|<pre>实现一个优先级队列<br>操作: insert, delete min, get min<br>[最小堆]</pre>|
+|1216|[sjtu1216](https://acm.sjtu.edu.cn/OnlineJudge/problem/1216)|[C++](OJ/sjtu1216/sjtu1216.cpp)|<pre>实现一个优先级队列<br>操作: insert, decrease key, find x(大于x的最小的数字下标)<br>[最小堆]</pre>|
+|1218|[sjtu1218](https://acm.sjtu.edu.cn/OnlineJudge/problem/1218)|[C++](OJ/sjtu1218/sjtu1218.cpp)|<pre>集合<br>操作: union / difference / intersection<br>[Binary Search Tree(BST)]</pre>|
+|1228|[sjtu1228](https://acm.sjtu.edu.cn/OnlineJudge/problem/1228)|[C++](OJ/sjtu1228/sjtu1228.cpp)|<pre>Matrix Sum: 求奇子阵的总数</pre>|
+|1233|[sjtu1233](https://acm.sjtu.edu.cn/OnlineJudge/problem/1233)|[C++](OJ/sjtu1233/sjtu1233.cpp)|<pre>DFS求从某一顶点出发到长度为2的简单路径的数目</pre>|
+|1234|[sjtu1234](https://acm.sjtu.edu.cn/OnlineJudge/problem/1234)|[C++](OJ/sjtu1234/sjtu1234.cpp)|<pre>Kruskal 最小生成树算法</pre>|
+|1235|[sjtu1235](https://acm.sjtu.edu.cn/OnlineJudge/problem/1235)|[C++](OJ/sjtu1235/sjtu1235.cpp)|<pre>Dijkstra 单源最短路径算法</pre>|
+|1236|[sjtu1236](https://acm.sjtu.edu.cn/OnlineJudge/problem/1236)|[C++](OJ/sjtu1236/sjtu1236.cpp)|<pre>Bellman-Ford 单源最短路径算法</pre>|
+|1237|[sjtu1237](https://acm.sjtu.edu.cn/OnlineJudge/problem/1237)|[C++](OJ/sjtu1237/sjtu1237.cpp)|<pre>Topological Sort 拓扑排序</pre>|
+|1245|[sjtu1245](https://acm.sjtu.edu.cn/OnlineJudge/problem/1245)|[C++](OJ/sjtu1245/sjtu1245.cpp)|<pre>stack, Token<br>中缀表达式转前缀表达式，并计算前缀表达式的值</pre>|
+|1377|[sjtu1377](https://acm.sjtu.edu.cn/OnlineJudge/problem/1377)|[C++](OJ/sjtu1377/sjtu1377.cpp)|<pre>长度为N的数列 A[1..N] , 这N个数字恰好是1...N的一个排列, 这个序列的中值为B<br>求出这个序列有多少个(连续)子序列 A[i..j] 满足： i <= j  且  j-i+1  为奇数, 且中值为 B<br>O(N) 复杂度, 抽象大于中值的为+1, 小于中值的为-1，然后稍作统计即可</pre>|
+|1541|[sjtu1541](https://acm.sjtu.edu.cn/OnlineJudge/problem/1541)|[C++](OJ/sjtu1541/sjtu1541.cpp)|<pre>区间最大问题<br>Sliding Window with velocity = 1, print the maximal in the window range<br>[线段树]</pre>|
+|1558|[sjtu1558](https://acm.sjtu.edu.cn/OnlineJudge/problem/1558)|[C++](OJ/sjtu1558/sjtu1558.cpp)|<pre>求移除哪几个数后，使得最长连续相同数的序列长度最长<br>动态规划</pre>|
+|1564|[sjtu1564](https://acm.sjtu.edu.cn/OnlineJudge/problem/1564)|[C++](OJ/sjtu1564/sjtu1564.cpp)|<pre>[DFS]</pre>|
+|1593|[sjtu1593](https://acm.sjtu.edu.cn/OnlineJudge/problem/1593)|[C++](OJ/sjtu1593/sjtu1593.cpp)|<pre>struct Mouse<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;int index;<br>&nbsp;&nbsp;&nbsp;&nbsp;int points;<br>&nbsp;&nbsp;&nbsp;&nbsp;int strength;<br>};<br>mergeSort() + bubbleSort()<br>mergeSort() 可以换成 qsort(), 注意 Cmp() 类的书写</pre>|
+|1602|[sjtu1602](https://acm.sjtu.edu.cn/OnlineJudge/problem/1602)|[C++](OJ/sjtu1602/sjtu1602.cpp)|<pre>归并排序的归并操作<br>merge A[0,..,mid], A[mid+1,...,rht]</pre>|
+|1605|[sjtu1605](https://acm.sjtu.edu.cn/OnlineJudge/problem/1605)|[C++](OJ/sjtu1605/sjtu1605v1.cpp), [C++](OJ/sjtu1605/sjtu1605v2.cpp), [C++](OJ/sjtu1605/sjtu1605v3.cpp)|<pre>括号栈：提供 全部 O(1) 的 push, pop, top, query(是否为合法括号栈)</pre>|
+|1607|[sjtu1607](https://acm.sjtu.edu.cn/OnlineJudge/problem/1607)|[C++](OJ/sjtu1607/sjtu1607.cpp)|<pre>队列, 队列的队列, 延迟哈希</pre>|
+|1634|[sjtu1634](https://acm.sjtu.edu.cn/OnlineJudge/problem/1634)|[C++](OJ/sjtu1634/sjtu1634.cpp)|<pre>统计堆排序, 归并排序, 快排的比较次数</pre>|
+|1990|[sjtu1990](https://acm.sjtu.edu.cn/OnlineJudge/problem/1990)|[C++](OJ/sjtu1990/sjtu1990.cpp)|<pre>问询：最小值位置<br>动作：单点自增自减</pre>|
+|1994|[sjtu1994](https://acm.sjtu.edu.cn/OnlineJudge/problem/1994)|[C++](OJ/sjtu1994/sjtu1994.cpp)|<pre>dfs, 邻接数组, 求连通分量的个数</pre>|
+|1999|[sjtu1999](https://acm.sjtu.edu.cn/OnlineJudge/problem/1999)|[C++](OJ/sjtu1999/sjtu1999.cpp)|<pre>旅行商问题-TSP<br>城市数目C<=5，暴力穷举，至多120种情况</pre>|
+|3008|[sjtu3008](https://acm.sjtu.edu.cn/OnlineJudge/problem/3008)|[C++](OJ/sjtu3008/sjtu3008.cpp)|<pre>迷宫<br>bfs, 注意细节</pre>|
+|3020|[sjtu3020](https://acm.sjtu.edu.cn/OnlineJudge/problem/3020)|[C++](OJ/sjtu3020/sjtu3020.cpp)|<pre>哈夫曼树, K叉, 计算最终的带权路径长度(WPL)<br>K-way HauffmanTree, heap</pre>|
+|4011|[sjtu4011](https://acm.sjtu.edu.cn/OnlineJudge/problem/4011)|[C++](OJ/sjtu4011/sjtu4011.cpp)|<pre>A[h+1, K] = A[h, 1]<br>A[h+1, k] = sum(A[h, K..K-k+1])<br>[大数加法]</pre>|
+|4012|[sjtu4012](https://acm.sjtu.edu.cn/OnlineJudge/problem/4012)|[C++](OJ/sjtu4012/sjtu4012.cpp)|<pre>给定一组数(果子), 每次合并两个数(两堆果子), 消耗的体力为两个数之和<br>求最小消耗的体力<br>[最小堆]</pre>|
+|4057|[sjtu4057](https://acm.sjtu.edu.cn/OnlineJudge/problem/4057)|[C++](OJ/sjtu4057/sjtu4057.cpp)|<pre>最长回文字符串</pre>|
+|4082|[sjtu4082](https://acm.sjtu.edu.cn/OnlineJudge/problem/4082)|[C++](OJ/sjtu4082/sjtu4082.cpp)|<pre>使用并查集<br>需要判断不同的连通分量<br>并计算每隔连通图内部的边数和节点数</pre>|
+|4096|[sjtu4096](https://acm.sjtu.edu.cn/OnlineJudge/problem/4096)|[C++](OJ/sjtu4096/sjtu4096.cpp)|<pre>搬箱子, 模拟, 数组实现双向链表, 计算双向链表的头尾</pre>|
+|4119|[sjtu4119](https://acm.sjtu.edu.cn/OnlineJudge/problem/4119)|[C++](OJ/sjtu4119/sjtu4119.cpp)|<pre>求一棵树中到三个节点距离之和最短的节点<br>将其视为寻找公共祖先的问题</pre>|
+|4171|[sjtu4171](https://acm.sjtu.edu.cn/OnlineJudge/problem/4171)|[C++](OJ/sjtu4171/sjtu4171.cpp)|<pre>给定 A[1..N], B[1..N], 求两数列的N^2种和中最小的前N项<br>[快排+堆]<br>对 A, B 快排排序, 对相加的和采用最小优先队列, pop最小者, push最小者对应的索引附近的数</pre>|
+|4172|[sjtu4172](https://acm.sjtu.edu.cn/OnlineJudge/problem/4172)|[C++](OJ/sjtu4172/sjtu4172.cpp)|<pre>0, 1数组<br>操作: 将区间[l, r]全部变为x<br>查询: 区间[l, r]中1的数目或者问询最长的连续的1的数目<br>[线段树]</pre>|
+|4173|[sjtu4173](https://acm.sjtu.edu.cn/OnlineJudge/problem/4173)|[C++](OJ/sjtu4173/sjtu4173.cpp)|<pre>二分搜索，滑动窗口 O(N log L)</pre>|
+|4184|[sjtu4184](https://acm.sjtu.edu.cn/OnlineJudge/problem/4184)|[C++](OJ/sjtu4184/sjtu4184.cpp)|<pre>通过dfs遍历全树并记录每个节点所对应的子树的规模</pre>|
+|4188|[sjtu4188](https://acm.sjtu.edu.cn/OnlineJudge/problem/4188)|[C++](OJ/sjtu4188/sjtu4188.cpp)|<pre>字符串哈希<br>给定字符串S1...SN, 随机问询如下三个问题<br>1 x : Sx 是否在 S1...Sx-1中出现, O(1)<br>2 x y: 询问 Sx, Sy 的最长公共前缀长度, O(log L)<br>3 x y: 询问 Sx, Sy 的最长公共后缀长度, O(log L)</pre>|
+|4189|[sjtu4189](https://acm.sjtu.edu.cn/OnlineJudge/problem/4189)|[C++](OJ/sjtu4189/sjtu4189.cpp), [C++](OJ/sjtu4189/sjtu4189v2.cpp)|<pre>找到所有这样的节点，满足断开该节点后，子树规模的最大值不超过N/2</pre>|
+|4190|[sjtu4190](https://acm.sjtu.edu.cn/OnlineJudge/problem/4190)|[C++](OJ/sjtu4190/sjtu4190-划分树.cpp), [C++](OJ/sjtu4190/sjtu4190-对顶堆.cpp), [C++](OJ/sjtu4190/sjtu4190-平衡树.cpp)|<pre>问询区间[1..2k+1]的第k大值(即中位数)<br>划分树, 快排</pre>|
+|4370|[sjtu4370](https://acm.sjtu.edu.cn/OnlineJudge/problem/4370)|[C++](OJ/sjtu4370/sjtu4370.cpp)|<pre>最小数栈：提供O(1)时间复杂度的push，pop，top，getMin操作</pre>|
 
 ## Codility
 

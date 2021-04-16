@@ -121,7 +121,7 @@ sjtu = 'sjtu'
 for fdir in fdirs:
     sols = fetch_sols(fdir)
     f = fdir.glob('**.cpp') [0]
-    cont = re.findall(r"/\*\s*(.*)\s*\*/", f.text(), re.S)
+    cont = re.findall(r"/\*\s*(.*?)\s*\*/", f.text(), re.S)
     if cont: cont = cont[0]
     else: cont = ''
     if '1593' in f:
