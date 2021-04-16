@@ -2,8 +2,10 @@ import path, sys , subprocess, json
 sys.stdout = open(f"../README.md", "w")
 
 # subprocess.run("powershell -ExecutionPolicy ByPass -File FetchLeet.ps1".split())
-likes = json.loads(open('LeetCodeLikes.json',  encoding='utf-16').read())['questions']
-likes = set(Q['id'] for Q in likes)
+# likes = json.loads(open('LeetCodeLikes.json',  encoding='utf-16').read())['questions']
+# likes = set(Q['id'] for Q in likes)
+import pickle
+likes = pickle.load(open('likes.pkl', 'rb'))
 
 
 alldata = json.loads(open('LeetCodeProblems-ZN.json',  encoding='utf-16').read())['data']['translations']
@@ -124,7 +126,7 @@ for fdir in fdirs:
     else: cont = ''
     if '1593' in f:
         cont = cont.replace('    ', '&nbsp;&nbsp;&nbsp;&nbsp;')
-    cont = cont.replace('\n', '<br>')
+    cont = re.sub('\n\s*', '<br>', cont)
     f = fdir.basename()
     name, url = Map[sjtu]
     fid = f.replace(sjtu, '')

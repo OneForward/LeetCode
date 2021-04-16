@@ -12,7 +12,7 @@
 |6|[Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion)|[Rust](OJ/leet006/src/main.rs)|Medium|
 |7|[整数反转](https://leetcode-cn.com/problems/reverse-integer)|[C++](OJ/leet007/main.cpp)|Easy|
 |8|[字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi)|[C++](OJ/leet008/leet008.cpp), [Rust](OJ/leet008/src/main.rs)|Medium|
-|10|[正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching)|[C++](OJ/leet010/leet010.cpp), [C++](OJ/leet010/leet010v1.cpp), [C++](OJ/leet010/leet010v2.cpp)|Hard|
+|10|[正则表达式匹配⭐](https://leetcode-cn.com/problems/regular-expression-matching)|[C++](OJ/leet010/leet010.cpp), [C++](OJ/leet010/leet010v1.cpp), [C++](OJ/leet010/leet010v2.cpp)|Hard|
 |11|[盛最多水的容器⭐](https://leetcode-cn.com/problems/container-with-most-water)|[C++](OJ/leet011/leet011.cpp), [Rust](OJ/leet011/src/main.rs)|Medium|
 |12|[整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman)|[C++](OJ/leet012/leet012.cpp)|Medium|
 |13|[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer)|[C++](OJ/leet013/leet013.cpp), [Python](OJ/leet013/leet013.py), [Rust](OJ/leet013/src/main.rs)|Easy|
@@ -202,7 +202,7 @@
 |238|[除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self)|[C++](OJ/leet238/leet238.cpp)|Medium|
 |239|[滑动窗口最大值⭐](https://leetcode-cn.com/problems/sliding-window-maximum)|[C++](OJ/leet239/leet239.cpp), [Python](OJ/leet239/leet239.py)|Hard|
 |257|[二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths)|[C++](OJ/leet257/leet257.cpp)|Easy|
-|258|[各位相加](https://leetcode-cn.com/problems/add-digits)|[C++](OJ/leet258/leet258.cpp)|Easy|
+|258|[各位相加⭐](https://leetcode-cn.com/problems/add-digits)|[C++](OJ/leet258/leet258.cpp)|Easy|
 |260|[只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii)|[C++](OJ/leet260/leet260.cpp)|Medium|
 |263|[丑数](https://leetcode-cn.com/problems/ugly-number)|[C++](OJ/leet263/leet263.cpp)|Easy|
 |264|[丑数 II](https://leetcode-cn.com/problems/ugly-number-ii)|[C++](OJ/leet264/leet264.cpp), [C++](OJ/leet264/main.cpp)|Medium|
@@ -239,7 +239,7 @@
 |337|[打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii)|[C++](OJ/leet337/leet337.cpp)|Medium|
 |338|[比特位计数](https://leetcode-cn.com/problems/counting-bits)|[C++](OJ/leet338/leet338.cpp), [Go](OJ/leet338/leet338.go), [Rust](OJ/leet338/src/main.rs)|Medium|
 |341|[扁平化嵌套列表迭代器⭐](https://leetcode-cn.com/problems/flatten-nested-list-iterator)|[C++](OJ/leet341/leet341.cpp)|Medium|
-|342|[4的幂](https://leetcode-cn.com/problems/power-of-four)|[C++](OJ/leet342/leet342.cpp), [Python](OJ/leet342/leet342.py)|Easy|
+|342|[4的幂⭐](https://leetcode-cn.com/problems/power-of-four)|[C++](OJ/leet342/leet342.cpp), [Python](OJ/leet342/leet342.py)|Easy|
 |343|[整数拆分](https://leetcode-cn.com/problems/integer-break)|[Python](OJ/leet343/leet343.py)|Medium|
 |344|[反转字符串](https://leetcode-cn.com/problems/reverse-string)|[Python](OJ/leet344/leet344.py)|Easy|
 |347|[前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements)|[Python](OJ/leet347/leet347.py)|Medium|
@@ -256,7 +256,7 @@
 |380|[常数时间插入、删除和获取随机元素⭐](https://leetcode-cn.com/problems/insert-delete-getrandom-o1)|[C++](OJ/leet380/leet380.cpp)|Medium|
 |381|[O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|[C++](OJ/leet381/leet381.cpp)|Hard|
 |382|[链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node)|[C++](OJ/leet382/leet382.cpp), [C++](OJ/leet382/test.cpp)|Medium|
-|384|[打乱数组](https://leetcode-cn.com/problems/shuffle-an-array)|[C++](OJ/leet384/leet384.cpp)|Medium|
+|384|[打乱数组⭐](https://leetcode-cn.com/problems/shuffle-an-array)|[C++](OJ/leet384/leet384.cpp)|Medium|
 |389|[找不同](https://leetcode-cn.com/problems/find-the-difference)|[C++](OJ/leet389/leet389.cpp), [Python](OJ/leet389/leet389.py)|Easy|
 |390|[消除游戏](https://leetcode-cn.com/problems/elimination-game)|[C++](OJ/leet390/leet390.cpp)|Medium|
 |391|[完美矩形](https://leetcode-cn.com/problems/perfect-rectangle)|[C++](OJ/leet391/leet391_O(N&#32;log&#32;N).cpp), [C++](OJ/leet391/leet391_扫描线法_N^2.cpp)|Hard|
@@ -396,7 +396,7 @@
 |889|[根据前序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)|[C++](OJ/leet889/leet889.cpp)|Medium|
 |895|[最大频率栈](https://leetcode-cn.com/problems/maximum-frequency-stack)|[Python](OJ/leet895/leet895.py)|Hard|
 |896|[单调数列](https://leetcode-cn.com/problems/monotonic-array)|[C++](OJ/leet896/leet896.cpp)|Easy|
-|899|[有序队列](https://leetcode-cn.com/problems/orderly-queue)|[Python](OJ/leet899/leet899.py)|Hard|
+|899|[有序队列⭐](https://leetcode-cn.com/problems/orderly-queue)|[Python](OJ/leet899/leet899.py)|Hard|
 |913|[猫和老鼠⭐](https://leetcode-cn.com/problems/cat-and-mouse)|[C++](OJ/leet913/leet913.cpp)|Hard|
 |919|[完全二叉树插入器](https://leetcode-cn.com/problems/complete-binary-tree-inserter)|[C++](OJ/leet919/leet919.cpp)|Medium|
 |940|[不同的子序列 II](https://leetcode-cn.com/problems/distinct-subsequences-ii)|[Python](OJ/leet940/leet940.py)|Hard|
@@ -416,7 +416,7 @@
 |995|[K 连续位的最小翻转次数](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips)|[C++](OJ/leet995/leet995.cpp), [Python](OJ/leet995/leet995.py)|Hard|
 |999|[可以被一步捕获的棋子数](https://leetcode-cn.com/problems/available-captures-for-rook)|[Rust](OJ/leet999/src/main.rs)|Easy|
 |1002|[查找常用字符](https://leetcode-cn.com/problems/find-common-characters)|[C++](OJ/leet1002/main.cpp)|Easy|
-|1004|[最大连续1的个数 III](https://leetcode-cn.com/problems/max-consecutive-ones-iii)|[C++](OJ/leet1004/leet1004.cpp), [C++](OJ/leet1004/leet1004v1.cpp), [Python](OJ/leet1004/leet1004.py)|Medium|
+|1004|[最大连续1的个数 III⭐](https://leetcode-cn.com/problems/max-consecutive-ones-iii)|[C++](OJ/leet1004/leet1004.cpp), [C++](OJ/leet1004/leet1004v1.cpp), [Python](OJ/leet1004/leet1004.py)|Medium|
 |1006|[笨阶乘](https://leetcode-cn.com/problems/clumsy-factorial)|[C++](OJ/leet1006/leet1006.cpp)|Medium|
 |1009|[十进制整数的反码](https://leetcode-cn.com/problems/complement-of-base-10-integer)|[C++](OJ/leet1009/leet1009.cpp)|Easy|
 |1025|[除数博弈](https://leetcode-cn.com/problems/divisor-game)|[C++](OJ/leet1025/leet1025.cpp)|Easy|
@@ -449,7 +449,7 @@
 |1262|[可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three)|[C++](OJ/leet1262/leet1262.cpp)|Medium|
 |1272|[删除区间](https://leetcode-cn.com/problems/remove-interval)|[Python](OJ/leet1272/leet1272.py)|Medium|
 |1277|[统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones)|[C++](OJ/leet1277/leet1277.cpp)|Medium|
-|1288|[删除被覆盖区间](https://leetcode-cn.com/problems/remove-covered-intervals)|[C++](OJ/leet1288/leet1288.cpp)|Medium|
+|1288|[删除被覆盖区间⭐](https://leetcode-cn.com/problems/remove-covered-intervals)|[C++](OJ/leet1288/leet1288.cpp)|Medium|
 |1319|[连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected)|[C++](OJ/leet1319/leet1319.cpp), [Python](OJ/leet1319/leet1319.py)|Medium|
 |1353|[最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended)|[C++](OJ/leet1353/leet1353.cpp)|Medium|
 |1363|[形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three)|[C++](OJ/leet1363/leet1363.cpp)|Hard|
@@ -507,11 +507,11 @@
 |1037|[sjtu1037](https://acm.sjtu.edu.cn/OnlineJudge/problem/1037)|[C++](OJ/sjtu1037/sjtu1037.cpp)|<pre>贪心算法, 快排序+堆排序<br></pre>|
 |1038|[sjtu1038](https://acm.sjtu.edu.cn/OnlineJudge/problem/1038)|[C++](OJ/sjtu1038/sjtu1038.cpp)|<pre>约瑟夫环问题<br></pre>|
 |1051|[sjtu1051](https://acm.sjtu.edu.cn/OnlineJudge/problem/1051)|[C++](OJ/sjtu1051/sjtu1051.cpp)|<pre>[模拟], [单链表]<br></pre>|
-|1053|[sjtu1053](https://acm.sjtu.edu.cn/OnlineJudge/problem/1053)|[C++](OJ/sjtu1053/sjtu1053.cpp)|<pre>(稀疏数组)<br>    动作: 交换行列<br>    问询: 值<br>    技巧: 保存行行、列列映射, O(N)空间<br>    链表+链表保存稀疏数据<br></pre>|
+|1053|[sjtu1053](https://acm.sjtu.edu.cn/OnlineJudge/problem/1053)|[C++](OJ/sjtu1053/sjtu1053.cpp)|<pre>(稀疏数组)<br>动作: 交换行列<br>问询: 值<br>技巧: 保存行行、列列映射, O(N)空间<br>链表+链表保存稀疏数据<br></pre>|
 |1112|[sjtu1112](https://acm.sjtu.edu.cn/OnlineJudge/problem/1112)|[C++](OJ/sjtu1112/sjtu1112.cpp)|<pre>堆, 堆排序, extract_max(), push(x), max_heapify()操作<br></pre>|
-|1215|[sjtu1215](https://acm.sjtu.edu.cn/OnlineJudge/problem/1215)|[C++](OJ/sjtu1215/sjtu1215.cpp)|<pre>实现一个优先级队列<br>    操作: insert, delete min, get min<br>    [最小堆]<br></pre>|
-|1216|[sjtu1216](https://acm.sjtu.edu.cn/OnlineJudge/problem/1216)|[C++](OJ/sjtu1216/sjtu1216.cpp)|<pre>实现一个优先级队列<br>    操作: insert, decrease key, find x(大于x的最小的数字下标)<br>    [最小堆]<br></pre>|
-|1218|[sjtu1218](https://acm.sjtu.edu.cn/OnlineJudge/problem/1218)|[C++](OJ/sjtu1218/sjtu1218.cpp)|<pre>集合<br>    操作: union / difference / intersection<br>    [Binary Search Tree(BST)]<br></pre>|
+|1215|[sjtu1215](https://acm.sjtu.edu.cn/OnlineJudge/problem/1215)|[C++](OJ/sjtu1215/sjtu1215.cpp)|<pre>实现一个优先级队列<br>操作: insert, delete min, get min<br>[最小堆]<br></pre>|
+|1216|[sjtu1216](https://acm.sjtu.edu.cn/OnlineJudge/problem/1216)|[C++](OJ/sjtu1216/sjtu1216.cpp)|<pre>实现一个优先级队列<br>操作: insert, decrease key, find x(大于x的最小的数字下标)<br>[最小堆]<br></pre>|
+|1218|[sjtu1218](https://acm.sjtu.edu.cn/OnlineJudge/problem/1218)|[C++](OJ/sjtu1218/sjtu1218.cpp)|<pre>集合<br>操作: union / difference / intersection<br>[Binary Search Tree(BST)]<br></pre>|
 |1228|[sjtu1228](https://acm.sjtu.edu.cn/OnlineJudge/problem/1228)|[C++](OJ/sjtu1228/sjtu1228.cpp)|<pre>Matrix Sum: 求奇子阵的总数<br></pre>|
 |1233|[sjtu1233](https://acm.sjtu.edu.cn/OnlineJudge/problem/1233)|[C++](OJ/sjtu1233/sjtu1233.cpp)|<pre>DFS求从某一顶点出发到长度为2的简单路径的数目<br></pre>|
 |1234|[sjtu1234](https://acm.sjtu.edu.cn/OnlineJudge/problem/1234)|[C++](OJ/sjtu1234/sjtu1234.cpp)|<pre>Kruskal 最小生成树算法<br></pre>|
@@ -519,33 +519,33 @@
 |1236|[sjtu1236](https://acm.sjtu.edu.cn/OnlineJudge/problem/1236)|[C++](OJ/sjtu1236/sjtu1236.cpp)|<pre>Bellman-Ford 单源最短路径算法<br></pre>|
 |1237|[sjtu1237](https://acm.sjtu.edu.cn/OnlineJudge/problem/1237)|[C++](OJ/sjtu1237/sjtu1237.cpp)|<pre>Topological Sort 拓扑排序<br></pre>|
 |1245|[sjtu1245](https://acm.sjtu.edu.cn/OnlineJudge/problem/1245)|[C++](OJ/sjtu1245/sjtu1245.cpp)|<pre>stack, Token<br>中缀表达式转前缀表达式，并计算前缀表达式的值<br></pre>|
-|1377|[sjtu1377](https://acm.sjtu.edu.cn/OnlineJudge/problem/1377)|[C++](OJ/sjtu1377/sjtu1377.cpp)|<pre>长度为N的数列 A[1..N] , 这N个数字恰好是1...N的一个排列, 这个序列的中值为B<br>    求出这个序列有多少个(连续)子序列 A[i..j] 满足： i <= j  且  j-i+1  为奇数, 且中值为 B<br>     O(N) 复杂度, 抽象大于中值的为+1, 小于中值的为-1，然后稍作统计即可<br></pre>|
-|1541|[sjtu1541](https://acm.sjtu.edu.cn/OnlineJudge/problem/1541)|[C++](OJ/sjtu1541/sjtu1541.cpp)|<pre>区间最大问题<br>    Sliding Window with velocity = 1, print the maximal in the window range<br>    [线段树]<br></pre>|
-|1558|[sjtu1558](https://acm.sjtu.edu.cn/OnlineJudge/problem/1558)|[C++](OJ/sjtu1558/sjtu1558.cpp)|<pre>求移除哪几个数后，使得最长连续相同数的序列长度最长<br>    动态规划<br></pre>|
+|1377|[sjtu1377](https://acm.sjtu.edu.cn/OnlineJudge/problem/1377)|[C++](OJ/sjtu1377/sjtu1377.cpp)|<pre>长度为N的数列 A[1..N] , 这N个数字恰好是1...N的一个排列, 这个序列的中值为B<br>求出这个序列有多少个(连续)子序列 A[i..j] 满足： i <= j  且  j-i+1  为奇数, 且中值为 B<br>O(N) 复杂度, 抽象大于中值的为+1, 小于中值的为-1，然后稍作统计即可<br></pre>|
+|1541|[sjtu1541](https://acm.sjtu.edu.cn/OnlineJudge/problem/1541)|[C++](OJ/sjtu1541/sjtu1541.cpp)|<pre>区间最大问题<br>Sliding Window with velocity = 1, print the maximal in the window range<br>[线段树]<br></pre>|
+|1558|[sjtu1558](https://acm.sjtu.edu.cn/OnlineJudge/problem/1558)|[C++](OJ/sjtu1558/sjtu1558.cpp)|<pre>求移除哪几个数后，使得最长连续相同数的序列长度最长<br>动态规划<br></pre>|
 |1564|[sjtu1564](https://acm.sjtu.edu.cn/OnlineJudge/problem/1564)|[C++](OJ/sjtu1564/sjtu1564.cpp)|<pre>[DFS]<br></pre>|
 |1593|[sjtu1593](https://acm.sjtu.edu.cn/OnlineJudge/problem/1593)|[C++](OJ/sjtu1593/sjtu1593.cpp)|<pre>struct Mouse<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;int index;<br>&nbsp;&nbsp;&nbsp;&nbsp;int points;<br>&nbsp;&nbsp;&nbsp;&nbsp;int strength;<br>};<br>mergeSort() + bubbleSort()<br>mergeSort() 可以换成 qsort(), 注意 Cmp() 类的书写<br></pre>|
-|1602|[sjtu1602](https://acm.sjtu.edu.cn/OnlineJudge/problem/1602)|[C++](OJ/sjtu1602/sjtu1602.cpp)|<pre>归并排序的归并操作<br>    merge A[0,..,mid], A[mid+1,...,rht]<br></pre>|
+|1602|[sjtu1602](https://acm.sjtu.edu.cn/OnlineJudge/problem/1602)|[C++](OJ/sjtu1602/sjtu1602.cpp)|<pre>归并排序的归并操作<br>merge A[0,..,mid], A[mid+1,...,rht]<br></pre>|
 |1605|[sjtu1605](https://acm.sjtu.edu.cn/OnlineJudge/problem/1605)|[C++](OJ/sjtu1605/sjtu1605v1.cpp), [C++](OJ/sjtu1605/sjtu1605v2.cpp), [C++](OJ/sjtu1605/sjtu1605v3.cpp)|<pre>括号栈：提供 全部 O(1) 的 push, pop, top, query(是否为合法括号栈)<br></pre>|
 |1607|[sjtu1607](https://acm.sjtu.edu.cn/OnlineJudge/problem/1607)|[C++](OJ/sjtu1607/sjtu1607.cpp)|<pre>队列, 队列的队列, 延迟哈希<br></pre>|
 |1634|[sjtu1634](https://acm.sjtu.edu.cn/OnlineJudge/problem/1634)|[C++](OJ/sjtu1634/sjtu1634.cpp)|<pre>统计堆排序, 归并排序, 快排的比较次数<br></pre>|
-|1990|[sjtu1990](https://acm.sjtu.edu.cn/OnlineJudge/problem/1990)|[C++](OJ/sjtu1990/sjtu1990.cpp)|<pre>问询：最小值位置<br>    动作：单点自增自减<br></pre>|
+|1990|[sjtu1990](https://acm.sjtu.edu.cn/OnlineJudge/problem/1990)|[C++](OJ/sjtu1990/sjtu1990.cpp)|<pre>问询：最小值位置<br>动作：单点自增自减<br></pre>|
 |1994|[sjtu1994](https://acm.sjtu.edu.cn/OnlineJudge/problem/1994)|[C++](OJ/sjtu1994/sjtu1994.cpp)|<pre>dfs, 邻接数组, 求连通分量的个数<br></pre>|
 |1999|[sjtu1999](https://acm.sjtu.edu.cn/OnlineJudge/problem/1999)|[C++](OJ/sjtu1999/sjtu1999.cpp)|<pre>旅行商问题-TSP<br>城市数目C<=5，暴力穷举，至多120种情况<br></pre>|
-|3008|[sjtu3008](https://acm.sjtu.edu.cn/OnlineJudge/problem/3008)|[C++](OJ/sjtu3008/sjtu3008.cpp)|<pre>迷宫<br>    bfs, 注意细节<br></pre>|
-|3020|[sjtu3020](https://acm.sjtu.edu.cn/OnlineJudge/problem/3020)|[C++](OJ/sjtu3020/sjtu3020.cpp)|<pre>哈夫曼树, K叉, 计算最终的带权路径长度(WPL)<br>    K-way HauffmanTree, heap<br></pre>|
-|4011|[sjtu4011](https://acm.sjtu.edu.cn/OnlineJudge/problem/4011)|[C++](OJ/sjtu4011/sjtu4011.cpp)|<pre>A[h+1, K] = A[h, 1]<br>    A[h+1, k] = sum(A[h, K..K-k+1])<br>    [大数加法]<br></pre>|
-|4012|[sjtu4012](https://acm.sjtu.edu.cn/OnlineJudge/problem/4012)|[C++](OJ/sjtu4012/sjtu4012.cpp)|<pre>给定一组数(果子), 每次合并两个数(两堆果子), 消耗的体力为两个数之和<br>    求最小消耗的体力<br>    [最小堆]<br></pre>|
+|3008|[sjtu3008](https://acm.sjtu.edu.cn/OnlineJudge/problem/3008)|[C++](OJ/sjtu3008/sjtu3008.cpp)|<pre>迷宫<br>bfs, 注意细节<br></pre>|
+|3020|[sjtu3020](https://acm.sjtu.edu.cn/OnlineJudge/problem/3020)|[C++](OJ/sjtu3020/sjtu3020.cpp)|<pre>哈夫曼树, K叉, 计算最终的带权路径长度(WPL)<br>K-way HauffmanTree, heap<br></pre>|
+|4011|[sjtu4011](https://acm.sjtu.edu.cn/OnlineJudge/problem/4011)|[C++](OJ/sjtu4011/sjtu4011.cpp)|<pre>A[h+1, K] = A[h, 1]<br>A[h+1, k] = sum(A[h, K..K-k+1])<br>[大数加法]<br></pre>|
+|4012|[sjtu4012](https://acm.sjtu.edu.cn/OnlineJudge/problem/4012)|[C++](OJ/sjtu4012/sjtu4012.cpp)|<pre>给定一组数(果子), 每次合并两个数(两堆果子), 消耗的体力为两个数之和<br>求最小消耗的体力<br>[最小堆]<br></pre>|
 |4057|[sjtu4057](https://acm.sjtu.edu.cn/OnlineJudge/problem/4057)|[C++](OJ/sjtu4057/sjtu4057.cpp)|<pre>最长回文字符串<br></pre>|
 |4082|[sjtu4082](https://acm.sjtu.edu.cn/OnlineJudge/problem/4082)|[C++](OJ/sjtu4082/sjtu4082.cpp)|<pre>使用并查集<br>需要判断不同的连通分量<br>并计算每隔连通图内部的边数和节点数<br></pre>|
 |4096|[sjtu4096](https://acm.sjtu.edu.cn/OnlineJudge/problem/4096)|[C++](OJ/sjtu4096/sjtu4096.cpp)|<pre>搬箱子, 模拟, 数组实现双向链表, 计算双向链表的头尾<br></pre>|
 |4119|[sjtu4119](https://acm.sjtu.edu.cn/OnlineJudge/problem/4119)|[C++](OJ/sjtu4119/sjtu4119.cpp)|<pre>求一棵树中到三个节点距离之和最短的节点<br>将其视为寻找公共祖先的问题<br></pre>|
-|4171|[sjtu4171](https://acm.sjtu.edu.cn/OnlineJudge/problem/4171)|[C++](OJ/sjtu4171/sjtu4171.cpp)|<pre>给定 A[1..N], B[1..N], 求两数列的N^2种和中最小的前N项<br>    [快排+堆]<br>    对 A, B 快排排序, 对相加的和采用最小优先队列, pop最小者, push最小者对应的索引附近的数<br></pre>|
-|4172|[sjtu4172](https://acm.sjtu.edu.cn/OnlineJudge/problem/4172)|[C++](OJ/sjtu4172/sjtu4172.cpp)|<pre>0, 1数组<br>    操作: 将区间[l, r]全部变为x<br>    查询: 区间[l, r]中1的数目或者问询最长的连续的1的数目<br>    [线段树]<br></pre>|
+|4171|[sjtu4171](https://acm.sjtu.edu.cn/OnlineJudge/problem/4171)|[C++](OJ/sjtu4171/sjtu4171.cpp)|<pre>给定 A[1..N], B[1..N], 求两数列的N^2种和中最小的前N项<br>[快排+堆]<br>对 A, B 快排排序, 对相加的和采用最小优先队列, pop最小者, push最小者对应的索引附近的数<br></pre>|
+|4172|[sjtu4172](https://acm.sjtu.edu.cn/OnlineJudge/problem/4172)|[C++](OJ/sjtu4172/sjtu4172.cpp)|<pre>0, 1数组<br>操作: 将区间[l, r]全部变为x<br>查询: 区间[l, r]中1的数目或者问询最长的连续的1的数目<br>[线段树]<br></pre>|
 |4173|[sjtu4173](https://acm.sjtu.edu.cn/OnlineJudge/problem/4173)|[C++](OJ/sjtu4173/sjtu4173.cpp)|<pre>二分搜索，滑动窗口 O(N log L)<br></pre>|
 |4184|[sjtu4184](https://acm.sjtu.edu.cn/OnlineJudge/problem/4184)|[C++](OJ/sjtu4184/sjtu4184.cpp)|<pre>通过dfs遍历全树并记录每个节点所对应的子树的规模<br></pre>|
-|4188|[sjtu4188](https://acm.sjtu.edu.cn/OnlineJudge/problem/4188)|[C++](OJ/sjtu4188/sjtu4188.cpp)|<pre>字符串哈希<br>    给定字符串S1...SN, 随机问询如下三个问题<br>    1 x : Sx 是否在 S1...Sx-1中出现, O(1)<br>    2 x y: 询问 Sx, Sy 的最长公共前缀长度, O(log L)<br>    3 x y: 询问 Sx, Sy 的最长公共后缀长度, O(log L)<br></pre>|
+|4188|[sjtu4188](https://acm.sjtu.edu.cn/OnlineJudge/problem/4188)|[C++](OJ/sjtu4188/sjtu4188.cpp)|<pre>字符串哈希<br>给定字符串S1...SN, 随机问询如下三个问题<br>1 x : Sx 是否在 S1...Sx-1中出现, O(1)<br>2 x y: 询问 Sx, Sy 的最长公共前缀长度, O(log L)<br>3 x y: 询问 Sx, Sy 的最长公共后缀长度, O(log L)<br></pre>|
 |4189|[sjtu4189](https://acm.sjtu.edu.cn/OnlineJudge/problem/4189)|[C++](OJ/sjtu4189/sjtu4189.cpp), [C++](OJ/sjtu4189/sjtu4189v2.cpp)|<pre>找到所有这样的节点，满足断开该节点后，子树规模的最大值不超过N/2<br></pre>|
-|4190|[sjtu4190](https://acm.sjtu.edu.cn/OnlineJudge/problem/4190)|[C++](OJ/sjtu4190/sjtu4190-划分树.cpp), [C++](OJ/sjtu4190/sjtu4190-对顶堆.cpp), [C++](OJ/sjtu4190/sjtu4190-平衡树.cpp)|<pre>问询区间[1..2k+1]的第k大值(即中位数)<br>   划分树, 快排<br></pre>|
+|4190|[sjtu4190](https://acm.sjtu.edu.cn/OnlineJudge/problem/4190)|[C++](OJ/sjtu4190/sjtu4190-划分树.cpp), [C++](OJ/sjtu4190/sjtu4190-对顶堆.cpp), [C++](OJ/sjtu4190/sjtu4190-平衡树.cpp)|<pre>问询区间[1..2k+1]的第k大值(即中位数)<br>划分树, 快排<br></pre>|
 |4370|[sjtu4370](https://acm.sjtu.edu.cn/OnlineJudge/problem/4370)|[C++](OJ/sjtu4370/sjtu4370.cpp)|<pre>最小数栈：提供O(1)时间复杂度的push，pop，top，getMin操作<br></pre>|
 
 ## Codility
