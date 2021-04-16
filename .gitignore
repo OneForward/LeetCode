@@ -5,6 +5,11 @@
 !OJ/**/**
 **/.vscode
 **.txt
+**.exe
+**.obj
+**.pdb
+**.ilk
+**Debug**
 **junk**
 **/simpleSTL/**
 !**/simpleSTL/deque
