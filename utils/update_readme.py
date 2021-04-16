@@ -64,7 +64,7 @@ def modify (f: path.Path):
     f = f.replace(' ', '&#32;')
     return f 
 
-error_indictators = ('TLE', )
+error_indictators = ('TLE', 'junk')
 def fetch_sols(fdir):
     sols_links = []
     for ext, lang in Ext.items():
