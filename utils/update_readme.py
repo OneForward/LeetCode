@@ -57,6 +57,7 @@ Ext = {
     '.java': 'Java',
     '.ts': 'Typescript',
     '.rs': 'Rust',
+    '.sh': 'Shell',
 }
 
 def modify (f: path.Path):

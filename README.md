@@ -155,13 +155,12 @@
 |172|[阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[C++](OJ/leet172/leet172.cpp)|Easy|
 |173|[二叉搜索树迭代器⭐](https://leetcode-cn.com/problems/binary-search-tree-iterator)|[C++](OJ/leet173/leet173.cpp)|Medium|
 |174|[地下城游戏](https://leetcode-cn.com/problems/dungeon-game)|[C++](OJ/leet174/leet174.cpp)|Hard|
-|175|[组合两个表](https://leetcode-cn.com/problems/combine-two-tables)||Easy|
 |179|[最大数](https://leetcode-cn.com/problems/largest-number)|[C++](OJ/leet179/leet179.cpp), [C++](OJ/leet179/leet179v1.cpp)|Medium|
 |188|[买卖股票的最佳时机 IV⭐](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv)|[C++](OJ/leet188/leet188-dp.cpp), [C++](OJ/leet188/leet188.cpp), [Go](OJ/leet188/leet188.go), [Java](OJ/leet188/leet188.java), [Rust](OJ/leet188/src/main.rs)|Hard|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[C++](OJ/leet189/leet189.cpp)|Medium|
 |190|[颠倒二进制位⭐](https://leetcode-cn.com/problems/reverse-bits)|[C++](OJ/leet190/leet190.cpp)|Easy|
 |191|[位1的个数](https://leetcode-cn.com/problems/number-of-1-bits)|[C++](OJ/leet191/leet191.cpp)|Easy|
-|195|[第十行](https://leetcode-cn.com/problems/tenth-line)||Easy|
+|195|[第十行](https://leetcode-cn.com/problems/tenth-line)|[Shell](OJ/leet195/leet195.sh)|Easy|
 |198|[打家劫舍](https://leetcode-cn.com/problems/house-robber)|[C++](OJ/leet198/leet198.cpp)|Medium|
 |199|[二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view)|[C++](OJ/leet199/leet199.cpp)|Medium|
 |200|[岛屿数量](https://leetcode-cn.com/problems/number-of-islands)|[C++](OJ/leet200/leet200.cpp)|Medium|
