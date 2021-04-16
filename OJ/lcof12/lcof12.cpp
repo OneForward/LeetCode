@@ -1,0 +1,40 @@
+/*
+lcof12
+
+
+*/
+
+
+#include <iostream>
+#include <tuple>
+#include <vector>
+#include <queue>
+#include <stack>
+#include <string>
+#include <set>
+#include <map>
+#include <unordered_set>
+#include <unordered_map>
+#include <algorithm>
+#include <numeric>
+#include <cassert>
+#include <random>
+#include <functional>
+#include <utility>
+// #include "../utils/LeetCpp.utils.hpp"
+
+using namespace std;
+
+class Solution {
+public:
+    int sumNums(int n) {
+        return sizeof(bool[n][n+1]) >> 1;
+    }
+};
+
+int main(int argc, char const *argv[])
+{
+    Solution sol;   
+    cout << sol.sumNums(100) << endl;
+    return 0;
+}
