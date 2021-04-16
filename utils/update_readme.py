@@ -129,4 +129,24 @@ for fdir in fdirs:
     name, url = Map[sjtu]
     fid = f.replace(sjtu, '')
     url += fid
-    print(f'|{fid}|[{f}]({url})|{sols}|<code>{cont}</code>|')
+    print(f'|{fid}|[{f}]({url})|{sols}|<pre>{cont}</pre>|')
+
+
+
+
+
+md = f"""
+| Title | Solution |
+| ----- | -------- |"""
+print('\n## Codility\n' + md)
+
+codility = OJ / 'codility'
+fs = codility.files()
+error_codility = ('TLE', 'cases', 'codility')
+for f in fs:
+    if any(e in f.stem for e in error_codility): continue 
+    title = f.stem 
+    ext = f.ext 
+    sol = modify(f)
+    lang = Ext[ext]
+    print(f'|{title}|[{lang}]({sol})|')
