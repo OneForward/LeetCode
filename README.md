@@ -182,7 +182,7 @@
 |216|[组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii)|[C++](OJ/leet216/leet216.cpp)|Medium|
 |218|[天际线问题⭐](https://leetcode-cn.com/problems/the-skyline-problem)|[C++](OJ/leet218/leet218.cpp), [C++](OJ/leet218/leet218_WA.cpp)|Hard|
 |219|[存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii)|[C++](OJ/leet219/leet219.cpp)|Easy|
-|220|[存在重复元素 III](https://leetcode-cn.com/problems/contains-duplicate-iii)|[C++](OJ/leet220/leet220.cpp), [Java](OJ/leet220/leet220.java)|Medium|
+|220|[存在重复元素 III](https://leetcode-cn.com/problems/contains-duplicate-iii)|[C++](OJ/leet220/leet220-平衡树.cpp), [C++](OJ/leet220/leet220-桶哈希.cpp), [Java](OJ/leet220/leet220.java)|Medium|
 |221|[最大正方形](https://leetcode-cn.com/problems/maximal-square)|[C++](OJ/leet221/leet221.cpp)|Medium|
 |222|[完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes)|[C++](OJ/leet222/leet222.cpp)|Medium|
 |223|[矩形面积](https://leetcode-cn.com/problems/rectangle-area)|[C++](OJ/leet223/leet223.cpp)|Medium|
@@ -396,7 +396,9 @@
 |895|[最大频率栈](https://leetcode-cn.com/problems/maximum-frequency-stack)|[Python](OJ/leet895/leet895.py)|Hard|
 |896|[单调数列](https://leetcode-cn.com/problems/monotonic-array)|[C++](OJ/leet896/leet896.cpp)|Easy|
 |899|[有序队列⭐](https://leetcode-cn.com/problems/orderly-queue)|[Python](OJ/leet899/leet899.py)|Hard|
+|907|[子数组的最小值之和](https://leetcode-cn.com/problems/sum-of-subarray-minimums)|[Python](OJ/leet907/leet907.py)|Medium|
 |913|[猫和老鼠⭐](https://leetcode-cn.com/problems/cat-and-mouse)|[C++](OJ/leet913/leet913.cpp)|Hard|
+|918|[环形子数组的最大和](https://leetcode-cn.com/problems/maximum-sum-circular-subarray)|[C++](OJ/leet918/leet918.cpp), [Rust](OJ/leet918/src/main.rs)|Medium|
 |919|[完全二叉树插入器](https://leetcode-cn.com/problems/complete-binary-tree-inserter)|[C++](OJ/leet919/leet919.cpp)|Medium|
 |940|[不同的子序列 II](https://leetcode-cn.com/problems/distinct-subsequences-ii)|[Python](OJ/leet940/leet940.py)|Hard|
 |946|[验证栈序列⭐](https://leetcode-cn.com/problems/validate-stack-sequences)|[C++](OJ/leet946/leet946.cpp)|Medium|
@@ -541,6 +543,7 @@
 |4171|[sjtu4171](https://acm.sjtu.edu.cn/OnlineJudge/problem/4171)|[C++](OJ/sjtu4171/sjtu4171.cpp)|<pre>给定 A[1..N], B[1..N], 求两数列的N^2种和中最小的前N项<br>[快排+堆]<br>对 A, B 快排排序, 对相加的和采用最小优先队列, pop最小者, push最小者对应的索引附近的数</pre>|
 |4172|[sjtu4172](https://acm.sjtu.edu.cn/OnlineJudge/problem/4172)|[C++](OJ/sjtu4172/sjtu4172.cpp)|<pre>0, 1数组<br>操作: 将区间[l, r]全部变为x<br>查询: 区间[l, r]中1的数目或者问询最长的连续的1的数目<br>[线段树]</pre>|
 |4173|[sjtu4173](https://acm.sjtu.edu.cn/OnlineJudge/problem/4173)|[C++](OJ/sjtu4173/sjtu4173.cpp)|<pre>二分搜索，滑动窗口 O(N log L)</pre>|
+|4174|[sjtu4174](https://acm.sjtu.edu.cn/OnlineJudge/problem/4174)|[C++](OJ/sjtu4174/sjtu4174.cpp)|<pre>[排序][贪心]</pre>|
 |4184|[sjtu4184](https://acm.sjtu.edu.cn/OnlineJudge/problem/4184)|[C++](OJ/sjtu4184/sjtu4184.cpp)|<pre>通过dfs遍历全树并记录每个节点所对应的子树的规模</pre>|
 |4188|[sjtu4188](https://acm.sjtu.edu.cn/OnlineJudge/problem/4188)|[C++](OJ/sjtu4188/sjtu4188.cpp)|<pre>字符串哈希<br>给定字符串S1...SN, 随机问询如下三个问题<br>1 x : Sx 是否在 S1...Sx-1中出现, O(1)<br>2 x y: 询问 Sx, Sy 的最长公共前缀长度, O(log L)<br>3 x y: 询问 Sx, Sy 的最长公共后缀长度, O(log L)</pre>|
 |4189|[sjtu4189](https://acm.sjtu.edu.cn/OnlineJudge/problem/4189)|[C++](OJ/sjtu4189/sjtu4189.cpp), [C++](OJ/sjtu4189/sjtu4189v2.cpp)|<pre>找到所有这样的节点，满足断开该节点后，子树规模的最大值不超过N/2</pre>|
