@@ -9,6 +9,7 @@
 **.obj
 **.pdb
 **.ilk
+**target**
 **Debug**
 **junk**
 **/simpleSTL/**

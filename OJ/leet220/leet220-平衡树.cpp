@@ -20,26 +20,15 @@ using namespace std;
 
 class Solution {
 public:
-    bool containsNearbyAlmostDuplicate1(const vector<int>& nums, int k, int t) {
-        // O(N^2)
-        for (int i = 0; i < nums.size(); ++i) {
-            for (int j = i+1; j <= i + k && j < nums.size(); ++j) {
-                if (abs((long long)nums[i] - nums[j]) <= t) return true;
-            }
-        }
-        return false;
-    }
+
     bool containsNearbyAlmostDuplicate(const vector<int>& nums, int k, int t) {
-        // O(N log K)
+        // set O(N log K)
         set<int> S;
         for (int i = 0; i < nums.size(); ++i) {
             auto s = S.lower_bound(nums[i]);
-            if (s != S.end() && *s <= (long long)nums[i] + t) return true;
+            if (s != S.end() and *s <= (long long)nums[i] + t) return true;
 
-            if ( s != S.begin() ) {
-                s--;
-                if ( s != S.end() && *s >= (long long)nums[i] - t) return true;
-            }
+            if ( s != S.begin() and *prev(s) >= (long long)nums[i] - t) return true;
 
             S.insert(nums[i]);
 
@@ -47,6 +36,29 @@ public:
         }
         return false;
     }
+    
+    bool containsNearbyAlmostDuplicate2(const vector<int>& A, int k, int t) {
+        // multiset O(N log K)
+        int N = A.size();
+        if (N == 0 or k == 0) return false;
+        
+        multiset<int> S;
+        for (int i = 0; i < min(N, k+1); ++i) S.insert(A[i]);
+        
+        auto p = S.begin(), pnext = next(p);
+        while (pnext != S.end()) {
+            if ((long)*pnext - *p <= t) return true;
+            p = pnext; pnext++;
+        }
+        for (int i = k+1; i < N; ++i) {
+            S.erase(S.find(A[i-k-1])); 
+            auto p = S.insert(A[i]);
+            if (next(p) != S.end() and (long)*next(p) - *p <= t) return true;
+            if (p != S.begin() and (long)*p - *prev(p) <= t) return true;
+        }
+        return false;
+    }
+
 };
 
 int main(int argc, char const *argv[])
