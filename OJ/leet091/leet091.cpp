@@ -36,7 +36,7 @@ public:
     }
 };
 
-class Solution {
+class Solution2 {
 public:
     int numDecodings(string s) {
         // 0ms
@@ -53,6 +53,20 @@ public:
     }
 };
 
+class Solution {
+public:
+    int numDecodings(string s) {
+        int f1 = s.back() == '0' ? 0 : 1, f2 = 1;
+        for (int start = s.size() - 2; start >= 0; --start) {
+            int g1 = 0, g2 = 0;
+            if ( s[start] - '0' > 0 ) g1 = f1;
+            int x = (s[start] - '0') * 10 + s[start+1] - '0';
+            if (x >= 10 && x <= 26) g2 = f2;
+            f2 = f1; f1 = g1 + g2;
+        }
+        return f1;
+    }
+};
 int main(int argc, char const *argv[])
 {
     Solution sol;   
