@@ -20,19 +20,20 @@ using namespace std;
 
 class Solution {
 public:
-    int findMaxForm(const vector<string>& strs, int m, int n) {
-        // 300ms, 动态规划, 二维DP, O(MNL)
-        vector<vector<int>> f(m+1, vector<int>(n+1));
+    int findMaxForm(const vector<string>& S, int M, int N) {
+        // 0-1 pack
 
-        for (const auto& s: strs) {
-            int x = count(s.begin(), s.end(), '0'), y = s.size() - x;
-            for (auto u = m; u >= x; --u) {
-                for (auto v = n; v >= y; --v) {
-                    f[u][v] = max(f[u][v], f[u-x][v-y] + 1 );
+        int f[101][101]{};
+        for (auto&& s: S) {
+            int zero = count(s.begin(), s.end(), '0'), one = s.size() - zero;
+            for (int m = M; m >= zero; --m) {
+                for (int n = N; n >= one; --n) {
+                    f[m][n] = max(f[m][n], f[m-zero][n-one] + 1);
                 }
             }
         }
-        return f[m][n];
+        return f[M][N];
+
     }
 };
 

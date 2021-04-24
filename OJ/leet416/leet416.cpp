@@ -6,80 +6,73 @@ leet416
 
 
 #include <iostream>
+#include <tuple>
 #include <vector>
 #include <queue>
 #include <stack>
 #include <string>
+#include <cstring>
+#include <set>
+#include <map>
 #include <unordered_set>
 #include <unordered_map>
 #include <algorithm>
-#include <tuple>
-#include <cassert>
-#include <utility>
 #include <numeric>
+#include <climits>
+#include <cassert>
+#include <random>
+#include <functional>
+#include <utility>
+#include "../utils/LeetCpp.utils.hpp"
+
 using namespace std;
 
-template<class T>
-ostream& operator<<(ostream& os, const vector<T>& v) {
-    for (const auto& vi: v) os << vi << ", "; os << endl;
-    return os;
-}
+#define POW2(X) (1<<(X))
+#define CKBIT(S,X) (((S)&POW2(X))!=0)
+const double pi=acos(-1.0);
+const double eps=1e-11;
+template<class T> inline void ckmin(T &a,T b){ a=min(a,b); }
+template<class T> inline void ckmax(T &a,T b){ a=max(a,b); }
+template<class T> inline T sqr(T x){ return x*x; }
+#define SIZE(A) ((int)A.size())
+#define LENGTH(A) ((int)A.length())
+#define MP(A,B) make_pair(A,B)
+#define PB(X) push_back(X)
+#define FOR(i,a,b) for(int i=(a);i<(b);++i)
+#define REP(i,a) for(int i=0;i<(a);++i)
+#define ALL(A) A.begin(),A.end()
+template<class T> int CMP(T a[],const T b[],int n) { return memcmp(a,b,n*sizeof(T)); }
+template<class T> void COPY(T a[],const T b[],int n) { memcpy(a,b,n*sizeof(T)); }
+template<class T> void SET(T a[],int val,int n) { memset(a,val,n*sizeof(T)); }
+using uint=unsigned int;
+using int64=long long;
+using uint64=unsigned long long;
+using ipair=pair<int,int>;
+using VI=vector<int>;
+using VD=vector<double>;
+using VVI=vector<VI>;
+using VS=vector<string>;
 
-template<class T>
-ostream& operator<<(ostream& os, const vector<vector<T>>& v) {
-    for (const auto& row: v) os << row;
-    return os;
-}
 
-class Solution1 {
-public:
-    bool search(vector<int>& nums, int target, vector<int>& v) {
-        if (nums.empty()) return true;
-
-        auto x = nums.back(); nums.pop_back();
-        for (int i = 0; i < v.size(); ++i) {
-            if (v[i] + x <= target) {
-                v[i] += x;
-                if (search(nums, target, v)) return true;
-                else v[i] -= x;
-            }
-            if (v[i] == 0) break;
-        }
-        nums.push_back(x);
-        return false;
-    }
-    bool canPartition(const vector<int>& nums) {
-        // 4ms, 递归解法
-        int sum = accumulate(nums.begin(), nums.end(), 0);
-        if (sum % 2) return false;
-
-        int target = sum / 2;
-        vector<int> v(2);
-        vector<int> copy = nums;
-        return search(copy, target, v );
-    }
-};
 
 class Solution {
 public:
-
     bool canPartition(const vector<int>& A) {
-        // 540ms, 0-1背包解法
-        int sum = accumulate(A.begin(), A.end(), 0);
+        // 0-1 pack
+        int sum = reduce(A.begin(), A.end(), 0);
         if (sum % 2) return false;
 
         int target = sum / 2;
-        vector<bool> f(target+1, false);
-        for (int i = 0; i < A.size(); ++i) {
-            for (int j = target; j >= A[i]; --j) { 
-                if (A[i] == j) f[j] = true;
-                f[j] = f[j] || f[j-A[i]];
+        bool f[20005]{true};
+        for (auto&& x: A) {
+            for (int v = target; v >= x; --v) {
+                f[v] |= f[v - x];
             }
-            // cout << f;
         }
         return f[target];
     }
 };
+
 
 int main(int argc, char const *argv[])
 {

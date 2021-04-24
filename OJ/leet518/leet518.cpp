@@ -21,18 +21,16 @@ using namespace std;
 class Solution {
 public:
     int change(int amount, const vector<int>& coins) {
-        // 4ms, 完全背包
-        vector<int> f(amount+1);
-        f[0] = 1;
-        for (auto coin: coins) {
-            for (auto v = coin; v <= amount; ++v) {
-                f[v] += f[v-coin]; v++;
+        // 4ms, 完全背包, 无序
+        int f[5005]{1};
+        for (auto&& x:coins) {
+            for (int v = x; v <= amount; ++v) {
+                f[v] += f[v - x];
             }
         }
         return f[amount];
     }
 };
-
 
 int main(int argc, char const *argv[])
 {

@@ -18,20 +18,32 @@ leet322
 #include <utility>
 using namespace std;
 
-
+class Solution1 {
+public:
+    int coinChange(const vector<int>& coins, int amount) {
+        // Time O(NV), Space O(V), N 为物品类别数目, V 为背包容量
+        // 完全背包的最小装件数目问题
+        int f[10005]{};
+        for (int v = 1; v <= amount; ++v) {
+            f[v] = INT_MAX / 2;
+            for (auto&& x: coins) {
+                if (v >= x) f[v] = min(f[v-x] + 1, f[v]);
+            }
+        }
+        return f[amount] == INT_MAX / 2 ? -1 : f[amount];
+    }
+};
 
 class Solution {
 public:
     int coinChange(const vector<int>& coins, int amount) {
         // Time O(NV), Space O(V), N 为物品类别数目, V 为背包容量
         // 完全背包的最小装件数目问题
-        vector<int> f(amount+1, amount + 1);
-        f[0] = 0;
-        for (auto coin: coins) {
-            auto v = coin;
-            while (v <= amount) {
-                f[v] = min(f[v], f[v-coin]+1 );
-                v++;
+        int f[10005]{}; memset(f, 1, sizeof f); f[0] = 0;
+        for (auto&& x: coins) {
+            auto v = x;
+            for (int v = x; v <= amount; ++v) {
+                f[v] = min(f[v], f[v-x]+1 );
             }
         }
         
