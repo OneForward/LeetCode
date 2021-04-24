@@ -1,26 +1,19 @@
-import path, sys , subprocess, json
+import path, sys, requests_cache
+from crawler import Leetcode
+
+requests_cache.install_cache('leetcode')
+lc = Leetcode()
+likes = lc.get_likes()
+ZN =  lc.get_problems_translation()
+
+
 sys.stdout = open(f"../README.md", "w")
 
-# subprocess.run("powershell -ExecutionPolicy ByPass -File FetchLeet.ps1".split())
-# likes = json.loads(open('LeetCodeLikes.json',  encoding='utf-16').read())['questions']
-# likes = set(Q['id'] for Q in likes)
-import pickle
-likes = pickle.load(open('likes.pkl', 'rb'))
 
-
-alldata = json.loads(open('LeetCodeProblems-ZN.json',  encoding='utf-16').read())['data']['translations']
-ZN = {}
-for data in alldata:
-    qid = data['questionId']
-    title = data['title']
-    ZN[qid] = title
-    # print(f'|{qid}|{title}|')
-
-alldata = json.loads(open('LeetCodeProblems.json',  encoding='utf-16').read())['stat_status_pairs']
 leetProb = 'https://leetcode-cn.com/problems/'
 M = ('', 'Easy', 'Medium', 'Hard')
 newdata = {}
-for data in alldata:
+for data in lc.get_problems():
     stat = data['stat']
     qid = stat['question_id']
     title = stat['question__title']

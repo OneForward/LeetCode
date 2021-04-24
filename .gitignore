@@ -22,7 +22,5 @@
 **TLE**
 **test**
 !utils
-!utils/update_readme.py
-!utils/FetchLeet.ps1
-!utils/FetchLeet-ZN.ps1
+!utils/*.py
 !README.md
