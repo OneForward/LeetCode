@@ -141,6 +141,21 @@ import pickle
 with open('codility_data.pkl', 'rb') as f:
     codility_data = pickle.load(f)
 
+
+def fold_string(s, MAX):
+    words = s.split(' ')
+    lines = []
+    curr, line = 0, []
+    for word in words:
+        curr += len(word)
+        line.append(word)
+        if curr > MAX:
+            lines.append(' '.join(line))
+            curr, line = 0, []
+    lines.append(' '.join(line))
+    return '\n'.join(lines)
+
+
 codility = OJ / 'codility'
 fs = codility.files()
 error_codility = ('TLE', 'cases', 'codility')
@@ -157,5 +172,6 @@ for f in fs:
             break
     else:
         print(f'Not found {f}')
-    cont = re.sub('\n\s*', '<br>', p_synopsis)
+    cont = fold_string(p_synopsis, 40)
+    cont = re.sub('\n\s*', '<br>', cont)
     print(f'|[{title}]({url})|[{p_title}]({p_url})|[{lang}]({sol})|<pre>{cont}</pre>|')
