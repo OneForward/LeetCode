@@ -200,6 +200,7 @@
 |237|[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list)|[C++](OJ/leet237/leet237.cpp), [Java](OJ/leet237/leet237.java), [Java](OJ/leet237/utils/ListNode.java)|Easy|
 |238|[除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self)|[C++](OJ/leet238/leet238.cpp)|Medium|
 |239|[滑动窗口最大值⭐](https://leetcode-cn.com/problems/sliding-window-maximum)|[C++](OJ/leet239/leet239.cpp), [Python](OJ/leet239/leet239.py)|Hard|
+|248|[中心对称数 III](https://leetcode-cn.com/problems/strobogrammatic-number-iii)|[C++](OJ/leet248/leet248.cpp)|Hard|
 |257|[二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths)|[C++](OJ/leet257/leet257.cpp)|Easy|
 |258|[各位相加⭐](https://leetcode-cn.com/problems/add-digits)|[C++](OJ/leet258/leet258.cpp)|Easy|
 |260|[只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii)|[C++](OJ/leet260/leet260.cpp)|Medium|
@@ -271,7 +272,7 @@
 |404|[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves)|[C++](OJ/leet404/leet404.cpp)|Easy|
 |405|[数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal)|[C++](OJ/leet405/leet405.cpp)|Easy|
 |406|[根据身高重建队列⭐](https://leetcode-cn.com/problems/queue-reconstruction-by-height)|[C++](OJ/leet406/leet406.cpp), [C++](OJ/leet406/leet406v1.cpp)|Medium|
-|407|[接雨水 II](https://leetcode-cn.com/problems/trapping-rain-water-ii)|[Python](OJ/leet407/leet407.py), [Java](OJ/leet407/leet407.java)|Hard|
+|407|[接雨水 II⭐](https://leetcode-cn.com/problems/trapping-rain-water-ii)|[C++](OJ/leet407/leet407.cpp)|Hard|
 |409|[最长回文串](https://leetcode-cn.com/problems/longest-palindrome)|[Python](OJ/leet409/leet409.py)|Easy|
 |413|[等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices)|[C++](OJ/leet413/leet413.cpp)|Medium|
 |414|[第三大的数](https://leetcode-cn.com/problems/third-maximum-number)|[C++](OJ/leet414/leet414.cpp)|Easy|
@@ -295,7 +296,7 @@
 |462|[最少移动次数使数组元素相等 II](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii)|[Python](OJ/leet462/leet462.py)|Medium|
 |464|[我能赢吗](https://leetcode-cn.com/problems/can-i-win)|[Python](OJ/leet464/leet464.py)|Medium|
 |467|[环绕字符串中唯一的子字符串⭐](https://leetcode-cn.com/problems/unique-substrings-in-wraparound-string)|[C++](OJ/leet467/leet467.cpp)|Medium|
-|472|[连接词](https://leetcode-cn.com/problems/concatenated-words)|[C++](OJ/leet472/leet472.cpp)|Hard|
+|472|[连接词⭐](https://leetcode-cn.com/problems/concatenated-words)|[C++](OJ/leet472/leet472-递归.cpp), [Rust](OJ/leet472/src/main.rs)|Hard|
 |474|[一和零](https://leetcode-cn.com/problems/ones-and-zeroes)|[C++](OJ/leet474/leet474.cpp)|Medium|
 |479|[最大回文数乘积](https://leetcode-cn.com/problems/largest-palindrome-product)|[C++](OJ/leet479/leet479.cpp)|Hard|
 |480|[滑动窗口中位数⭐](https://leetcode-cn.com/problems/sliding-window-median)|[C++](OJ/leet480/leet480_multiset.cpp), [C++](OJ/leet480/leet480_pbds.cpp), [C++](OJ/leet480/leet480_对顶堆.cpp)|Hard|
@@ -404,6 +405,7 @@
 |889|[根据前序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)|[C++](OJ/leet889/leet889.cpp)|Medium|
 |895|[最大频率栈](https://leetcode-cn.com/problems/maximum-frequency-stack)|[Python](OJ/leet895/leet895.py)|Hard|
 |896|[单调数列](https://leetcode-cn.com/problems/monotonic-array)|[C++](OJ/leet896/leet896.cpp)|Easy|
+|897|[递增顺序搜索树](https://leetcode-cn.com/problems/increasing-order-search-tree)|[C++](OJ/leet897/leet897.cpp)|Easy|
 |899|[有序队列⭐](https://leetcode-cn.com/problems/orderly-queue)|[Python](OJ/leet899/leet899.py)|Hard|
 |901|[股票价格跨度](https://leetcode-cn.com/problems/online-stock-span)|[C++](OJ/leet901/leet901.cpp), [Rust](OJ/leet901/src/main.rs), [Rust](OJ/leet901/src/mainV1.rs)|Medium|
 |907|[子数组的最小值之和](https://leetcode-cn.com/problems/sum-of-subarray-minimums)|[Python](OJ/leet907/leet907.py)|Medium|
@@ -433,6 +435,7 @@
 |1004|[最大连续1的个数 III⭐](https://leetcode-cn.com/problems/max-consecutive-ones-iii)|[C++](OJ/leet1004/leet1004.cpp), [C++](OJ/leet1004/leet1004v1.cpp), [Python](OJ/leet1004/leet1004.py)|Medium|
 |1006|[笨阶乘](https://leetcode-cn.com/problems/clumsy-factorial)|[C++](OJ/leet1006/leet1006.cpp)|Medium|
 |1009|[十进制整数的反码](https://leetcode-cn.com/problems/complement-of-base-10-integer)|[C++](OJ/leet1009/leet1009.cpp)|Easy|
+|1011|[在 D 天内送达包裹的能力⭐](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days)|[C++](OJ/leet1011/leet1011.cpp)|Medium|
 |1025|[除数博弈](https://leetcode-cn.com/problems/divisor-game)|[C++](OJ/leet1025/leet1025.cpp)|Easy|
 |1027|[最长等差数列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence)|[C++](OJ/leet1027/leet1027-哈希.cpp), [C++](OJ/leet1027/leet1027.cpp)|Medium|
 |1028|[从先序遍历还原二叉树](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal)|[C++](OJ/leet1028/leet1028.cpp)|Hard|
@@ -507,6 +510,7 @@
 |1823|[找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game)|[C++](OJ/leet1823/leet1823.cpp)|Medium|
 |1824|[最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps)|[C++](OJ/leet1824/leet1824.cpp)|Medium|
 |1825|[求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average)|[C++](OJ/leet1825/leet1825.cpp)|Hard|
+|1833|[雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[C++](OJ/leet1833/leet1833.cpp)|Medium|
 
 ## LCCI
 
@@ -579,42 +583,42 @@
 
 ## Codility
 
-| Title | Solution |
-| ----- | -------- |
-|02-CyclicRotation|[C++](OJ/codility/02-CyclicRotation.cpp)|
-|04-FrogRiverOne|[Python](OJ/codility/04-FrogRiverOne.py)|
-|04-MaxCounters|[C++](OJ/codility/04-MaxCounters.cpp)|
-|05-CountDiv|[C++](OJ/codility/05-CountDiv.cpp)|
-|05-GenomicRangeQuery|[C++](OJ/codility/05-GenomicRangeQuery.cpp)|
-|05-MinAvgTwoSlice|[C++](OJ/codility/05-MinAvgTwoSlice.cpp)|
-|05-PassingCars|[C++](OJ/codility/05-PassingCars.cpp)|
-|06-NumberOfDiscIntersections|[C++](OJ/codility/06-NumberOfDiscIntersections.cpp)|
-|06-Triangle|[C++](OJ/codility/06-Triangle.cpp)|
-|07-Fish|[C++](OJ/codility/07-Fish.cpp)|
-|07-Nested|[C++](OJ/codility/07-Nested.cpp)|
-|07-StoneWall|[C++](OJ/codility/07-StoneWall.cpp)|
-|08-Dominator|[C++](OJ/codility/08-Dominator.cpp)|
-|08-EquiLeader|[C++](OJ/codility/08-EquiLeader.cpp)|
-|09-MaxDoubleSliceSum|[C++](OJ/codility/09-MaxDoubleSliceSum.cpp)|
-|10-CountFactors|[C++](OJ/codility/10-CountFactors.cpp)|
-|10-Flags|[C++](OJ/codility/10-Flags.cpp)|
-|10-MinPerimeterRectangle|[C++](OJ/codility/10-MinPerimeterRectangle.cpp)|
-|10-Peaks|[C++](OJ/codility/10-Peaks.cpp)|
-|11-CountNonDivisible|[C++](OJ/codility/11-CountNonDivisible.cpp)|
-|11-CountSemiprimes|[C++](OJ/codility/11-CountSemiprimes.cpp)|
-|12-ChocolatesByNumbers|[C++](OJ/codility/12-ChocolatesByNumbers.cpp)|
-|12-CommonPrimeDivisors|[C++](OJ/codility/12-CommonPrimeDivisors.cpp)|
-|13-FibFrog|[C++](OJ/codility/13-FibFrog.cpp)|
-|13-Ladder|[C++](OJ/codility/13-Ladder.cpp)|
-|14-MinMaxDivision|[C++](OJ/codility/14-MinMaxDivision.cpp)|
-|14-NailingPlanksV1|[C++](OJ/codility/14-NailingPlanksV1.cpp)|
-|14-NailingPlanksV2|[C++](OJ/codility/14-NailingPlanksV2.cpp)|
-|15-AbsDistinct|[C++](OJ/codility/15-AbsDistinct.cpp)|
-|15-CountDistinctSlices|[C++](OJ/codility/15-CountDistinctSlices.cpp)|
-|15-CountTriangles|[C++](OJ/codility/15-CountTriangles.cpp)|
-|15-MinAbsSumOfTwo|[C++](OJ/codility/15-MinAbsSumOfTwo.cpp)|
-|16-MaxNonoverlappingSegments|[C++](OJ/codility/16-MaxNonoverlappingSegments.cpp)|
-|16-TieRopes|[C++](OJ/codility/16-TieRopes.cpp)|
-|17-MinAbsSum_O(N M^2)|[C++](OJ/codility/17-MinAbsSum_O(N&#32;M^2).cpp)|
-|17-MinAbsSum_O(N^2 M)|[C++](OJ/codility/17-MinAbsSum_O(N^2&#32;M).cpp)|
-|17-NumberSolitaire|[C++](OJ/codility/17-NumberSolitaire.cpp)|
+| # | Title | Solution | Tags |
+|---| ----- | -------- | ---------- |
+|[Lesson 2 Arrays](/programmers/lessons/2-arrays/)|[CyclicRotation](https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/)|[C++](OJ/codility/02-CyclicRotation.cpp)|<pre>Rotate an array to the right by a given number of steps.</pre>|
+|[Lesson 4 Counting Elements](/programmers/lessons/4-counting_elements/)|[FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/)|[Python](OJ/codility/04-FrogRiverOne.py)|<pre>Find the earliest time when a frog can jump to the other side of a river.</pre>|
+|[Lesson 4 Counting Elements](/programmers/lessons/4-counting_elements/)|[MaxCounters](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/)|[C++](OJ/codility/04-MaxCounters.cpp)|<pre>Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum.</pre>|
+|[Lesson 5 Prefix Sums](/programmers/lessons/5-prefix_sums/)|[CountDiv](https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/)|[C++](OJ/codility/05-CountDiv.cpp)|<pre>Compute number of integers divisible by k in range [a..b].</pre>|
+|[Lesson 5 Prefix Sums](/programmers/lessons/5-prefix_sums/)|[GenomicRangeQuery](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/)|[C++](OJ/codility/05-GenomicRangeQuery.cpp)|<pre>Find the minimal nucleotide from a range of sequence DNA.</pre>|
+|[Lesson 5 Prefix Sums](/programmers/lessons/5-prefix_sums/)|[MinAvgTwoSlice](https://app.codility.com/programmers/lessons/5-prefix_sums/min_avg_two_slice/)|[C++](OJ/codility/05-MinAvgTwoSlice.cpp)|<pre>Find the minimal average of any slice containing at least two elements.</pre>|
+|[Lesson 5 Prefix Sums](/programmers/lessons/5-prefix_sums/)|[PassingCars](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/)|[C++](OJ/codility/05-PassingCars.cpp)|<pre>Count the number of passing cars on the road.</pre>|
+|[Lesson 6 Sorting](/programmers/lessons/6-sorting/)|[NumberOfDiscIntersections](https://app.codility.com/programmers/lessons/6-sorting/number_of_disc_intersections/)|[C++](OJ/codility/06-NumberOfDiscIntersections.cpp)|<pre>Compute the number of intersections in a sequence of discs.</pre>|
+|[Lesson 6 Sorting](/programmers/lessons/6-sorting/)|[Triangle](https://app.codility.com/programmers/lessons/6-sorting/triangle/)|[C++](OJ/codility/06-Triangle.cpp)|<pre>Determine whether a triangle can be built from a given set of edges.</pre>|
+|[Lesson 7 Stacks and Queues](/programmers/lessons/7-stacks_and_queues/)|[Fish](https://app.codility.com/programmers/lessons/7-stacks_and_queues/fish/)|[C++](OJ/codility/07-Fish.cpp)|<pre>N voracious fish are moving along a river. Calculate how many fish are alive.</pre>|
+|[Lesson 7 Stacks and Queues](/programmers/lessons/7-stacks_and_queues/)|[Nesting](https://app.codility.com/programmers/lessons/7-stacks_and_queues/nesting/)|[C++](OJ/codility/07-Nesting.cpp)|<pre>Determine whether a given string of parentheses (single type) is properly nested.</pre>|
+|[Lesson 7 Stacks and Queues](/programmers/lessons/7-stacks_and_queues/)|[StoneWall](https://app.codility.com/programmers/lessons/7-stacks_and_queues/stone_wall/)|[C++](OJ/codility/07-StoneWall.cpp)|<pre>Cover "Manhattan skyline" using the minimum number of rectangles.</pre>|
+|[Lesson 8 Leader](/programmers/lessons/8-leader/)|[Dominator](https://app.codility.com/programmers/lessons/8-leader/dominator/)|[C++](OJ/codility/08-Dominator.cpp)|<pre>Find an index of an array such that its value occurs at more than half of indices in the array.</pre>|
+|[Lesson 8 Leader](/programmers/lessons/8-leader/)|[EquiLeader](https://app.codility.com/programmers/lessons/8-leader/equi_leader/)|[C++](OJ/codility/08-EquiLeader.cpp)|<pre>Find the index S such that the leaders of the sequences A[0], A[1], ..., A[S] and A[S + 1], A[S + 2], ..., A[N - 1] are the same.</pre>|
+|[Lesson 9 Maximum slice problem](/programmers/lessons/9-maximum_slice_problem/)|[MaxDoubleSliceSum](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_double_slice_sum/)|[C++](OJ/codility/09-MaxDoubleSliceSum.cpp)|<pre>Find the maximal sum of any double slice.</pre>|
+|[Lesson 10 Prime and composite numbers](/programmers/lessons/10-prime_and_composite_numbers/)|[CountFactors](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/count_factors/)|[C++](OJ/codility/10-CountFactors.cpp)|<pre>Count factors of given number n.</pre>|
+|[Lesson 10 Prime and composite numbers](/programmers/lessons/10-prime_and_composite_numbers/)|[Flags](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/flags/)|[C++](OJ/codility/10-Flags.cpp)|<pre>Find the maximum number of flags that can be set on mountain peaks.</pre>|
+|[Lesson 10 Prime and composite numbers](/programmers/lessons/10-prime_and_composite_numbers/)|[MinPerimeterRectangle](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/min_perimeter_rectangle/)|[C++](OJ/codility/10-MinPerimeterRectangle.cpp)|<pre>Find the minimal perimeter of any rectangle whose area equals N.</pre>|
+|[Lesson 10 Prime and composite numbers](/programmers/lessons/10-prime_and_composite_numbers/)|[Peaks](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/peaks/)|[C++](OJ/codility/10-Peaks.cpp)|<pre>Divide an array into the maximum number of same-sized blocks, each of which should contain an index P such that A[P - 1] < A[P] > A[P + 1].</pre>|
+|[Lesson 11 Sieve of Eratosthenes](/programmers/lessons/11-sieve_of_eratosthenes/)|[CountNonDivisible](https://app.codility.com/programmers/lessons/11-sieve_of_eratosthenes/count_non_divisible/)|[C++](OJ/codility/11-CountNonDivisible.cpp)|<pre>Calculate the number of elements of an array that are not divisors of each element.</pre>|
+|[Lesson 11 Sieve of Eratosthenes](/programmers/lessons/11-sieve_of_eratosthenes/)|[CountSemiprimes](https://app.codility.com/programmers/lessons/11-sieve_of_eratosthenes/count_semiprimes/)|[C++](OJ/codility/11-CountSemiprimes.cpp)|<pre>Count the semiprime numbers in the given range [a..b]</pre>|
+|[Lesson 12 Euclidean algorithm](/programmers/lessons/12-euclidean_algorithm/)|[ChocolatesByNumbers](https://app.codility.com/programmers/lessons/12-euclidean_algorithm/chocolates_by_numbers/)|[C++](OJ/codility/12-ChocolatesByNumbers.cpp)|<pre>There are N chocolates in a circle. Count the number of chocolates you will eat.</pre>|
+|[Lesson 12 Euclidean algorithm](/programmers/lessons/12-euclidean_algorithm/)|[CommonPrimeDivisors](https://app.codility.com/programmers/lessons/12-euclidean_algorithm/common_prime_divisors/)|[C++](OJ/codility/12-CommonPrimeDivisors.cpp)|<pre>Check whether two numbers have the same prime divisors.</pre>|
+|[Lesson 13 Fibonacci numbers](/programmers/lessons/13-fibonacci_numbers/)|[FibFrog](https://app.codility.com/programmers/lessons/13-fibonacci_numbers/fib_frog/)|[C++](OJ/codility/13-FibFrog.cpp)|<pre>Count the minimum number of jumps required for a frog to get to the other side of a river.</pre>|
+|[Lesson 13 Fibonacci numbers](/programmers/lessons/13-fibonacci_numbers/)|[Ladder](https://app.codility.com/programmers/lessons/13-fibonacci_numbers/ladder/)|[C++](OJ/codility/13-Ladder.cpp)|<pre>Count the number of different ways of climbing to the top of a ladder.</pre>|
+|[Lesson 14 Binary search algorithm](/programmers/lessons/14-binary_search_algorithm/)|[MinMaxDivision](https://app.codility.com/programmers/lessons/14-binary_search_algorithm/min_max_division/)|[C++](OJ/codility/14-MinMaxDivision.cpp)|<pre>Divide array A into K blocks and minimize the largest sum of any block.</pre>|
+|[Lesson 14 Binary search algorithm](/programmers/lessons/14-binary_search_algorithm/)|[NailingPlanks](https://app.codility.com/programmers/lessons/14-binary_search_algorithm/nailing_planks/)|[C++](OJ/codility/14-NailingPlanksV1.cpp)|<pre>Count the minimum number of nails that allow a series of planks to be nailed.</pre>|
+|[Lesson 14 Binary search algorithm](/programmers/lessons/14-binary_search_algorithm/)|[NailingPlanks](https://app.codility.com/programmers/lessons/14-binary_search_algorithm/nailing_planks/)|[C++](OJ/codility/14-NailingPlanksV2.cpp)|<pre>Count the minimum number of nails that allow a series of planks to be nailed.</pre>|
+|[Lesson 6 Sorting](/programmers/lessons/6-sorting/)|[Distinct](https://app.codility.com/programmers/lessons/6-sorting/distinct/)|[C++](OJ/codility/15-AbsDistinct.cpp)|<pre>Compute number of distinct values in an array.</pre>|
+|[Lesson 6 Sorting](/programmers/lessons/6-sorting/)|[Distinct](https://app.codility.com/programmers/lessons/6-sorting/distinct/)|[C++](OJ/codility/15-CountDistinctSlices.cpp)|<pre>Compute number of distinct values in an array.</pre>|
+|[Lesson 6 Sorting](/programmers/lessons/6-sorting/)|[Triangle](https://app.codility.com/programmers/lessons/6-sorting/triangle/)|[C++](OJ/codility/15-CountTriangles.cpp)|<pre>Determine whether a triangle can be built from a given set of edges.</pre>|
+|[Lesson 15 Caterpillar method](/programmers/lessons/15-caterpillar_method/)|[MinAbsSumOfTwo](https://app.codility.com/programmers/lessons/15-caterpillar_method/min_abs_sum_of_two/)|[C++](OJ/codility/15-MinAbsSumOfTwo.cpp)|<pre>Find the minimal absolute value of a sum of two elements.</pre>|
+|[Lesson 16 Greedy algorithms](/programmers/lessons/16-greedy_algorithms/)|[MaxNonoverlappingSegments](https://app.codility.com/programmers/lessons/16-greedy_algorithms/max_nonoverlapping_segments/)|[C++](OJ/codility/16-MaxNonoverlappingSegments.cpp)|<pre>Find a maximal set of non-overlapping segments.</pre>|
+|[Lesson 16 Greedy algorithms](/programmers/lessons/16-greedy_algorithms/)|[TieRopes](https://app.codility.com/programmers/lessons/16-greedy_algorithms/tie_ropes/)|[C++](OJ/codility/16-TieRopes.cpp)|<pre>Tie adjacent ropes to achieve the maximum number of ropes of length >= K.</pre>|
+|[Lesson 17 Dynamic programming](/programmers/lessons/17-dynamic_programming/)|[MinAbsSum](https://app.codility.com/programmers/lessons/17-dynamic_programming/min_abs_sum/)|[C++](OJ/codility/17-MinAbsSum_O(N&#32;M^2).cpp)|<pre>Given array of integers, find the lowest absolute sum of elements.</pre>|
+|[Lesson 17 Dynamic programming](/programmers/lessons/17-dynamic_programming/)|[MinAbsSum](https://app.codility.com/programmers/lessons/17-dynamic_programming/min_abs_sum/)|[C++](OJ/codility/17-MinAbsSum_O(N^2&#32;M).cpp)|<pre>Given array of integers, find the lowest absolute sum of elements.</pre>|
+|[Lesson 17 Dynamic programming](/programmers/lessons/17-dynamic_programming/)|[NumberSolitaire](https://app.codility.com/programmers/lessons/17-dynamic_programming/number_solitaire/)|[C++](OJ/codility/17-NumberSolitaire.cpp)|<pre>In a given array, find the subset of maximal sum in which the distance between consecutive elements is at most 6.</pre>|

@@ -59,8 +59,13 @@ class Leetcode:
         return   requests.get(Leetcode.LEETCODE_LIST_URL, headers=self.headers).json()['stat_status_pairs']
         
     def get_likes(self):
-        favors = requests.get(Leetcode.LEETCODE_QUESTIONS, headers=self.headers).json()['favorites']
-        favors = favors['public_favorites'] + favors['private_favorites']
-        return set( Q['id']  for favor in favors for Q in favor['questions'] )
+        with requests_cache.disabled():
+            favors = requests.get(Leetcode.LEETCODE_QUESTIONS, headers=self.headers).json()
+            favors = favors['favorites']
+            favors = favors['public_favorites'] + favors['private_favorites']
+            return set( Q['id']  for favor in favors for Q in favor['questions'] )
         
-
+if __name__ == '__main__':
+    requests_cache.install_cache('leetcode')
+    lc = Leetcode()
+    print(lc.get_likes())

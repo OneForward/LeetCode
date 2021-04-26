@@ -132,9 +132,14 @@ for fdir in fdirs:
 
 
 md = f"""
-| Title | Solution |
-| ----- | -------- |"""
+| # | Title | Solution | Tags |
+|---| ----- | -------- | ---------- |"""
 print('\n## Codility\n' + md)
+
+
+import pickle 
+with open('codility_data.pkl', 'rb') as f:
+    codility_data = pickle.load(f)
 
 codility = OJ / 'codility'
 fs = codility.files()
@@ -145,4 +150,12 @@ for f in fs:
     ext = f.ext 
     sol = modify(f)
     lang = Ext[ext]
-    print(f'|{title}|[{lang}]({sol})|')
+    
+    for k, (p_title, p_synopsis, p_content, p_url, title, url) in codility_data.items():
+        if p_title in f.stem:
+            # print(f, p_title)
+            break
+    else:
+        print(f'Not found {f}')
+    cont = re.sub('\n\s*', '<br>', p_synopsis)
+    print(f'|[{title}]({url})|[{p_title}]({p_url})|[{lang}]({sol})|<pre>{cont}</pre>|')
