@@ -147,7 +147,7 @@ def fold_string(s, MAX):
     lines = []
     curr, line = 0, []
     for word in words:
-        curr += len(word)
+        curr += len(word) + 1
         line.append(word)
         if curr > MAX:
             lines.append(' '.join(line))
