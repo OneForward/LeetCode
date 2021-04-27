@@ -414,6 +414,7 @@
 |913|[猫和老鼠⭐](https://leetcode-cn.com/problems/cat-and-mouse)|[C++](OJ/leet913/leet913.cpp)|Hard|
 |918|[环形子数组的最大和⭐](https://leetcode-cn.com/problems/maximum-sum-circular-subarray)|[C++](OJ/leet918/leet918.cpp), [Rust](OJ/leet918/src/main.rs)|Medium|
 |919|[完全二叉树插入器](https://leetcode-cn.com/problems/complete-binary-tree-inserter)|[C++](OJ/leet919/leet919.cpp)|Medium|
+|938|[二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst)|[C++](OJ/leet938/leet938.cpp), [Rust](OJ/leet938/src/main.rs)|Easy|
 |940|[不同的子序列 II](https://leetcode-cn.com/problems/distinct-subsequences-ii)|[Python](OJ/leet940/leet940.py)|Hard|
 |946|[验证栈序列⭐](https://leetcode-cn.com/problems/validate-stack-sequences)|[C++](OJ/leet946/leet946.cpp)|Medium|
 |947|[移除最多的同行或同列石头](https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column)|[C++](OJ/leet947/leet947.cpp), [C++](OJ/leet947/leet947_字典.cpp)|Medium|
@@ -517,9 +518,14 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |面试题 01.04|[回文排列](https://leetcode-cn.com/problems/palindrome-permutation-lcci)|[C++](OJ/lcci01.04/lcci01.04.cpp)|Easy|
+|面试题 04.03|[特定深度节点链表](https://leetcode-cn.com/problems/list-of-depth-lcci)|[C++](OJ/lcci04.03/lcci04.03.cpp)|Medium|
 |面试题 08.07|[无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci)|[C++](OJ/lcci08.07/lcci08.07-非递归.cpp), [C++](OJ/lcci08.07/lcci08.07.cpp)|Medium|
 |面试题 08.08|[有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci)|[C++](OJ/lcci08.08/lcci08.08-哈希v1.cpp), [C++](OJ/lcci08.08/lcci08.08-哈希v2-非递归.cpp), [C++](OJ/lcci08.08/lcci08.08-回溯.cpp)|Medium|
+|面试题 16.02|[单词频率](https://leetcode-cn.com/problems/words-frequency-lcci)|[C++](OJ/lcci16.02/lcci16.02.cpp)|Medium|
+|面试题 16.06|[最小差](https://leetcode-cn.com/problems/smallest-difference-lcci)|[C++](OJ/lcci16.06/lcci16.06.cpp)|Medium|
+|面试题 16.13|[平分正方形](https://leetcode-cn.com/problems/bisect-squares-lcci)|[C++](OJ/lcci16.13/lcci16.13.cpp)|Medium|
 |面试题 17.18|[最短超串](https://leetcode-cn.com/problems/shortest-supersequence-lcci)|[Python](OJ/lcci17.18/lcci17.18.py)|Medium|
+|面试题 17.23|[最大黑方阵⭐](https://leetcode-cn.com/problems/max-black-square-lcci)|[C++](OJ/lcci17.23/lcci17.23.cpp), [Rust](OJ/lcci17.23/src/main.rs)|Medium|
 
 ## LCP
 
