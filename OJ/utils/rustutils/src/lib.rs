@@ -20,6 +20,18 @@ macro_rules!vec2d {
     }
 }
 
+#[macro_export]
+macro_rules! min {
+    ($x: expr) => ($x);
+    ($x: expr, $($z: expr),+) => (::std::cmp::min($x, min!($($z),*)));
+}
+
+#[macro_export]
+macro_rules! max {
+    ($x: expr) => ($x);
+    ($x: expr, $($z: expr),+) => (::std::cmp::max($x, max!($($z),*)));
+}
+
 // linked_list.rs
 #[derive(PartialEq, Eq, Debug)]
 pub struct ListNode {
