@@ -55,15 +55,64 @@ using VS=vector<string>;
 
 
 
-class Solution
-{
-    
-};
+class Solution {
+public:
+    int maxGroupNumber(const vector<int>& tiles) {
+        map<int, int> M;
+        for (auto&& x: tiles) M[x]++;
 
+        int f[5][5], g[5][5];
+        auto reset = [](int f[5][5], int start) {
+            memset(f, 0xff, 25 * sizeof (int));
+            f[0][0] = start;
+        };
+        
+        reset(f, 0);
+        // f[x][y]: 预留 x 张 [card-2]  和 y 张 [card-1] 的前提下
+        // [card] 之前的牌能组成的牌组数
+
+        int prev = 0;
+        for (auto&& [card, cnt]: M) {
+            if (prev != card - 1) {
+                reset(f, f[0][0]); // 只保留 f[0][0], f[i][j] < 0 表示没有预留这样数量的牌
+            }
+
+            reset(g, -1);
+            for (int cnt2 = 0; cnt2 < 5; cnt2++)
+            {
+                for (int cnt1 = 0; cnt1 < 5; cnt1++)
+                {
+                    if (f[cnt2][cnt1] < 0) continue;
+                    
+                    // 枚举顺子
+                    for (int shunzi = 0; shunzi <= min({cnt2, cnt1, cnt}); shunzi++)
+                    {
+                        int new2 = cnt1 - shunzi;
+                        for (int new1 = 0; new1 <= min(4, cnt-shunzi); new1++)
+                        {
+                            int score = f[cnt2][cnt1] + shunzi + (cnt - shunzi - new1) / 3;
+                            g[new2][new1] = max(g[new2][new1], score);
+                        }
+                    }
+                }
+            }
+
+            memcpy(f, g, sizeof f);
+            prev = card;
+        }
+
+        int ans = 0;
+        for (int i = 0; i < 5; i++)
+            for (int j = 0; j < 5; j++)
+                ans = max(ans, f[i][j]);
+        return ans;
+    }
+};
 
 int main(int argc, char const *argv[])
 {
     Solution sol;   
-    
+    cout << sol.maxGroupNumber({2,2,2,3,4}) << endl;
+    cout << sol.maxGroupNumber({2,2,2,3,4,1,3}) << endl;
     return 0;
 }
