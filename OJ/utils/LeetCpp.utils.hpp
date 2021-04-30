@@ -144,11 +144,9 @@ TreeNode* toTree(const vector<int>& v) {
 // overload for ostream of vectors
 template<class T>
 ostream& operator<<(ostream& os, const vector<T>& v) {
-    int n = v.size();
     os << "{ ";
-    for (int i = 0; i < n-1; ++i) os << v[i] << ", "; 
-    if (n) os << v[n-1];
-    os << " }";
+    for (auto&& x: v) os << x << ", ";
+    os << (v.empty() ? "}" : "\b\b }");
 
     return os;
 }
@@ -271,14 +269,47 @@ ostream& operator<<(ostream& os, const pair<T1, T2>& v) {
 }
 
 
+
+template<class Key>
+ostream& operator<<(ostream& os, const unordered_set<Key>& M) {
+    os << "{ ";
+    for (auto&& v: M) os << v << ", ";
+    os << (M.empty() ? "}" : "\b\b }");
+    return os;
+}
+
+template<class Key>
+ostream& operator<<(ostream& os, const set<Key>& M) {
+    os << "{ ";
+    for (auto&& v: M) os << v << ", ";
+    os << (M.empty() ? "}" : "\b\b }");
+    return os;
+}
+
+
+template<class Key, class Val>
+ostream& operator<<(ostream& os, const unordered_map<Key, Val>& M) {
+    os << "{ ";
+    for (auto&& v: M) os << v << ", ";
+    os << (M.empty() ? "}" : "\b\b }");
+    return os;
+}
+
+template<class Key, class Val>
+ostream& operator<<(ostream& os, const map<Key, Val>& M) {
+    os << "{ ";
+    for (auto&& v: M) os << v << ", ";
+    os << (M.empty() ? "}" : "\b\b }");
+    return os;
+}
+
+
 // overload for ostream of vectors of vectors
 template<class T>
 ostream& operator<<(ostream& os, const vector<vector<T>>& v) {
-    int n = v.size();
     os << "{ ";
-    for (int i = 0; i < n-1; ++i) os << v[i] << ", " << endl;
-    if (n) os << v[n-1];
-    os << " }";
+    for (auto&& x: v) os << x << ", ";
+    os << (v.empty() ? "}" : "\b\b }");
 
     return os;
 }

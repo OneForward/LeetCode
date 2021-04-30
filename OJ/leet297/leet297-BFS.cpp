@@ -64,7 +64,7 @@ public:
             lft = rht + 1;
         }
         
-        auto root = new TreeNode(stoi(v[0]));
+        auto root = new TreeNode{stoi(v[0])};
         auto p = 1;
         queue<TreeNode*> Q; Q.push(root);
 
@@ -73,11 +73,11 @@ public:
             auto lval = v[p];
             auto rval = v[p+1];
             if (lval != "null") {
-                node->left = new TreeNode(stoi(lval));
+                node->left = new TreeNode{stoi(lval)};
                 Q.push(node->left);
             }
             if (rval != "null") {
-                node->right = new TreeNode(stoi(rval));
+                node->right = new TreeNode{stoi(rval)};
                 Q.push(node->right);
             }
             p += 2;

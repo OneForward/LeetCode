@@ -10,6 +10,7 @@
 **.obj
 **.o
 **.out
+**.stackdump
 **.pdb
 **.ilk
 **target**

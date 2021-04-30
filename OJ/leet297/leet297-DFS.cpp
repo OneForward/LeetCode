@@ -48,7 +48,7 @@ public:
         s = s.substr(pos+1); // 消耗 s 的第一个结点
         if (val == "null") return {};
 
-        auto root = new TreeNode(stoi(string(val)));
+        auto root = new TreeNode{stoi(string(val))};
         
         root->left = _deserialize(s);
         root->right = _deserialize(s);
