@@ -132,8 +132,8 @@ for fdir in fdirs:
 
 
 md = f"""
-| # | Title | Solution | Tags |
-|---| ----- | -------- | ---------- |"""
+|  #  | Title | Solution | Tags |
+|-----| ----- | -------- | ---------- |"""
 print('\n## Codility\n' + md)
 
 
@@ -143,6 +143,7 @@ with open('codility_data.pkl', 'rb') as f:
 
 
 def fold_string(s, MAX):
+    # add newline to prettify the string (so as not too long)
     words = s.split(' ')
     lines = []
     curr, line = 0, []
@@ -159,19 +160,17 @@ def fold_string(s, MAX):
 codility = OJ / 'codility'
 fs = codility.files()
 error_codility = ('TLE', 'cases', 'codility')
-for f in fs:
-    if any(e in f.stem for e in error_codility): continue 
-    title = f.stem 
-    ext = f.ext 
-    sol = modify(f)
-    lang = Ext[ext]
+for k, (p_title, p_synopsis, p_content, p_url, title, url) in codility_data.items():
     
-    for k, (p_title, p_synopsis, p_content, p_url, title, url) in codility_data.items():
-        if p_title in f.stem:
-            # print(f, p_title)
-            break
-    else:
-        print(f'Not found {f}')
+    ok = []
+    for f in fs:
+        if p_title not in f.stem: continue
+        if any(e in f.stem for e in error_codility): continue 
+        ok.append( f )
+    if not ok: continue
+    sols = [(Ext[f.ext], modify(f)) for f in ok]
+    sols = ', '.join( f'[{lang}]({sol})' for lang, sol in sols )
+
     cont = fold_string(p_synopsis, 40)
     cont = re.sub('\n\s*', '<br>', cont)
-    print(f'|[{title}]({url})|[{p_title}]({p_url})|[{lang}]({sol})|<pre>{cont}</pre>|')
+    print(f'|[{title}]({url})|[{p_title}]({p_url})|{sols}|<pre>{cont}</pre>|')
