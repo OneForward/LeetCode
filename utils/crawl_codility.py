@@ -13,7 +13,7 @@ def fetch_lessons(base, lessons_url):
     for (title, url) in lessons:
         ps = fetch_problems(base, url)
         for p_title, p_synopsis, p_content, p_url in ps:
-            data[p_title] = (p_title, p_synopsis, p_content, p_url, title, url)
+            data[p_title] = (p_title, p_synopsis, p_content, p_url, title, base + url)
     return data
 
 def fetch_lesson(tag):
