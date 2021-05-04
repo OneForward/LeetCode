@@ -554,9 +554,11 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |LCP 03|[机器人大冒险](https://leetcode-cn.com/problems/programmable-robot)|[C++](OJ/lcp03/lcp03.cpp), [C++](OJ/lcp03/lcp03v1.cpp)|Medium|
+|LCP 08|[剧情触发时间](https://leetcode-cn.com/problems/ju-qing-hong-fa-shi-jian)|[C++](OJ/lcp08/lcp08.cpp), [C++](OJ/lcp08/lcp08v1.cpp), [Rust](OJ/lcp08/src/main.rs)|Medium|
 |LCP 09|[最小跳跃次数](https://leetcode-cn.com/problems/zui-xiao-tiao-yue-ci-shu)|[C++](OJ/lcp09/lcp09.cpp), [Rust](OJ/lcp09/src/main.rs)|Hard|
 |LCP 14|[切分数组](https://leetcode-cn.com/problems/qie-fen-shu-zu)|[C++](OJ/lcp14/lcp014.cpp)|Hard|
 |LCP 18|[早餐组合](https://leetcode-cn.com/problems/2vYnGI)|[C++](OJ/lcp18/lcp018-计数排序.cpp), [C++](OJ/lcp18/lcp018.cpp)|Easy|
+|LCP 23|[魔术排列](https://leetcode-cn.com/problems/er94lq)|[C++](OJ/lcp23/lcp23.cpp)|Medium|
 |LCP 34|[二叉树染色⭐](https://leetcode-cn.com/problems/er-cha-shu-ran-se-UGC)|[C++](OJ/lcp34/lcp034.cpp)|Medium|
 |LCP 35|[电动车游城市⭐](https://leetcode-cn.com/problems/DFPeFJ)|[C++](OJ/lcp35/lcp35.cpp)|Hard|
 |LCP 36|[最多牌组数⭐](https://leetcode-cn.com/problems/Up5XYM)|[C++](OJ/lcp36/lcp36.cpp)|Hard|
