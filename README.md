@@ -343,6 +343,7 @@
 |629|[K个逆序对数组](https://leetcode-cn.com/problems/k-inverse-pairs-array)|[C++](OJ/leet629/leet629.cpp)|Hard|
 |633|[平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers)|[C++](OJ/leet633/leet633.cpp)|Medium|
 |638|[大礼包⭐](https://leetcode-cn.com/problems/shopping-offers)|[C++](OJ/leet638/leet638.cpp), [Python](OJ/leet638/leet638.py)|Medium|
+|640|[求解方程](https://leetcode-cn.com/problems/solve-the-equation)|[C++](OJ/leet640/leet640.cpp), [Python](OJ/leet640/leet640.py), [Rust](OJ/leet640/src/main.rs)|Medium|
 |646|[最长数对链⭐](https://leetcode-cn.com/problems/maximum-length-of-pair-chain)|[C++](OJ/leet646/leet646.cpp)|Medium|
 |647|[回文子串](https://leetcode-cn.com/problems/palindromic-substrings)|[C++](OJ/leet647/leet647.cpp)|Medium|
 |648|[单词替换](https://leetcode-cn.com/problems/replace-words)|[Python](OJ/leet648/leet648.py)|Medium|
@@ -373,7 +374,7 @@
 |724|[寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index)|[Python](OJ/leet724/leet724.py)|Easy|
 |730|[统计不同回文子序列](https://leetcode-cn.com/problems/count-different-palindromic-subsequences)|[C++](OJ/leet730/leet730.cpp), [Go](OJ/leet730/leet730.go)|Hard|
 |739|[每日温度](https://leetcode-cn.com/problems/daily-temperatures)|[C++](OJ/leet739/leet739.cpp)|Medium|
-|740|[删除与获得点数](https://leetcode-cn.com/problems/delete-and-earn)|[Python](OJ/leet740/leet740.py)|Medium|
+|740|[删除与获得点数](https://leetcode-cn.com/problems/delete-and-earn)|[Python](OJ/leet740/leet740.py), [Rust](OJ/leet740/src/main.rs)|Medium|
 |741|[摘樱桃](https://leetcode-cn.com/problems/cherry-pickup)|[Python](OJ/leet741/leet741.py)|Hard|
 |746|[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs)|[C++](OJ/leet746/leet746.cpp), [Python](OJ/leet746/leet746.py)|Easy|
 |753|[破解保险箱](https://leetcode-cn.com/problems/cracking-the-safe)|[Python](OJ/leet753/leet753.py)|Hard|
