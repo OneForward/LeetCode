@@ -504,6 +504,7 @@
 |1686|[石子游戏 VI⭐](https://leetcode-cn.com/problems/stone-game-vi)|[Python](OJ/leet1686/leet1686.py)|Medium|
 |1690|[石子游戏 VII](https://leetcode-cn.com/problems/stone-game-vii)|[C++](OJ/leet1690/leet1690.cpp)|Medium|
 |1703|[得到连续 K 个 1 的最少相邻交换次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones)|[C++](OJ/leet1703/leet1703.cpp)|Hard|
+|1720|[解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array)|[Rust](OJ/leet1720/src/main.rs)|Easy|
 |1745|[回文串分割 IV](https://leetcode-cn.com/problems/palindrome-partitioning-iv)|[C++](OJ/leet1745/leet1745.cpp)|Hard|
 |1749|[任意子数组和的绝对值的最大值](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray)|[C++](OJ/leet1749/leet1749.cpp)|Medium|
 |1753|[移除石子的最大得分](https://leetcode-cn.com/problems/maximum-score-from-removing-stones)|[C++](OJ/leet1753/leet1753.cpp)|Medium|
@@ -530,13 +531,14 @@
 |面试题 02.05|[链表求和](https://leetcode-cn.com/problems/sum-lists-lcci)|[C++](OJ/lcci02.05/lcci02.05.cpp)|Medium|
 |面试题 02.08|[环路检测](https://leetcode-cn.com/problems/linked-list-cycle-lcci)|[C++](OJ/lcci02.08/lcci02.08.cpp)|Medium|
 |面试题 03.03|[堆盘子](https://leetcode-cn.com/problems/stack-of-plates-lcci)|[C++](OJ/lcci03.03/lcci03.03.cpp)|Medium|
-|面试题 03.05|[栈排序](https://leetcode-cn.com/problems/sort-of-stacks-lcci)|[C++](OJ/lcci03.05/lcci03.05.cpp)|Medium|
+|面试题 03.05|[栈排序](https://leetcode-cn.com/problems/sort-of-stacks-lcci)|[C++](OJ/lcci03.05/lcci03.05.cpp), [Rust](OJ/lcci03.05/src/main.rs)|Medium|
 |面试题 04.03|[特定深度节点链表](https://leetcode-cn.com/problems/list-of-depth-lcci)|[C++](OJ/lcci04.03/lcci04.03.cpp)|Medium|
 |面试题 04.10|[检查子树](https://leetcode-cn.com/problems/check-subtree-lcci)|[C++](OJ/lcci04.10/lcci04.10.cpp), [C++](OJ/lcci04.10/lcci04.10v1.cpp), [C++](OJ/lcci04.10/lcci04.10v2.cpp)|Medium|
 |面试题 04.12|[求和路径⭐](https://leetcode-cn.com/problems/paths-with-sum-lcci)|[C++](OJ/lcci04.12/lcci04.12.cpp), [C++](OJ/lcci04.12/lcci04.12v1.cpp)|Medium|
 |面试题 08.04|[幂集](https://leetcode-cn.com/problems/power-set-lcci)|[Python](OJ/lcci08.04/lcci08.04.py), [Rust](OJ/lcci08.04/src/main.rs)|Medium|
 |面试题 08.07|[无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci)|[C++](OJ/lcci08.07/lcci08.07-非递归.cpp), [C++](OJ/lcci08.07/lcci08.07.cpp)|Medium|
 |面试题 08.08|[有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci)|[C++](OJ/lcci08.08/lcci08.08-哈希v1.cpp), [C++](OJ/lcci08.08/lcci08.08-哈希v2-非递归.cpp), [C++](OJ/lcci08.08/lcci08.08-回溯.cpp)|Medium|
+|面试题 08.09|[括号⭐](https://leetcode-cn.com/problems/bracket-lcci)|[Python](OJ/lcci08.09/lcci08.09.py), [Rust](OJ/lcci08.09/src/main.rs)|Medium|
 |面试题 08.14|[布尔运算⭐](https://leetcode-cn.com/problems/boolean-evaluation-lcci)|[C++](OJ/lcci08.14/lcci08.14.cpp)|Medium|
 |面试题 16.02|[单词频率](https://leetcode-cn.com/problems/words-frequency-lcci)|[C++](OJ/lcci16.02/lcci16.02.cpp)|Medium|
 |面试题 16.06|[最小差](https://leetcode-cn.com/problems/smallest-difference-lcci)|[C++](OJ/lcci16.06/lcci16.06.cpp)|Medium|
@@ -545,6 +547,8 @@
 |面试题 16.24|[数对和](https://leetcode-cn.com/problems/pairs-with-sum-lcci)|[C++](OJ/lcci16.24/lcci16.24.cpp)|Medium|
 |面试题 16.25|[LRU 缓存](https://leetcode-cn.com/problems/lru-cache-lcci)|[C++](OJ/lcci16.25/lcci16.25.cpp)|Medium|
 |面试题 17.09|[第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci)|[C++](OJ/lcci17.09/lcci17.09.cpp)|Medium|
+|面试题 17.15|[最长单词⭐](https://leetcode-cn.com/problems/longest-word-lcci)|[Rust](OJ/lcci17.15/src/main.rs)|Medium|
+|面试题 17.17|[多次搜索](https://leetcode-cn.com/problems/multi-search-lcci)|[C++](OJ/lcci17.17/lcci17.17.cpp), [Rust](OJ/lcci17.17/src/main.rs)|Medium|
 |面试题 17.18|[最短超串](https://leetcode-cn.com/problems/shortest-supersequence-lcci)|[Python](OJ/lcci17.18/lcci17.18.py)|Medium|
 |面试题 17.19|[消失的两个数字⭐](https://leetcode-cn.com/problems/missing-two-lcci)|[C++](OJ/lcci17.19/lcci17.19-位运算.cpp), [C++](OJ/lcci17.19/lcci17.19-原地哈希.cpp)|Hard|
 |面试题 17.22|[单词转换](https://leetcode-cn.com/problems/word-transformer-lcci)|[Python](OJ/lcci17.22/lcci17.22.py)|Medium|

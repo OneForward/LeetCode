@@ -1,5 +1,5 @@
 /*
-lcci03.05
+lcci17.17
 
 
 */
@@ -57,34 +57,38 @@ using VVP=vector<VP>;
 using VI=vector<int>;
 using VVI=vector<VI>;
 
-class SortedStack {
+class Solution {
 public:
-    int S1[5005], S2[5005], top1 = 0, top2 = 0;
-    SortedStack() { }
-    
-    void push(int x) {
-        while (top1 and S1[top1-1] < x) S2[top2++] = S1[--top1];
-        S1[top1++] = x;
-        while (top2) S1[top1++] = S2[--top2];
-    }
-    
-    void pop() {
-        if (top1) top1--;
-    }
-    
-    int peek() {
-        return top1 == 0 ? -1 : S1[top1 - 1];
-    }
-    
-    bool isEmpty() {
-        return top1 == 0;
+    vector<vector<int>> multiSearch(string big, const vector<string>& smalls) {
+        // O(L * W * N_s)
+        int f[1005][1005];
+        int N = big.size(); const long long MOD = 1e9 + 7;
+        for (int i = 0; i < N; i++)
+        {
+            auto hash = 0LL;
+            for (int j = i; j < N; j++)
+            {
+                hash = (hash * 133 + big[j] - 'a' + 1) % MOD;
+                f[i][j+1] = hash;
+            }
+        }
+        vector<vector<int>> ans; ans.reserve(smalls.size());
+        for (auto&& s:smalls) {
+            auto hash = 0LL; int len = s.size();
+            for (auto&& ch: s) hash = (hash * 133 + ch - 'a' + 1) % MOD;
+            ans.push_back({});
+            if (hash == 0) continue;
+            for (int i = 0; i+len <= N; i++) {
+                if (f[i][i+len] == hash) ans.back().push_back(i);
+            }
+        }
+        return ans;
     }
 };
 
-
-
 int main(int argc, char const *argv[])
 {
-    
+    Solution sol;   
+    cout << sol.multiSearch("mississippi", {"is","ppi","hi","sis","i","ssippi"}) << endl;
     return 0;
 }
