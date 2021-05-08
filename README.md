@@ -488,6 +488,7 @@
 |1456|[定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|[C++](OJ/leet1456/leet1456.cpp)|Medium|
 |1473|[粉刷房子 III](https://leetcode-cn.com/problems/paint-house-iii)|[Python](OJ/leet1473/leet1473.py), [Rust](OJ/leet1473/src/main.rs)|Hard|
 |1483|[树节点的第 K 个祖先](https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node)|[C++](OJ/leet1483/leet1483.cpp)|Hard|
+|1486|[数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array)|[C++](OJ/leet1486/leet1486.cpp)|Easy|
 |1489|[找到最小生成树里的关键边和伪关键边](https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree)|[C++](OJ/leet1489/leet1489.cpp), [C++](OJ/leet1489/leet1489_official.cpp)|Hard|
 |1498|[满足条件的子序列数目⭐](https://leetcode-cn.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition)|[C++](OJ/leet1498/leet1498.cpp)|Medium|
 |1503|[所有蚂蚁掉下来前的最后一刻](https://leetcode-cn.com/problems/last-moment-before-all-ants-fall-out-of-a-plank)|[Python](OJ/leet1503/leet1503.py)|Medium|
@@ -505,6 +506,7 @@
 |1690|[石子游戏 VII](https://leetcode-cn.com/problems/stone-game-vii)|[C++](OJ/leet1690/leet1690.cpp)|Medium|
 |1703|[得到连续 K 个 1 的最少相邻交换次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones)|[C++](OJ/leet1703/leet1703.cpp)|Hard|
 |1720|[解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array)|[Rust](OJ/leet1720/src/main.rs)|Easy|
+|1723|[完成所有工作的最短时间⭐](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs)|[C++](OJ/leet1723/leet1723-二分搜索.cpp), [C++](OJ/leet1723/leet1723-动态规划.cpp), [Rust](OJ/leet1723/src/main.rs)|Hard|
 |1745|[回文串分割 IV](https://leetcode-cn.com/problems/palindrome-partitioning-iv)|[C++](OJ/leet1745/leet1745.cpp)|Hard|
 |1749|[任意子数组和的绝对值的最大值](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray)|[C++](OJ/leet1749/leet1749.cpp)|Medium|
 |1753|[移除石子的最大得分](https://leetcode-cn.com/problems/maximum-score-from-removing-stones)|[C++](OJ/leet1753/leet1753.cpp)|Medium|
