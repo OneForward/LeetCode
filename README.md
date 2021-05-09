@@ -487,6 +487,7 @@
 |1438|[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)|[C++](OJ/leet1438/leet1438.cpp)|Medium|
 |1456|[定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|[C++](OJ/leet1456/leet1456.cpp)|Medium|
 |1473|[粉刷房子 III](https://leetcode-cn.com/problems/paint-house-iii)|[Python](OJ/leet1473/leet1473.py), [Rust](OJ/leet1473/src/main.rs)|Hard|
+|1482|[制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets)|[C++](OJ/leet1482/leet1482.cpp), [Rust](OJ/leet1482/src/main.rs)|Medium|
 |1483|[树节点的第 K 个祖先](https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node)|[C++](OJ/leet1483/leet1483.cpp)|Hard|
 |1486|[数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array)|[C++](OJ/leet1486/leet1486.cpp)|Easy|
 |1489|[找到最小生成树里的关键边和伪关键边](https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree)|[C++](OJ/leet1489/leet1489.cpp), [C++](OJ/leet1489/leet1489_official.cpp)|Hard|
