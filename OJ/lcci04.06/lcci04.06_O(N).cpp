@@ -1,5 +1,5 @@
 /*
-lcci04.03
+lcci04.06
 
 
 */
@@ -40,7 +40,7 @@ template<class T> inline T sqr(T x){ return x*x; }
 #define PB(X) push_back(X)
 #define FOR(i,a,b) for(int i=(a);i<(b);++i)
 #define REP(i,a) for(int i=0;i<(a);++i)
-#define ALL(A) A.begin(),A.end()
+
 template<class T> int CMP(T a[],const T b[],int n) { return memcmp(a,b,n*sizeof(T)); }
 template<class T> void COPY(T a[],const T b[],int n) { memcpy(a,b,n*sizeof(T)); }
 template<class T> void SET(T a[],int val,int n) { memset(a,val,n*sizeof(T)); }
@@ -48,43 +48,40 @@ using uint=unsigned int;
 using int64=long long;
 using uint64=unsigned long long;
 using ipair=pair<int,int>;
+using VD=vector<double>;
+using VS=vector<string>;
 using VP=vector<ipair>;
 using VVP=vector<VP>;
+
+#define ALL(A) A.begin(),A.end()
 using VI=vector<int>;
-using VD=vector<double>;
 using VVI=vector<VI>;
-using VS=vector<string>;
-
-
 
 class Solution {
 public:
-    vector<ListNode*> listOfDepth(TreeNode* tree) {
-        queue<TreeNode*> Q; 
-        if (tree) Q.push(tree);
-        vector<ListNode*> ans;
-        while (Q.size()) {
-            int len = Q.size();
-            ListNode Head; auto plist = &Head;
-            while (len--) {
-                auto p = Q.front(); Q.pop();
-                if (p->left) Q.push(p->left);
-                if (p->right) Q.push(p->right);
-                plist->next = new ListNode{p->val}; 
-                plist = plist->next;
-            }
-            ans.push_back(Head.next);
-        }
-        return ans;
+    TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
+        // O(N)
+        if (not root) return {};
+        auto lft = inorderSuccessor(root->left, p);
+        auto rht = inorderSuccessor(root->right, p);
+        if (lft and lft->val > p->val) return lft;
+        return (root->val > p->val) ? root : rht;
     }
 };
 
 
-
-
 int main(int argc, char const *argv[])
 {
-    Solution sol;
-    cout << sol.listOfDepth( toTree({1,2,3,4,5,null,7,8}) ) << endl;  
+    Solution sol;  
+    {
+    auto tree = toTree({5,3,6,2,4,null,null,1});
+    auto p = tree->right;
+    cout << sol.inorderSuccessor( tree, p ) << endl;
+    }
+    {
+    auto tree = toTree({2,1,3});
+    auto p = tree->left;
+    cout << sol.inorderSuccessor( tree, p ) << endl;
+    }
     return 0;
 }

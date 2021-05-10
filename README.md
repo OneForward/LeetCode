@@ -400,6 +400,7 @@
 |855|[考场就座](https://leetcode-cn.com/problems/exam-room)|[Rust](OJ/leet855/src/main.rs)|Medium|
 |866|[回文素数](https://leetcode-cn.com/problems/prime-palindrome)|[C++](OJ/leet866/leet866.cpp), [C++](OJ/leet866/leet866v1.cpp), [C++](OJ/leet866/leet866v2.cpp)|Medium|
 |867|[转置矩阵](https://leetcode-cn.com/problems/transpose-matrix)|[C++](OJ/leet867/leet867.cpp)|Easy|
+|872|[叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees)|[C++](OJ/leet872/leet872.cpp)|Easy|
 |873|[最长的斐波那契子序列的长度](https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence)|[C++](OJ/leet873/leet873.cpp), [Rust](OJ/leet873/src/main.rs)|Medium|
 |876|[链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list)|[C++](OJ/leet876/leet876.cpp)|Easy|
 |877|[石子游戏⭐](https://leetcode-cn.com/problems/stone-game)|[Python](OJ/leet877/leet877.py)|Medium|
@@ -535,7 +536,10 @@
 |面试题 02.08|[环路检测](https://leetcode-cn.com/problems/linked-list-cycle-lcci)|[C++](OJ/lcci02.08/lcci02.08.cpp)|Medium|
 |面试题 03.03|[堆盘子](https://leetcode-cn.com/problems/stack-of-plates-lcci)|[C++](OJ/lcci03.03/lcci03.03.cpp)|Medium|
 |面试题 03.05|[栈排序](https://leetcode-cn.com/problems/sort-of-stacks-lcci)|[C++](OJ/lcci03.05/lcci03.05.cpp), [Rust](OJ/lcci03.05/src/main.rs)|Medium|
+|面试题 04.01|[节点间通路](https://leetcode-cn.com/problems/route-between-nodes-lcci)|[Python](OJ/lcci04.01/lcci04.01.py)|Medium|
 |面试题 04.03|[特定深度节点链表](https://leetcode-cn.com/problems/list-of-depth-lcci)|[C++](OJ/lcci04.03/lcci04.03.cpp)|Medium|
+|面试题 04.05|[合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci)|[C++](OJ/lcci04.05/lcci04.05.cpp)|Medium|
+|面试题 04.06|[后继者](https://leetcode-cn.com/problems/successor-lcci)|[C++](OJ/lcci04.06/lcci04.06.cpp), [C++](OJ/lcci04.06/lcci04.06_O(N).cpp)|Medium|
 |面试题 04.10|[检查子树](https://leetcode-cn.com/problems/check-subtree-lcci)|[C++](OJ/lcci04.10/lcci04.10.cpp), [C++](OJ/lcci04.10/lcci04.10v1.cpp), [C++](OJ/lcci04.10/lcci04.10v2.cpp)|Medium|
 |面试题 04.12|[求和路径⭐](https://leetcode-cn.com/problems/paths-with-sum-lcci)|[C++](OJ/lcci04.12/lcci04.12.cpp), [C++](OJ/lcci04.12/lcci04.12v1.cpp)|Medium|
 |面试题 08.04|[幂集](https://leetcode-cn.com/problems/power-set-lcci)|[Python](OJ/lcci08.04/lcci08.04.py), [Rust](OJ/lcci08.04/src/main.rs)|Medium|
