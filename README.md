@@ -509,6 +509,7 @@
 |1703|[得到连续 K 个 1 的最少相邻交换次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones)|[C++](OJ/leet1703/leet1703.cpp)|Hard|
 |1720|[解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array)|[Rust](OJ/leet1720/src/main.rs)|Easy|
 |1723|[完成所有工作的最短时间⭐](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs)|[C++](OJ/leet1723/leet1723-二分搜索.cpp), [C++](OJ/leet1723/leet1723-动态规划.cpp), [Rust](OJ/leet1723/src/main.rs)|Hard|
+|1734|[解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation)|[C++](OJ/leet1734/leet1734.cpp), [Rust](OJ/leet1734/src/main.rs)|Medium|
 |1745|[回文串分割 IV](https://leetcode-cn.com/problems/palindrome-partitioning-iv)|[C++](OJ/leet1745/leet1745.cpp)|Hard|
 |1749|[任意子数组和的绝对值的最大值](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray)|[C++](OJ/leet1749/leet1749.cpp)|Medium|
 |1753|[移除石子的最大得分](https://leetcode-cn.com/problems/maximum-score-from-removing-stones)|[C++](OJ/leet1753/leet1753.cpp)|Medium|
@@ -542,6 +543,7 @@
 |面试题 04.06|[后继者](https://leetcode-cn.com/problems/successor-lcci)|[C++](OJ/lcci04.06/lcci04.06.cpp), [C++](OJ/lcci04.06/lcci04.06_O(N).cpp)|Medium|
 |面试题 04.10|[检查子树](https://leetcode-cn.com/problems/check-subtree-lcci)|[C++](OJ/lcci04.10/lcci04.10.cpp), [C++](OJ/lcci04.10/lcci04.10v1.cpp), [C++](OJ/lcci04.10/lcci04.10v2.cpp)|Medium|
 |面试题 04.12|[求和路径⭐](https://leetcode-cn.com/problems/paths-with-sum-lcci)|[C++](OJ/lcci04.12/lcci04.12.cpp), [C++](OJ/lcci04.12/lcci04.12v1.cpp)|Medium|
+|面试题 05.02|[二进制数转字符串](https://leetcode-cn.com/problems/bianry-number-to-string-lcci)|[C++](OJ/lcci05.02/lcci05.02.cpp)|Medium|
 |面试题 08.04|[幂集](https://leetcode-cn.com/problems/power-set-lcci)|[Python](OJ/lcci08.04/lcci08.04.py), [Rust](OJ/lcci08.04/src/main.rs)|Medium|
 |面试题 08.07|[无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci)|[C++](OJ/lcci08.07/lcci08.07-非递归.cpp), [C++](OJ/lcci08.07/lcci08.07.cpp)|Medium|
 |面试题 08.08|[有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci)|[C++](OJ/lcci08.08/lcci08.08-哈希v1.cpp), [C++](OJ/lcci08.08/lcci08.08-哈希v2-非递归.cpp), [C++](OJ/lcci08.08/lcci08.08-回溯.cpp)|Medium|
