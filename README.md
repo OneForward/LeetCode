@@ -478,6 +478,7 @@
 |1272|[删除区间](https://leetcode-cn.com/problems/remove-interval)|[Python](OJ/leet1272/leet1272.py)|Medium|
 |1277|[统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones)|[C++](OJ/leet1277/leet1277.cpp)|Medium|
 |1288|[删除被覆盖区间⭐](https://leetcode-cn.com/problems/remove-covered-intervals)|[C++](OJ/leet1288/leet1288.cpp)|Medium|
+|1310|[子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray)|[Rust](OJ/leet1310/src/main.rs)|Medium|
 |1319|[连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected)|[C++](OJ/leet1319/leet1319.cpp), [Python](OJ/leet1319/leet1319.py)|Medium|
 |1353|[最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended)|[C++](OJ/leet1353/leet1353.cpp)|Medium|
 |1363|[形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three)|[C++](OJ/leet1363/leet1363.cpp)|Hard|
@@ -544,11 +545,15 @@
 |面试题 04.10|[检查子树](https://leetcode-cn.com/problems/check-subtree-lcci)|[C++](OJ/lcci04.10/lcci04.10.cpp), [C++](OJ/lcci04.10/lcci04.10v1.cpp), [C++](OJ/lcci04.10/lcci04.10v2.cpp)|Medium|
 |面试题 04.12|[求和路径⭐](https://leetcode-cn.com/problems/paths-with-sum-lcci)|[C++](OJ/lcci04.12/lcci04.12.cpp), [C++](OJ/lcci04.12/lcci04.12v1.cpp)|Medium|
 |面试题 05.02|[二进制数转字符串](https://leetcode-cn.com/problems/bianry-number-to-string-lcci)|[C++](OJ/lcci05.02/lcci05.02.cpp)|Medium|
+|面试题 05.04|[下一个数](https://leetcode-cn.com/problems/closed-number-lcci)|[C++](OJ/lcci05.04/lcci05.04.cpp)|Medium|
+|面试题 08.02|[迷路的机器人](https://leetcode-cn.com/problems/robot-in-a-grid-lcci)|[Python](OJ/lcci08.02/lcci08.02.py), [Rust](OJ/lcci08.02/src/main.rs)|Medium|
 |面试题 08.04|[幂集](https://leetcode-cn.com/problems/power-set-lcci)|[Python](OJ/lcci08.04/lcci08.04.py), [Rust](OJ/lcci08.04/src/main.rs)|Medium|
 |面试题 08.07|[无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci)|[C++](OJ/lcci08.07/lcci08.07-非递归.cpp), [C++](OJ/lcci08.07/lcci08.07.cpp)|Medium|
 |面试题 08.08|[有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci)|[C++](OJ/lcci08.08/lcci08.08-哈希v1.cpp), [C++](OJ/lcci08.08/lcci08.08-哈希v2-非递归.cpp), [C++](OJ/lcci08.08/lcci08.08-回溯.cpp)|Medium|
 |面试题 08.09|[括号⭐](https://leetcode-cn.com/problems/bracket-lcci)|[Python](OJ/lcci08.09/lcci08.09.py), [Rust](OJ/lcci08.09/src/main.rs)|Medium|
+|面试题 08.11|[硬币⭐](https://leetcode-cn.com/problems/coin-lcci)|[Rust](OJ/lcci08.11/src/main.rs)|Medium|
 |面试题 08.14|[布尔运算⭐](https://leetcode-cn.com/problems/boolean-evaluation-lcci)|[C++](OJ/lcci08.14/lcci08.14.cpp)|Medium|
+|面试题 10.03|[搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci)|[C++](OJ/lcci10.03/lcci10.03.cpp)|Medium|
 |面试题 16.02|[单词频率](https://leetcode-cn.com/problems/words-frequency-lcci)|[C++](OJ/lcci16.02/lcci16.02.cpp)|Medium|
 |面试题 16.06|[最小差](https://leetcode-cn.com/problems/smallest-difference-lcci)|[C++](OJ/lcci16.06/lcci16.06.cpp)|Medium|
 |面试题 16.13|[平分正方形](https://leetcode-cn.com/problems/bisect-squares-lcci)|[C++](OJ/lcci16.13/lcci16.13.cpp)|Medium|
