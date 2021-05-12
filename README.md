@@ -31,7 +31,7 @@
 |30|[串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words)|[C++](OJ/leet030/leet030.cpp), [C++](OJ/leet030/leet030v1.cpp)|Hard|
 |31|[下一个排列](https://leetcode-cn.com/problems/next-permutation)|[C++](OJ/leet031/leet031.cpp)|Medium|
 |32|[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses)|[C++](OJ/leet032/leet032.cpp), [C++](OJ/leet032/leet032v1.cpp), [Python](OJ/leet032/leet032.py)|Hard|
-|33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array)|[C++](OJ/leet033/leet033.cpp)|Medium|
+|33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array)|[C++](OJ/leet033/leet033-两次搜索.cpp), [C++](OJ/leet033/leet033.cpp), [Rust](OJ/leet033/src/main.rs)|Medium|
 |34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[C++](OJ/leet034/leet034.cpp)|Medium|
 |35|[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position)|[C++](OJ/leet035/leet035.cpp)|Easy|
 |36|[有效的数独](https://leetcode-cn.com/problems/valid-sudoku)|[C++](OJ/leet036/leet036.cpp), [Python](OJ/leet036/leet036.py)|Medium|

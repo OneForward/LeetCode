@@ -57,12 +57,27 @@ using VVP=vector<VP>;
 using VI=vector<int>;
 using VVI=vector<VI>;
 
+
 class Solution {
 public:
     int search(const vector<int>& A, int target) {
         int x0 = A[0], lft = 0, N = A.size(), rht = N;
-        while ( lft < N and A[lft++] == x0);
         while ( rht >= 1 and A[rht - 1] == x0) rht--;
+
+        // 一次搜索
+        while (lft < rht) {
+            auto mid = (lft + rht) / 2;
+            if (target < x0) {
+                if (A[mid] < target or A[mid] >= x0 ) lft = mid + 1;
+                else rht = mid;
+            }
+            else {
+                if (A[mid] < target and A[mid] >= x0 ) lft = mid + 1;
+                else rht = mid;
+            }
+        }
+        if (lft == N or A[lft] != target) return -1;
+        return lft;
     }
 };
 
@@ -70,6 +85,9 @@ public:
 int main(int argc, char const *argv[])
 {
     Solution sol;   
-    
+    cout << sol.search({1,1,1,2,1,1,1}, 1) << endl;
+    cout << sol.search({1,1,1,2,1,1,1}, 2) << endl;
+    cout << sol.search({15, 16, 19, 20, 25, 1, 3, 4, 5, 7, 10, 14}, 5) << endl;
+    cout << sol.search({15, 16, 19, 20, 25, 1, 3, 4, 5, 7, 10, 14}, 11) << endl;
     return 0;
 }

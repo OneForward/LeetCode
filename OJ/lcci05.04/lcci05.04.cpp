@@ -23,6 +23,7 @@ lcci05.04
 #include <random>
 #include <functional>
 #include <utility>
+#include <bitset>
 #include "../utils/LeetCpp.utils.hpp"
 
 using namespace std;
@@ -64,39 +65,41 @@ public:
         // 1011 -> 0111
         // 110011 -> 101110
         // 10 -> 01 and all tailing 1s to be next to 01...
-
+        
         // 01 -> 10 
         // 011 -> 101
         // 0110 -> 1001
         
         long long y = 1, rht, lft;
         // find '01'
-        while ( y <= INT_MAX and not ( (x & y) == 1 and (x & (y << 1)) == 0 )) y <<= 1;
+        while ( y <= INT_MAX and not ( (x & (y << 1)) == 0  and (x & y) ) ) 
+            y <<= 1;
         rht = x + (y << 1) - y;
-        long long z = 1;
-        y >>= 1;
-        while (y) {
-            if (x & y) rht += z, z <<= 1;
-            // cout << " y = " << y << endl;
+        if (y > 1) {
+            long long z = 1;
             y >>= 1;
+            while (y) {
+                if (x & y) rht += z - y, z <<= 1;
+                y >>= 1;
+            }
+            if (rht > INT_MAX) rht = -1;
         }
-        if (rht > INT_MAX) rht = -1;
 
         y = 0b10;
         // find '10'
-        while ( y <= INT_MAX and not ( (x & y) == 0 and (x & (y << 1)) == 1 )) y <<= 1;
-        if (y >= x) lft = -1;
+        while ( y <= x and not ( (x & y) and (x & (y >> 1)) == 0  ) ) y <<= 1;
+        if (y > x) lft = -1;
         else {
-            lft = x - (y << 1) + y;
+            lft = x - y + (y >> 1);
             long long z = 1;
-            y >>= 1;
-            while (true) {
-                if (x & z) rht += z, y >>= 1;
-                if (z >= x) break;
-                // cout << " z = " << z << endl;
+            y >>= 2;
+            int y0 = y ;
+            while (z <= y0) {
+                if (x & z) lft += y - z, y >>= 1;
                 z <<= 1;
             }
         }
+        // cout << bitset<16>(rht) << ", " << bitset<16>(lft) << endl;
         return {(int)rht, (int)lft};
     }
 };
@@ -108,6 +111,6 @@ int main(int argc, char const *argv[])
     cout << sol.findClosedNumbers(0b10) << endl;
     cout << sol.findClosedNumbers(0b1) << endl;
     cout << sol.findClosedNumbers(0b1010001100010000011) << endl;
-    cout << sol.findClosedNumbers(0b100001111) << endl;
+    cout << sol.findClosedNumbers(0b100011) << endl;
     return 0;
 }
