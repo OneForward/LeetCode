@@ -549,12 +549,14 @@
 |面试题 05.04|[下一个数](https://leetcode-cn.com/problems/closed-number-lcci)|[C++](OJ/lcci05.04/lcci05.04.cpp)|Medium|
 |面试题 08.02|[迷路的机器人](https://leetcode-cn.com/problems/robot-in-a-grid-lcci)|[Python](OJ/lcci08.02/lcci08.02.py), [Rust](OJ/lcci08.02/src/main.rs)|Medium|
 |面试题 08.04|[幂集](https://leetcode-cn.com/problems/power-set-lcci)|[Python](OJ/lcci08.04/lcci08.04.py), [Rust](OJ/lcci08.04/src/main.rs)|Medium|
+|面试题 08.05|[递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci)|[C++](OJ/lcci08.05/lcci08.05.cpp)|Medium|
 |面试题 08.07|[无重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-i-lcci)|[C++](OJ/lcci08.07/lcci08.07-非递归.cpp), [C++](OJ/lcci08.07/lcci08.07.cpp)|Medium|
 |面试题 08.08|[有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci)|[C++](OJ/lcci08.08/lcci08.08-哈希v1.cpp), [C++](OJ/lcci08.08/lcci08.08-哈希v2-非递归.cpp), [C++](OJ/lcci08.08/lcci08.08-回溯.cpp)|Medium|
 |面试题 08.09|[括号⭐](https://leetcode-cn.com/problems/bracket-lcci)|[Python](OJ/lcci08.09/lcci08.09.py), [Rust](OJ/lcci08.09/src/main.rs)|Medium|
 |面试题 08.11|[硬币⭐](https://leetcode-cn.com/problems/coin-lcci)|[Rust](OJ/lcci08.11/src/main.rs)|Medium|
 |面试题 08.14|[布尔运算⭐](https://leetcode-cn.com/problems/boolean-evaluation-lcci)|[C++](OJ/lcci08.14/lcci08.14.cpp)|Medium|
 |面试题 10.03|[搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci)|[C++](OJ/lcci10.03/lcci10.03.cpp)|Medium|
+|面试题 10.10|[数字流的秩⭐](https://leetcode-cn.com/problems/rank-from-stream-lcci)|[C++](OJ/lcci10.10/lcci10.10-BST.cpp), [C++](OJ/lcci10.10/lcci10.10-树状数组.cpp)|Medium|
 |面试题 16.02|[单词频率](https://leetcode-cn.com/problems/words-frequency-lcci)|[C++](OJ/lcci16.02/lcci16.02.cpp)|Medium|
 |面试题 16.06|[最小差](https://leetcode-cn.com/problems/smallest-difference-lcci)|[C++](OJ/lcci16.06/lcci16.06.cpp)|Medium|
 |面试题 16.13|[平分正方形](https://leetcode-cn.com/problems/bisect-squares-lcci)|[C++](OJ/lcci16.13/lcci16.13.cpp)|Medium|
