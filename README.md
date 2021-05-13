@@ -475,6 +475,7 @@
 |1227|[飞机座位分配概率](https://leetcode-cn.com/problems/airplane-seat-assignment-probability)|[Python](OJ/leet1227/leet1227.py)|Medium|
 |1238|[循环码排列](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation)|[C++](OJ/leet1238/leet1238.cpp)|Medium|
 |1262|[可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three)|[C++](OJ/leet1262/leet1262.cpp)|Medium|
+|1269|[停在原地的方案数](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps)|[C++](OJ/leet1269/leet1269.cpp), [Rust](OJ/leet1269/src/main.rs)|Hard|
 |1272|[删除区间](https://leetcode-cn.com/problems/remove-interval)|[Python](OJ/leet1272/leet1272.py)|Medium|
 |1277|[统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones)|[C++](OJ/leet1277/leet1277.cpp)|Medium|
 |1288|[删除被覆盖区间⭐](https://leetcode-cn.com/problems/remove-covered-intervals)|[C++](OJ/leet1288/leet1288.cpp)|Medium|
@@ -560,6 +561,7 @@
 |面试题 16.21|[交换和](https://leetcode-cn.com/problems/sum-swap-lcci)|[C++](OJ/lcci16.21/lcci16.21.cpp)|Medium|
 |面试题 16.24|[数对和](https://leetcode-cn.com/problems/pairs-with-sum-lcci)|[C++](OJ/lcci16.24/lcci16.24.cpp)|Medium|
 |面试题 16.25|[LRU 缓存](https://leetcode-cn.com/problems/lru-cache-lcci)|[C++](OJ/lcci16.25/lcci16.25.cpp)|Medium|
+|面试题 17.05|[ 字母与数字](https://leetcode-cn.com/problems/find-longest-subarray-lcci)|[C++](OJ/lcci17.05/lcci17.05.cpp), [Rust](OJ/lcci17.05/src/main.rs)|Medium|
 |面试题 17.09|[第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci)|[C++](OJ/lcci17.09/lcci17.09.cpp)|Medium|
 |面试题 17.15|[最长单词⭐](https://leetcode-cn.com/problems/longest-word-lcci)|[Rust](OJ/lcci17.15/src/main.rs)|Medium|
 |面试题 17.17|[多次搜索](https://leetcode-cn.com/problems/multi-search-lcci)|[C++](OJ/lcci17.17/lcci17.17.cpp), [Rust](OJ/lcci17.17/src/main.rs)|Medium|
