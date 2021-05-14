@@ -14,7 +14,7 @@
 |8|[字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi)|[C++](OJ/leet008/leet008.cpp), [Rust](OJ/leet008/src/main.rs)|Medium|
 |10|[正则表达式匹配⭐](https://leetcode-cn.com/problems/regular-expression-matching)|[C++](OJ/leet010/leet010.cpp), [C++](OJ/leet010/leet010v1.cpp), [C++](OJ/leet010/leet010v2.cpp)|Hard|
 |11|[盛最多水的容器⭐](https://leetcode-cn.com/problems/container-with-most-water)|[C++](OJ/leet011/leet011.cpp), [Rust](OJ/leet011/src/main.rs)|Medium|
-|12|[整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman)|[C++](OJ/leet012/leet012.cpp)|Medium|
+|12|[整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman)|[C++](OJ/leet012/leet012.cpp), [Rust](OJ/leet012/src/main.rs)|Medium|
 |13|[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer)|[C++](OJ/leet013/leet013.cpp), [Python](OJ/leet013/leet013.py), [Rust](OJ/leet013/src/main.rs)|Easy|
 |15|[三数之和](https://leetcode-cn.com/problems/3sum)|[Rust](OJ/leet015/src/main.rs)|Medium|
 |16|[最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest)|[Rust](OJ/leet016/src/main.rs)|Medium|
@@ -547,6 +547,7 @@
 |面试题 04.12|[求和路径⭐](https://leetcode-cn.com/problems/paths-with-sum-lcci)|[C++](OJ/lcci04.12/lcci04.12.cpp), [C++](OJ/lcci04.12/lcci04.12v1.cpp)|Medium|
 |面试题 05.02|[二进制数转字符串](https://leetcode-cn.com/problems/bianry-number-to-string-lcci)|[C++](OJ/lcci05.02/lcci05.02.cpp)|Medium|
 |面试题 05.04|[下一个数](https://leetcode-cn.com/problems/closed-number-lcci)|[C++](OJ/lcci05.04/lcci05.04.cpp)|Medium|
+|面试题 05.08|[绘制直线](https://leetcode-cn.com/problems/draw-line-lcci)|[C++](OJ/lcci05.08/lcci05.08.cpp)|Medium|
 |面试题 08.02|[迷路的机器人](https://leetcode-cn.com/problems/robot-in-a-grid-lcci)|[Python](OJ/lcci08.02/lcci08.02.py), [Rust](OJ/lcci08.02/src/main.rs)|Medium|
 |面试题 08.04|[幂集](https://leetcode-cn.com/problems/power-set-lcci)|[Python](OJ/lcci08.04/lcci08.04.py), [Rust](OJ/lcci08.04/src/main.rs)|Medium|
 |面试题 08.05|[递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci)|[C++](OJ/lcci08.05/lcci08.05.cpp)|Medium|
@@ -555,8 +556,11 @@
 |面试题 08.09|[括号⭐](https://leetcode-cn.com/problems/bracket-lcci)|[Python](OJ/lcci08.09/lcci08.09.py), [Rust](OJ/lcci08.09/src/main.rs)|Medium|
 |面试题 08.11|[硬币⭐](https://leetcode-cn.com/problems/coin-lcci)|[Rust](OJ/lcci08.11/src/main.rs)|Medium|
 |面试题 08.14|[布尔运算⭐](https://leetcode-cn.com/problems/boolean-evaluation-lcci)|[C++](OJ/lcci08.14/lcci08.14.cpp)|Medium|
+|面试题 10.02|[变位词组](https://leetcode-cn.com/problems/group-anagrams-lcci)|[Rust](OJ/lcci10.02/src/main.rs)|Medium|
 |面试题 10.03|[搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci)|[C++](OJ/lcci10.03/lcci10.03.cpp)|Medium|
+|面试题 10.09|[排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci)|[C++](OJ/lcci10.09/lcci10.09.cpp)|Medium|
 |面试题 10.10|[数字流的秩⭐](https://leetcode-cn.com/problems/rank-from-stream-lcci)|[C++](OJ/lcci10.10/lcci10.10-BST.cpp), [C++](OJ/lcci10.10/lcci10.10-树状数组.cpp)|Medium|
+|面试题 10.11|[峰与谷](https://leetcode-cn.com/problems/peaks-and-valleys-lcci)|[C++](OJ/lcci10.11/lcci10.11.cpp), [Rust](OJ/lcci10.11/src/main.rs)|Medium|
 |面试题 16.02|[单词频率](https://leetcode-cn.com/problems/words-frequency-lcci)|[C++](OJ/lcci16.02/lcci16.02.cpp)|Medium|
 |面试题 16.06|[最小差](https://leetcode-cn.com/problems/smallest-difference-lcci)|[C++](OJ/lcci16.06/lcci16.06.cpp)|Medium|
 |面试题 16.13|[平分正方形](https://leetcode-cn.com/problems/bisect-squares-lcci)|[C++](OJ/lcci16.13/lcci16.13.cpp)|Medium|
@@ -565,6 +569,8 @@
 |面试题 16.25|[LRU 缓存](https://leetcode-cn.com/problems/lru-cache-lcci)|[C++](OJ/lcci16.25/lcci16.25.cpp)|Medium|
 |面试题 17.05|[ 字母与数字](https://leetcode-cn.com/problems/find-longest-subarray-lcci)|[C++](OJ/lcci17.05/lcci17.05.cpp), [Rust](OJ/lcci17.05/src/main.rs)|Medium|
 |面试题 17.09|[第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci)|[C++](OJ/lcci17.09/lcci17.09.cpp)|Medium|
+|面试题 17.11|[单词距离](https://leetcode-cn.com/problems/find-closest-lcci)|[Rust](OJ/lcci17.11/src/main.rs)|Medium|
+|面试题 17.13|[恢复空格](https://leetcode-cn.com/problems/re-space-lcci)|[C++](OJ/lcci17.13/lcci17.13.cpp), [Rust](OJ/lcci17.13/src/main.rs)|Medium|
 |面试题 17.15|[最长单词⭐](https://leetcode-cn.com/problems/longest-word-lcci)|[Rust](OJ/lcci17.15/src/main.rs)|Medium|
 |面试题 17.17|[多次搜索](https://leetcode-cn.com/problems/multi-search-lcci)|[C++](OJ/lcci17.17/lcci17.17.cpp), [Rust](OJ/lcci17.17/src/main.rs)|Medium|
 |面试题 17.18|[最短超串](https://leetcode-cn.com/problems/shortest-supersequence-lcci)|[Python](OJ/lcci17.18/lcci17.18.py)|Medium|
