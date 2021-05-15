@@ -15,7 +15,7 @@
 |10|[正则表达式匹配⭐](https://leetcode-cn.com/problems/regular-expression-matching)|[C++](OJ/leet010/leet010.cpp), [C++](OJ/leet010/leet010v1.cpp), [C++](OJ/leet010/leet010v2.cpp)|Hard|
 |11|[盛最多水的容器⭐](https://leetcode-cn.com/problems/container-with-most-water)|[C++](OJ/leet011/leet011.cpp), [Rust](OJ/leet011/src/main.rs)|Medium|
 |12|[整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman)|[C++](OJ/leet012/leet012.cpp), [Rust](OJ/leet012/src/main.rs)|Medium|
-|13|[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer)|[C++](OJ/leet013/leet013.cpp), [Python](OJ/leet013/leet013.py), [Rust](OJ/leet013/src/main.rs)|Easy|
+|13|[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer)|[Python](OJ/leet013/leet013.py), [Rust](OJ/leet013/src/main.rs)|Easy|
 |15|[三数之和](https://leetcode-cn.com/problems/3sum)|[Rust](OJ/leet015/src/main.rs)|Medium|
 |16|[最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest)|[Rust](OJ/leet016/src/main.rs)|Medium|
 |18|[四数之和](https://leetcode-cn.com/problems/4sum)|[Rust](OJ/leet018/src/main.rs)|Medium|
@@ -564,10 +564,15 @@
 |面试题 16.02|[单词频率](https://leetcode-cn.com/problems/words-frequency-lcci)|[C++](OJ/lcci16.02/lcci16.02.cpp)|Medium|
 |面试题 16.06|[最小差](https://leetcode-cn.com/problems/smallest-difference-lcci)|[C++](OJ/lcci16.06/lcci16.06.cpp)|Medium|
 |面试题 16.13|[平分正方形](https://leetcode-cn.com/problems/bisect-squares-lcci)|[C++](OJ/lcci16.13/lcci16.13.cpp)|Medium|
+|面试题 16.16|[部分排序](https://leetcode-cn.com/problems/sub-sort-lcci)|[C++](OJ/lcci16.16/lcci16.16.cpp)|Medium|
+|面试题 16.20|[T9键盘](https://leetcode-cn.com/problems/t9-lcci)|[Rust](OJ/lcci16.20/src/main.rs)|Medium|
 |面试题 16.21|[交换和](https://leetcode-cn.com/problems/sum-swap-lcci)|[C++](OJ/lcci16.21/lcci16.21.cpp)|Medium|
 |面试题 16.24|[数对和](https://leetcode-cn.com/problems/pairs-with-sum-lcci)|[C++](OJ/lcci16.24/lcci16.24.cpp)|Medium|
 |面试题 16.25|[LRU 缓存](https://leetcode-cn.com/problems/lru-cache-lcci)|[C++](OJ/lcci16.25/lcci16.25.cpp)|Medium|
+|面试题 16.26|[计算器](https://leetcode-cn.com/problems/calculator-lcci)|[C++](OJ/lcci16.26/lcci16.26.cpp)|Medium|
 |面试题 17.05|[ 字母与数字](https://leetcode-cn.com/problems/find-longest-subarray-lcci)|[C++](OJ/lcci17.05/lcci17.05.cpp), [Rust](OJ/lcci17.05/src/main.rs)|Medium|
+|面试题 17.07|[婴儿名字](https://leetcode-cn.com/problems/baby-names-lcci)|[Python](OJ/lcci17.07/lcci17.07.py)|Medium|
+|面试题 17.08|[马戏团人塔⭐](https://leetcode-cn.com/problems/circus-tower-lcci)|[C++](OJ/lcci17.08/lcci17.08.cpp), [Rust](OJ/lcci17.08/src/main.rs)|Medium|
 |面试题 17.09|[第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci)|[C++](OJ/lcci17.09/lcci17.09.cpp)|Medium|
 |面试题 17.11|[单词距离](https://leetcode-cn.com/problems/find-closest-lcci)|[Rust](OJ/lcci17.11/src/main.rs)|Medium|
 |面试题 17.13|[恢复空格](https://leetcode-cn.com/problems/re-space-lcci)|[C++](OJ/lcci17.13/lcci17.13.cpp), [Rust](OJ/lcci17.13/src/main.rs)|Medium|

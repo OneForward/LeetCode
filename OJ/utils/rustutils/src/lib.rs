@@ -38,7 +38,7 @@ where T: Ord
     let (mut lft, mut rht) = (0, v.len());
     while lft < rht {
         let mid = (lft + rht) / 2;
-        if v[mid] > *x { rht = mid; }
+        if v[mid] >= *x { rht = mid; }
         else { lft = mid + 1; }
     }
     lft
