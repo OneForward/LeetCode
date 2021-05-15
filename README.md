@@ -555,6 +555,7 @@
 |面试题 08.08|[有重复字符串的排列组合](https://leetcode-cn.com/problems/permutation-ii-lcci)|[C++](OJ/lcci08.08/lcci08.08-哈希v1.cpp), [C++](OJ/lcci08.08/lcci08.08-哈希v2-非递归.cpp), [C++](OJ/lcci08.08/lcci08.08-回溯.cpp)|Medium|
 |面试题 08.09|[括号⭐](https://leetcode-cn.com/problems/bracket-lcci)|[Python](OJ/lcci08.09/lcci08.09.py), [Rust](OJ/lcci08.09/src/main.rs)|Medium|
 |面试题 08.11|[硬币⭐](https://leetcode-cn.com/problems/coin-lcci)|[Rust](OJ/lcci08.11/src/main.rs)|Medium|
+|面试题 08.12|[八皇后](https://leetcode-cn.com/problems/eight-queens-lcci)|[Python](OJ/lcci08.12/lcci08.12.py)|Hard|
 |面试题 08.14|[布尔运算⭐](https://leetcode-cn.com/problems/boolean-evaluation-lcci)|[C++](OJ/lcci08.14/lcci08.14.cpp)|Medium|
 |面试题 10.02|[变位词组](https://leetcode-cn.com/problems/group-anagrams-lcci)|[Rust](OJ/lcci10.02/src/main.rs)|Medium|
 |面试题 10.03|[搜索旋转数组](https://leetcode-cn.com/problems/search-rotate-array-lcci)|[C++](OJ/lcci10.03/lcci10.03.cpp)|Medium|
@@ -582,6 +583,7 @@
 |面试题 17.19|[消失的两个数字⭐](https://leetcode-cn.com/problems/missing-two-lcci)|[C++](OJ/lcci17.19/lcci17.19-位运算.cpp), [C++](OJ/lcci17.19/lcci17.19-原地哈希.cpp)|Hard|
 |面试题 17.22|[单词转换](https://leetcode-cn.com/problems/word-transformer-lcci)|[Python](OJ/lcci17.22/lcci17.22.py)|Medium|
 |面试题 17.23|[最大黑方阵⭐](https://leetcode-cn.com/problems/max-black-square-lcci)|[C++](OJ/lcci17.23/lcci17.23.cpp), [Rust](OJ/lcci17.23/src/main.rs)|Medium|
+|面试题 17.24|[最大子矩阵](https://leetcode-cn.com/problems/max-submatrix-lcci)|[C++](OJ/lcci17.24/lcci17.24.cpp)|Hard|
 
 ## LCP
 
