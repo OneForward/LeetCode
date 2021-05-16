@@ -51,12 +51,14 @@ class Leetcode:
         return question_content
 
     def get_problems_translation(self):
-        data = '{\"operationName\":\"getQuestionTranslation\",\"variables\":{},\"query\":\"query getQuestionTranslation($lang: String) {\\n  translations: allAppliedQuestionTranslations(lang: $lang) {\\n    title\\n    questionId\\n    __typename\\n  }\\n}\\n\"}'
-        translations = requests.get(Leetcode.LEETCODE_GRAPHQL, headers=self.headers, data=data).json()['data']['translations']
-        return { entry['questionId']: entry['title'] for entry in translations}
+        with requests_cache.disabled():
+            data = '{\"operationName\":\"getQuestionTranslation\",\"variables\":{},\"query\":\"query getQuestionTranslation($lang: String) {\\n  translations: allAppliedQuestionTranslations(lang: $lang) {\\n    title\\n    questionId\\n    __typename\\n  }\\n}\\n\"}'
+            translations = requests.get(Leetcode.LEETCODE_GRAPHQL, headers=self.headers, data=data).json()['data']['translations']
+            return { entry['questionId']: entry['title'] for entry in translations}
         
     def get_problems(self):
-        return   requests.get(Leetcode.LEETCODE_LIST_URL, headers=self.headers).json()['stat_status_pairs']
+        with requests_cache.disabled():
+            return  requests.get(Leetcode.LEETCODE_LIST_URL, headers=self.headers).json()['stat_status_pairs']
         
     def get_likes(self):
         with requests_cache.disabled():

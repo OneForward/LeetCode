@@ -85,7 +85,7 @@
 |91|[解码方法](https://leetcode-cn.com/problems/decode-ways)|[C++](OJ/leet091/leet091.cpp)|Medium|
 |92|[反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii)|[C++](OJ/leet092/leet092.cpp), [C++](OJ/leet092/leet092v1.cpp)|Medium|
 |93|[复原 IP 地址](https://leetcode-cn.com/problems/restore-ip-addresses)|[C++](OJ/leet093/leet093.cpp), [Python](OJ/leet093/leet093.py)|Medium|
-|94|[二叉树的中序遍历⭐](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)|[C++](OJ/leet094/leet094.cpp)|Medium|
+|94|[二叉树的中序遍历⭐](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)|[C++](OJ/leet094/leet094.cpp)|Easy|
 |95|[不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)|[C++](OJ/leet095/leet095.cpp)|Medium|
 |96|[不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees)|[C++](OJ/leet096/leet096.cpp)|Medium|
 |97|[交错字符串⭐](https://leetcode-cn.com/problems/interleaving-string)|[C++](OJ/leet097/leet097.cpp), [Python](OJ/leet097/leet097.py)|Medium|
@@ -134,7 +134,7 @@
 |142|[环形链表 II⭐](https://leetcode-cn.com/problems/linked-list-cycle-ii)|[C++](OJ/leet142/leet142.cpp), [C++](OJ/leet142/leet142v1.cpp), [C++](OJ/leet142/leet142v2.cpp)|Medium|
 |143|[重排链表](https://leetcode-cn.com/problems/reorder-list)|[C++](OJ/leet143/leet143.cpp)|Medium|
 |144|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)|[C++](OJ/leet144/leet144.cpp)|Medium|
-|145|[二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)|[C++](OJ/leet145/leet145.cpp)|Medium|
+|145|[二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)|[C++](OJ/leet145/leet145.cpp)|Easy|
 |146|[LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache)|[C++](OJ/leet146/leet146.cpp), [Python](OJ/leet146/leet146.py)|Medium|
 |147|[对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list)|[C++](OJ/leet147/leet147.cpp)|Medium|
 |148|[排序链表⭐](https://leetcode-cn.com/problems/sort-list)|[C++](OJ/leet148/leet148.cpp)|Medium|
@@ -255,7 +255,7 @@
 |376|[摆动序列⭐](https://leetcode-cn.com/problems/wiggle-subsequence)|[Python](OJ/leet376/leet376.py)|Medium|
 |377|[组合总和 Ⅳ⭐](https://leetcode-cn.com/problems/combination-sum-iv)|[C++](OJ/leet377/leet377.cpp), [Python](OJ/leet377/leet377.py)|Medium|
 |378|[有序矩阵中第 K 小的元素⭐](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix)|[C++](OJ/leet378/leet378.cpp), [C++](OJ/leet378/leet378v1.cpp)|Medium|
-|380|[常数时间插入、删除和获取随机元素⭐](https://leetcode-cn.com/problems/insert-delete-getrandom-o1)|[C++](OJ/leet380/leet380.cpp)|Medium|
+|380|[O(1) 时间插入、删除和获取随机元素⭐](https://leetcode-cn.com/problems/insert-delete-getrandom-o1)|[C++](OJ/leet380/leet380.cpp)|Medium|
 |381|[O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed)|[C++](OJ/leet381/leet381.cpp)|Hard|
 |382|[链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node)|[C++](OJ/leet382/leet382.cpp)|Medium|
 |384|[打乱数组⭐](https://leetcode-cn.com/problems/shuffle-an-array)|[C++](OJ/leet384/leet384.cpp)|Medium|
@@ -374,7 +374,7 @@
 |724|[寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index)|[Python](OJ/leet724/leet724.py)|Easy|
 |730|[统计不同回文子序列](https://leetcode-cn.com/problems/count-different-palindromic-subsequences)|[C++](OJ/leet730/leet730.cpp), [Go](OJ/leet730/leet730.go)|Hard|
 |739|[每日温度](https://leetcode-cn.com/problems/daily-temperatures)|[C++](OJ/leet739/leet739.cpp)|Medium|
-|740|[删除与获得点数](https://leetcode-cn.com/problems/delete-and-earn)|[Python](OJ/leet740/leet740.py), [Rust](OJ/leet740/src/main.rs)|Medium|
+|740|[删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn)|[Python](OJ/leet740/leet740.py), [Rust](OJ/leet740/src/main.rs)|Medium|
 |741|[摘樱桃](https://leetcode-cn.com/problems/cherry-pickup)|[Python](OJ/leet741/leet741.py)|Hard|
 |746|[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs)|[C++](OJ/leet746/leet746.cpp), [Python](OJ/leet746/leet746.py)|Easy|
 |753|[破解保险箱](https://leetcode-cn.com/problems/cracking-the-safe)|[Python](OJ/leet753/leet753.py)|Hard|
@@ -526,6 +526,10 @@
 |1824|[最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps)|[C++](OJ/leet1824/leet1824.cpp)|Medium|
 |1825|[求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average)|[C++](OJ/leet1825/leet1825.cpp)|Hard|
 |1833|[雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[C++](OJ/leet1833/leet1833.cpp)|Medium|
+|5212|[向下取整数对和⭐](https://leetcode-cn.com/problems/sum-of-floored-pairs)|[Rust](OJ/leet5212/src/main.rs)|Hard|
+|5742|[将句子排序](https://leetcode-cn.com/problems/sorting-the-sentence)|[Python](OJ/leet5742/leet5742.py)|Easy|
+|5743|[增长的内存泄露](https://leetcode-cn.com/problems/incremental-memory-leak)|[Python](OJ/leet5743/leet5743.py)|Medium|
+|5744|[旋转盒子](https://leetcode-cn.com/problems/rotating-the-box)|[Python](OJ/leet5744/leet5744.py)|Medium|
 
 ## LCCI
 
