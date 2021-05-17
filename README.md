@@ -278,7 +278,7 @@
 |414|[第三大的数](https://leetcode-cn.com/problems/third-maximum-number)|[C++](OJ/leet414/leet414.cpp)|Easy|
 |416|[分割等和子集⭐](https://leetcode-cn.com/problems/partition-equal-subset-sum)|[C++](OJ/leet416/leet416.cpp)|Medium|
 |418|[屏幕可显示句子的数量](https://leetcode-cn.com/problems/sentence-screen-fitting)|[C++](OJ/leet418/leet418.cpp)|Medium|
-|421|[数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array)|[C++](OJ/leet421/leet421.cpp), [C++](OJ/leet421/leet421_字典树.cpp), [Python](OJ/leet421/leet421.py)|Medium|
+|421|[数组中两个数的最大异或值⭐](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array)|[C++](OJ/leet421/leet421.cpp), [C++](OJ/leet421/leet421_字典树.cpp), [Python](OJ/leet421/leet421.py), [Rust](OJ/leet421/src/main.rs)|Medium|
 |424|[替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement)|[C++](OJ/leet424/leet424.cpp), [C++](OJ/leet424/leet424_超时.cpp)|Medium|
 |429|[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal)|[C++](OJ/leet429/leet429.cpp)|Medium|
 |432|[全 O(1) 的数据结构⭐](https://leetcode-cn.com/problems/all-oone-data-structure)|[C++](OJ/leet432/leet432.cpp)|Hard|
@@ -434,6 +434,7 @@
 |987|[二叉树的垂序遍历](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree)|[C++](OJ/leet987/leet987.cpp)|Hard|
 |989|[数组形式的整数加法](https://leetcode-cn.com/problems/add-to-array-form-of-integer)|[Rust](OJ/leet989/src/main.rs)|Easy|
 |992|[K 个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers)|[C++](OJ/leet992/leet992.cpp), [C++](OJ/leet992/leet992v2.cpp), [Python](OJ/leet992/leet992.py)|Hard|
+|993|[二叉树的堂兄弟节点](https://leetcode-cn.com/problems/cousins-in-binary-tree)|[C++](OJ/leet993/leet993.cpp)|Easy|
 |994|[腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges)|[Python](OJ/leet994/leet994.py)|Medium|
 |995|[K 连续位的最小翻转次数](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips)|[C++](OJ/leet995/leet995.cpp), [Python](OJ/leet995/leet995.py)|Hard|
 |999|[可以被一步捕获的棋子数](https://leetcode-cn.com/problems/available-captures-for-rook)|[Rust](OJ/leet999/src/main.rs)|Easy|
@@ -526,10 +527,6 @@
 |1824|[最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps)|[C++](OJ/leet1824/leet1824.cpp)|Medium|
 |1825|[求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average)|[C++](OJ/leet1825/leet1825.cpp)|Hard|
 |1833|[雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[C++](OJ/leet1833/leet1833.cpp)|Medium|
-|5212|[向下取整数对和⭐](https://leetcode-cn.com/problems/sum-of-floored-pairs)|[Rust](OJ/leet5212/src/main.rs)|Hard|
-|5742|[将句子排序](https://leetcode-cn.com/problems/sorting-the-sentence)|[Python](OJ/leet5742/leet5742.py)|Easy|
-|5743|[增长的内存泄露](https://leetcode-cn.com/problems/incremental-memory-leak)|[Python](OJ/leet5743/leet5743.py)|Medium|
-|5744|[旋转盒子](https://leetcode-cn.com/problems/rotating-the-box)|[Python](OJ/leet5744/leet5744.py)|Medium|
 
 ## LCCI
 
