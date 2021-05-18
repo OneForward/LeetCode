@@ -286,6 +286,7 @@
 |438|[找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)|[C++](OJ/leet438/leet438.cpp)|Medium|
 |441|[排列硬币](https://leetcode-cn.com/problems/arranging-coins)|[C++](OJ/leet441/leet441.cpp)|Easy|
 |442|[数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array)|[Python](OJ/leet442/leet442.py)|Medium|
+|445|[两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii)|[C++](OJ/leet445/leet445-栈.cpp), [C++](OJ/leet445/leet445-翻转.cpp)|Medium|
 |446|[等差数列划分 II - 子序列](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence)|[C++](OJ/leet446/leet446.cpp)|Hard|
 |448|[找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[C++](OJ/leet448/leet448.cpp)|Easy|
 |454|[四数相加 II](https://leetcode-cn.com/problems/4sum-ii)|[Python](OJ/leet454/leet454.py)|Medium|
@@ -398,6 +399,7 @@
 |843|[猜猜这个单词](https://leetcode-cn.com/problems/guess-the-word)|[Python](OJ/leet843/leet843.py)|Hard|
 |850|[矩形面积 II](https://leetcode-cn.com/problems/rectangle-area-ii)|[C++](OJ/leet850/leet850.cpp), [C++](OJ/leet850/leet850_线段树.cpp), [C++](OJ/leet850/main.cpp), [Python](OJ/leet850/leet850.py), [Rust](OJ/leet850/src/main.rs)|Hard|
 |855|[考场就座](https://leetcode-cn.com/problems/exam-room)|[Rust](OJ/leet855/src/main.rs)|Medium|
+|862|[和至少为 K 的最短子数组⭐](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k)|[C++](OJ/leet862/leet862.cpp), [Rust](OJ/leet862/src/main.rs)|Hard|
 |866|[回文素数](https://leetcode-cn.com/problems/prime-palindrome)|[C++](OJ/leet866/leet866.cpp), [C++](OJ/leet866/leet866v1.cpp), [C++](OJ/leet866/leet866v2.cpp)|Medium|
 |867|[转置矩阵](https://leetcode-cn.com/problems/transpose-matrix)|[C++](OJ/leet867/leet867.cpp)|Easy|
 |872|[叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees)|[C++](OJ/leet872/leet872.cpp)|Easy|
@@ -489,6 +491,7 @@
 |1409|[查询带键的排列](https://leetcode-cn.com/problems/queries-on-a-permutation-with-key)|[C++](OJ/leet1409/leet1409-树状数组.cpp), [C++](OJ/leet1409/leet1409.cpp)|Medium|
 |1423|[可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards)|[Python](OJ/leet1423/leet1423.py)|Medium|
 |1438|[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)|[C++](OJ/leet1438/leet1438.cpp)|Medium|
+|1442|[形成两个异或相等数组的三元组数目⭐](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)|[C++](OJ/leet1442/leet1442.cpp)|Medium|
 |1456|[定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|[C++](OJ/leet1456/leet1456.cpp)|Medium|
 |1473|[粉刷房子 III](https://leetcode-cn.com/problems/paint-house-iii)|[Python](OJ/leet1473/leet1473.py), [Rust](OJ/leet1473/src/main.rs)|Hard|
 |1482|[制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets)|[C++](OJ/leet1482/leet1482.cpp), [Rust](OJ/leet1482/src/main.rs)|Medium|
