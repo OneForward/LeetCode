@@ -361,6 +361,7 @@
 |687|[最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path)|[C++](OJ/leet687/leet687.cpp)|Medium|
 |688|[“马”在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard)|[C++](OJ/leet688/leet688.cpp)|Medium|
 |690|[员工的重要性](https://leetcode-cn.com/problems/employee-importance)|[C++](OJ/leet690/leet690.cpp)|Easy|
+|692|[前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words)|[C++](OJ/leet692/leet692.cpp), [Rust](OJ/leet692/src/main.rs)|Medium|
 |697|[数组的度](https://leetcode-cn.com/problems/degree-of-an-array)|[C++](OJ/leet697/leet697.cpp)|Easy|
 |698|[划分为k个相等的子集⭐](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets)|[C++](OJ/leet698/leet698.cpp), [C++](OJ/leet698/leet698v1.cpp), [C++](OJ/leet698/leet698v2.cpp), [Python](OJ/leet698/leet698.py)|Medium|
 |699|[掉落的方块](https://leetcode-cn.com/problems/falling-squares)|[C++](OJ/leet699/leet699.cpp)|Hard|
