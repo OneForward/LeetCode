@@ -451,6 +451,7 @@
 |1027|[最长等差数列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence)|[C++](OJ/leet1027/leet1027-哈希.cpp), [C++](OJ/leet1027/leet1027.cpp)|Medium|
 |1028|[从先序遍历还原二叉树](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal)|[C++](OJ/leet1028/leet1028.cpp)|Hard|
 |1033|[移动石子直到连续](https://leetcode-cn.com/problems/moving-stones-until-consecutive)|[C++](OJ/leet1033/leet1033.cpp)|Easy|
+|1035|[不相交的线](https://leetcode-cn.com/problems/uncrossed-lines)|[Rust](OJ/leet1035/src/main.rs)|Medium|
 |1040|[移动石子直到连续 II⭐](https://leetcode-cn.com/problems/moving-stones-until-consecutive-ii)|[Python](OJ/leet1040/leet1040.py)|Medium|
 |1043|[分隔数组以得到最大和](https://leetcode-cn.com/problems/partition-array-for-maximum-sum)|[C++](OJ/leet1043/leet1043.cpp)|Medium|
 |1044|[最长重复子串](https://leetcode-cn.com/problems/longest-duplicate-substring)|[C++](OJ/leet1044/leet1044.cpp)|Hard|
@@ -462,6 +463,7 @@
 |1053|[交换一次的先前排列](https://leetcode-cn.com/problems/previous-permutation-with-one-swap)|[C++](OJ/leet1053/leet1053-N&#32;log&#32;N.cpp), [C++](OJ/leet1053/leet1053-一次交换.cpp), [C++](OJ/leet1053/leet1053-不止一次交换.cpp)|Medium|
 |1074|[元素和为目标值的子矩阵数量](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target)|[C++](OJ/leet1074/leet1074.cpp), [Python](OJ/leet1074/leet1074.py)|Hard|
 |1092|[最短公共超序列⭐](https://leetcode-cn.com/problems/shortest-common-supersequence)|[C++](OJ/leet1092/leet1092.cpp)|Hard|
+|1095|[山脉数组中查找目标值](https://leetcode-cn.com/problems/find-in-mountain-array)|[C++](OJ/leet1095/leet1095.cpp)|Hard|
 |1114|[按序打印⭐](https://leetcode-cn.com/problems/print-in-order)|[C++](OJ/leet1114/leet1114.cpp), [C++](OJ/leet1114/leet1114_Atomic.cpp), [C++](OJ/leet1114/leet1114_Condition.cpp), [Python](OJ/leet1114/leet1114_Barrier.py), [Python](OJ/leet1114/leet1114_Condition.py), [Python](OJ/leet1114/leet1114_Event.py)|Easy|
 |1115|[交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately)|[C++](OJ/leet1115/leet1115.cpp), [C++](OJ/leet1115/leet1115v1.cpp)|Medium|
 |1116|[打印零与奇偶数](https://leetcode-cn.com/problems/print-zero-even-odd)|[C++](OJ/leet1116/leet1116.cpp)|Medium|
