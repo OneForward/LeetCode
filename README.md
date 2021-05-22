@@ -36,7 +36,7 @@
 |35|[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position)|[C++](OJ/leet035/leet035.cpp)|Easy|
 |36|[有效的数独](https://leetcode-cn.com/problems/valid-sudoku)|[C++](OJ/leet036/leet036.cpp), [Python](OJ/leet036/leet036.py)|Medium|
 |37|[解数独](https://leetcode-cn.com/problems/sudoku-solver)|[C++](OJ/leet037/leet037.cpp)|Hard|
-|38|[外观数列](https://leetcode-cn.com/problems/count-and-say)|[C++](OJ/leet038/leet038.cpp)|Easy|
+|38|[外观数列](https://leetcode-cn.com/problems/count-and-say)|[C++](OJ/leet038/leet038.cpp)|Medium|
 |39|[组合总和](https://leetcode-cn.com/problems/combination-sum)|[C++](OJ/leet039/leet039.cpp), [C++](OJ/leet039/leet039_v2.cpp)|Medium|
 |40|[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii)|[C++](OJ/leet040/leet040.cpp)|Medium|
 |41|[缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive)|[C++](OJ/leet041/leet041.cpp), [C++](OJ/leet041/leet041v1.cpp)|Hard|
@@ -133,7 +133,7 @@
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle)|[C++](OJ/leet141/leet141.cpp)|Easy|
 |142|[环形链表 II⭐](https://leetcode-cn.com/problems/linked-list-cycle-ii)|[C++](OJ/leet142/leet142.cpp), [C++](OJ/leet142/leet142v1.cpp), [C++](OJ/leet142/leet142v2.cpp)|Medium|
 |143|[重排链表](https://leetcode-cn.com/problems/reorder-list)|[C++](OJ/leet143/leet143.cpp)|Medium|
-|144|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)|[C++](OJ/leet144/leet144.cpp)|Medium|
+|144|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)|[C++](OJ/leet144/leet144.cpp)|Easy|
 |145|[二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)|[C++](OJ/leet145/leet145.cpp)|Easy|
 |146|[LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache)|[C++](OJ/leet146/leet146.cpp), [Python](OJ/leet146/leet146.py)|Medium|
 |147|[对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list)|[C++](OJ/leet147/leet147.cpp)|Medium|
@@ -393,6 +393,7 @@
 |787|[K 站中转内最便宜的航班⭐](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops)|[C++](OJ/leet787/leet787-Bellman-Ford.cpp), [C++](OJ/leet787/leet787-Dijkstra.cpp), [Rust](OJ/leet787/src/main.rs)|Medium|
 |793|[阶乘函数后 K 个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function)|[Python](OJ/leet793/leet793.py)|Hard|
 |805|[数组的均值分割](https://leetcode-cn.com/problems/split-array-with-same-average)|[C++](OJ/leet805/leet805.cpp), [C++](OJ/leet805/leet805v2.cpp)|Hard|
+|810|[黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game)|[Rust](OJ/leet810/src/main.rs)|Hard|
 |813|[最大平均值和的分组](https://leetcode-cn.com/problems/largest-sum-of-averages)|[C++](OJ/leet813/leet813.cpp)|Medium|
 |832|[翻转图像](https://leetcode-cn.com/problems/flipping-an-image)|[C++](OJ/leet832/leet832.cpp)|Easy|
 |837|[新21点](https://leetcode-cn.com/problems/new-21-game)|[C++](OJ/leet837/leet837.cpp)|Medium|
@@ -497,6 +498,7 @@
 |1414|[和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k)|[Python](OJ/leet1414/leet1414.py)|Medium|
 |1423|[可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards)|[Python](OJ/leet1423/leet1423.py)|Medium|
 |1438|[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)|[C++](OJ/leet1438/leet1438.cpp)|Medium|
+|1439|[有序矩阵中的第 k 个最小数组和⭐](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows)|[C++](OJ/leet1439/leet1439-二分.cpp), [C++](OJ/leet1439/leet1439-堆.cpp), [C++](OJ/leet1439/leet1439-暴力.cpp)|Hard|
 |1442|[形成两个异或相等数组的三元组数目⭐](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)|[C++](OJ/leet1442/leet1442.cpp)|Medium|
 |1456|[定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|[C++](OJ/leet1456/leet1456.cpp)|Medium|
 |1473|[粉刷房子 III](https://leetcode-cn.com/problems/paint-house-iii)|[Python](OJ/leet1473/leet1473.py), [Rust](OJ/leet1473/src/main.rs)|Hard|
