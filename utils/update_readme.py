@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import path, sys, requests_cache
 from crawler import Leetcode
 
@@ -7,7 +8,7 @@ likes = lc.get_likes()
 ZN =  lc.get_problems_translation()
 
 
-sys.stdout = open(f"../README.md", "w")
+sys.stdout = open(f"../README.md", "w", encoding='utf-8')
 
 
 leetProb = 'https://leetcode-cn.com/problems/'
@@ -115,7 +116,7 @@ sjtu = 'sjtu'
 for fdir in fdirs:
     sols = fetch_sols(fdir)
     f = fdir.glob('**.cpp') [0]
-    cont = re.findall(r"/\*\s*(.*?)\s*\*/", f.text(), re.S)
+    cont = re.findall(r"/\*\s*(.*?)\s*\*/", f.text(encoding='utf-8'), re.S)
     if cont: cont = cont[0]
     else: cont = ''
     if '1593' in f:
