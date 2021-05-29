@@ -490,8 +490,10 @@
 |1277|[统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones)|[C++](OJ/leet1277/leet1277.cpp)|Medium|
 |1288|[删除被覆盖区间⭐](https://leetcode-cn.com/problems/remove-covered-intervals)|[C++](OJ/leet1288/leet1288.cpp)|Medium|
 |1289|[下降路径最小和  II⭐](https://leetcode-cn.com/problems/minimum-falling-path-sum-ii)|[C++](OJ/leet1289/leet1289.cpp), [Python](OJ/leet1289/leet1289.py)|Hard|
+|1306|[跳跃游戏 III](https://leetcode-cn.com/problems/jump-game-iii)|[C++](OJ/leet1306/leet1306.cpp)|Medium|
 |1310|[子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray)|[Rust](OJ/leet1310/src/main.rs)|Medium|
 |1319|[连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected)|[C++](OJ/leet1319/leet1319.cpp), [Python](OJ/leet1319/leet1319.py)|Medium|
+|1345|[跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv)|[C++](OJ/leet1345/leet1345.cpp), [Rust](OJ/leet1345/src/main.rs)|Hard|
 |1353|[最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended)|[C++](OJ/leet1353/leet1353.cpp)|Medium|
 |1363|[形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three)|[C++](OJ/leet1363/leet1363.cpp)|Hard|
 |1405|[最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string)|[C++](OJ/leet1405/leet1405.cpp)|Medium|
@@ -522,6 +524,7 @@
 |1658|[将 x 减到 0 的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-reduce-x-to-zero)|[Python](OJ/leet1658/leet1658.py)|Medium|
 |1686|[石子游戏 VI⭐](https://leetcode-cn.com/problems/stone-game-vi)|[Python](OJ/leet1686/leet1686.py)|Medium|
 |1690|[石子游戏 VII](https://leetcode-cn.com/problems/stone-game-vii)|[C++](OJ/leet1690/leet1690.cpp)|Medium|
+|1696|[跳跃游戏 VI](https://leetcode-cn.com/problems/jump-game-vi)|[C++](OJ/leet1696/leet1696-树.cpp), [C++](OJ/leet1696/leet1696.cpp)|Medium|
 |1703|[得到连续 K 个 1 的最少相邻交换次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones)|[C++](OJ/leet1703/leet1703.cpp)|Hard|
 |1707|[与数组中元素的最大异或值⭐](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array)|[C++](OJ/leet1707/leet1707-离线.cpp), [C++](OJ/leet1707/leet1707.cpp), [Rust](OJ/leet1707/src/main.rs)|Hard|
 |1720|[解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array)|[Rust](OJ/leet1720/src/main.rs)|Easy|
@@ -543,6 +546,7 @@
 |1824|[最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps)|[C++](OJ/leet1824/leet1824.cpp)|Medium|
 |1825|[求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average)|[C++](OJ/leet1825/leet1825.cpp)|Hard|
 |1833|[雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[C++](OJ/leet1833/leet1833.cpp)|Medium|
+|1871|[跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii)|[C++](OJ/leet1871/leet1871.cpp)|Medium|
 
 ## LCCI
 
