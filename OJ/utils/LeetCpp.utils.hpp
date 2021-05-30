@@ -4,12 +4,14 @@
 #include <queue>
 #include <stack>
 #include <string>
+#include <cstring>
 #include <set>
 #include <map>
 #include <unordered_set>
 #include <unordered_map>
 #include <algorithm>
 #include <numeric>
+#include <climits>
 #include <cassert>
 #include <random>
 #include <functional>
@@ -29,14 +31,19 @@ using namespace std;
 // #define PB(X) push_back(X)
 // #define FOR(i,a,b) for(int i=(a);i<(b);++i)
 // #define REP(i,a) for(int i=0;i<(a);++i)
-// #define ALL(A) A.begin(),A.end()
+
 // template<class T> int CMP(T a[],const T b[],int n) { return memcmp(a,b,n*sizeof(T)); }
 // template<class T> void COPY(T a[],const T b[],int n) { memcpy(a,b,n*sizeof(T)); }
 // template<class T> void SET(T a[],int val,int n) { memset(a,val,n*sizeof(T)); }
+
 // using uint=unsigned int;
 // using int64=long long;
 // using uint64=unsigned long long;
 // using ipair=pair<int,int>;
+// using VD=vector<double>;
+// using VS=vector<string>;
+// using VP=vector<ipair>;
+// using VVP=vector<VP>;
 // using VI=vector<int>;
 // using VD=vector<double>;
 // using VVI=vector<VI>;

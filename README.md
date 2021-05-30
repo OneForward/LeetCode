@@ -191,7 +191,7 @@
 |226|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree)|[C++](OJ/leet226/leet226.cpp)|Easy|
 |227|[基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii)|[C++](OJ/leet227/leet227.cpp), [C++](OJ/leet227/leet227v2.cpp)|Medium|
 |229|[求众数 II⭐](https://leetcode-cn.com/problems/majority-element-ii)|[C++](OJ/leet229/leet229.cpp), [C++](OJ/leet229/leet229v1.cpp), [Python](OJ/leet229/leet229.py)|Medium|
-|231|[2的幂](https://leetcode-cn.com/problems/power-of-two)|[C++](OJ/leet231/leet231.cpp)|Easy|
+|231|[2 的幂](https://leetcode-cn.com/problems/power-of-two)|[C++](OJ/leet231/leet231.cpp)|Easy|
 |232|[用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks)|[C++](OJ/leet232/leet232.cpp)|Easy|
 |233|[数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one)|[C++](OJ/leet233/leet233-包含1的数字的个数.cpp), [C++](OJ/leet233/leet233.cpp)|Hard|
 |234|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)|[C++](OJ/leet234/leet234.cpp)|Easy|
@@ -433,6 +433,7 @@
 |968|[监控二叉树](https://leetcode-cn.com/problems/binary-tree-cameras)|[C++](OJ/leet968/leet968-使用哈希存储记忆的递归.cpp), [C++](OJ/leet968/leet968-动态规划.cpp)|Hard|
 |971|[翻转二叉树以匹配先序遍历](https://leetcode-cn.com/problems/flip-binary-tree-to-match-preorder-traversal)|[C++](OJ/leet971/leet971.cpp)|Medium|
 |973|[最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin)|[C++](OJ/leet973/leet973.cpp)|Medium|
+|975|[奇偶跳](https://leetcode-cn.com/problems/odd-even-jump)|[C++](OJ/leet975/leet975.cpp)|Hard|
 |978|[最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray)|[C++](OJ/leet978/leet978.cpp)|Medium|
 |981|[基于时间的键值存储](https://leetcode-cn.com/problems/time-based-key-value-store)|[C++](OJ/leet981/leet981.cpp), [C++](OJ/leet981/leet981V1.cpp), [Rust](OJ/leet981/src/main.rs)|Medium|
 |982|[按位与为零的三元组](https://leetcode-cn.com/problems/triples-with-bitwise-and-equal-to-zero)|[Python](OJ/leet982/leet982.py)|Hard|
@@ -493,6 +494,7 @@
 |1306|[跳跃游戏 III](https://leetcode-cn.com/problems/jump-game-iii)|[C++](OJ/leet1306/leet1306.cpp)|Medium|
 |1310|[子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray)|[Rust](OJ/leet1310/src/main.rs)|Medium|
 |1319|[连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected)|[C++](OJ/leet1319/leet1319.cpp), [Python](OJ/leet1319/leet1319.py)|Medium|
+|1340|[跳跃游戏 V⭐](https://leetcode-cn.com/problems/jump-game-v)|[C++](OJ/leet1340/leet1340.cpp)|Hard|
 |1345|[跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv)|[C++](OJ/leet1345/leet1345.cpp), [Rust](OJ/leet1345/src/main.rs)|Hard|
 |1353|[最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended)|[C++](OJ/leet1353/leet1353.cpp)|Medium|
 |1363|[形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three)|[C++](OJ/leet1363/leet1363.cpp)|Hard|
