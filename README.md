@@ -307,7 +307,7 @@
 |491|[递增子序列](https://leetcode-cn.com/problems/increasing-subsequences)|[C++](OJ/leet491/leet491.cpp), [C++](OJ/leet491/leet491v1.cpp), [Python](OJ/leet491/leet491.py), [Rust](OJ/leet491/src/main.rs)|Medium|
 |493|[翻转对](https://leetcode-cn.com/problems/reverse-pairs)|[C++](OJ/leet493/leet493.cpp)|Hard|
 |494|[目标和⭐](https://leetcode-cn.com/problems/target-sum)|[C++](OJ/leet494/leet494.cpp), [C++](OJ/leet494/leet494V1.cpp), [Python](OJ/leet494/leet494.py)|Medium|
-|495|[提莫攻击](https://leetcode-cn.com/problems/teemo-attacking)|[C++](OJ/leet495/leet495.cpp)|Medium|
+|495|[提莫攻击](https://leetcode-cn.com/problems/teemo-attacking)|[C++](OJ/leet495/leet495.cpp)|Easy|
 |496|[下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i)|[C++](OJ/leet496/leet496.cpp)|Easy|
 |502|[IPO](https://leetcode-cn.com/problems/ipo)|[C++](OJ/leet502/leet502.cpp)|Hard|
 |503|[下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii)|[C++](OJ/leet503/leet503.cpp)|Medium|
@@ -464,7 +464,7 @@
 |1049|[最后一块石头的重量 II⭐](https://leetcode-cn.com/problems/last-stone-weight-ii)|[C++](OJ/leet1049/leet1049.cpp)|Medium|
 |1052|[爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner)|[C++](OJ/leet1052/leet1052.cpp)|Medium|
 |1053|[交换一次的先前排列](https://leetcode-cn.com/problems/previous-permutation-with-one-swap)|[C++](OJ/leet1053/leet1053-N&#32;log&#32;N.cpp), [C++](OJ/leet1053/leet1053-一次交换.cpp), [C++](OJ/leet1053/leet1053-不止一次交换.cpp)|Medium|
-|1074|[元素和为目标值的子矩阵数量](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target)|[C++](OJ/leet1074/leet1074.cpp), [Python](OJ/leet1074/leet1074.py)|Hard|
+|1074|[元素和为目标值的子矩阵数量](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target)|[C++](OJ/leet1074/leet1074.cpp), [Python](OJ/leet1074/leet1074.py), [Rust](OJ/leet1074/src/main.rs)|Hard|
 |1092|[最短公共超序列⭐](https://leetcode-cn.com/problems/shortest-common-supersequence)|[C++](OJ/leet1092/leet1092.cpp)|Hard|
 |1095|[山脉数组中查找目标值](https://leetcode-cn.com/problems/find-in-mountain-array)|[C++](OJ/leet1095/leet1095.cpp)|Hard|
 |1114|[按序打印⭐](https://leetcode-cn.com/problems/print-in-order)|[C++](OJ/leet1114/leet1114.cpp), [C++](OJ/leet1114/leet1114_Atomic.cpp), [C++](OJ/leet1114/leet1114_Condition.cpp), [Python](OJ/leet1114/leet1114_Barrier.py), [Python](OJ/leet1114/leet1114_Condition.py), [Python](OJ/leet1114/leet1114_Event.py)|Easy|
