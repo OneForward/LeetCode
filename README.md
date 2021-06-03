@@ -318,7 +318,7 @@
 |519|[随机翻转矩阵](https://leetcode-cn.com/problems/random-flip-matrix)|[C++](OJ/leet519/leet519.cpp)|Medium|
 |521|[最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i)|[Rust](OJ/leet521/src/leet521.rs), [Rust](OJ/leet521/src/leet522.rs), [Rust](OJ/leet521/src/main.rs)|Easy|
 |522|[最长特殊序列 II](https://leetcode-cn.com/problems/longest-uncommon-subsequence-ii)|[Python](OJ/leet522/leet522.py)|Medium|
-|523|[连续的子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum)|[C++](OJ/leet523/leet523.cpp), [Python](OJ/leet523/leet523.py)|Medium|
+|523|[连续的子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum)|[C++](OJ/leet523/leet523.cpp), [Python](OJ/leet523/leet523.py), [Rust](OJ/leet523/src/main.rs)|Medium|
 |525|[连续数组⭐](https://leetcode-cn.com/problems/contiguous-array)|[C++](OJ/leet525/leet525.cpp), [Rust](OJ/leet525/src/main.rs)|Medium|
 |526|[优美的排列](https://leetcode-cn.com/problems/beautiful-arrangement)|[C++](OJ/leet526/leet526-状态压缩DP.cpp), [C++](OJ/leet526/leet526.cpp)|Medium|
 |528|[按权重随机选择](https://leetcode-cn.com/problems/random-pick-with-weight)|[C++](OJ/leet528/leet528.cpp)|Medium|
@@ -549,7 +549,9 @@
 |1824|[最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps)|[C++](OJ/leet1824/leet1824.cpp)|Medium|
 |1825|[求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average)|[C++](OJ/leet1825/leet1825.cpp)|Hard|
 |1833|[雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[C++](OJ/leet1833/leet1833.cpp)|Medium|
+|1865|[找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum)|[Rust](OJ/leet1865/src/main.rs)|Medium|
 |1871|[跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii)|[C++](OJ/leet1871/leet1871.cpp)|Medium|
+|1877|[数组中最大数对和的最小值⭐](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[Rust](OJ/leet1877/src/main.rs)|Medium|
 
 ## LCCI
 
