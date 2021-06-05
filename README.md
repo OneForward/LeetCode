@@ -549,6 +549,7 @@
 |1824|[最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps)|[C++](OJ/leet1824/leet1824.cpp)|Medium|
 |1825|[求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average)|[C++](OJ/leet1825/leet1825.cpp)|Hard|
 |1833|[雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[C++](OJ/leet1833/leet1833.cpp)|Medium|
+|1856|[子数组最小乘积的最大值⭐](https://leetcode-cn.com/problems/maximum-subarray-min-product)|[C++](OJ/leet1856/leet1856.cpp)|Medium|
 |1865|[找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum)|[Rust](OJ/leet1865/src/main.rs)|Medium|
 |1871|[跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii)|[C++](OJ/leet1871/leet1871.cpp)|Medium|
 |1877|[数组中最大数对和的最小值⭐](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[Rust](OJ/leet1877/src/main.rs)|Medium|
