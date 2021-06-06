@@ -298,7 +298,7 @@
 |464|[我能赢吗](https://leetcode-cn.com/problems/can-i-win)|[Python](OJ/leet464/leet464.py)|Medium|
 |467|[环绕字符串中唯一的子字符串⭐](https://leetcode-cn.com/problems/unique-substrings-in-wraparound-string)|[C++](OJ/leet467/leet467.cpp)|Medium|
 |472|[连接词⭐](https://leetcode-cn.com/problems/concatenated-words)|[C++](OJ/leet472/leet472-递归.cpp), [Rust](OJ/leet472/src/main.rs)|Hard|
-|474|[一和零](https://leetcode-cn.com/problems/ones-and-zeroes)|[C++](OJ/leet474/leet474.cpp)|Medium|
+|474|[一和零](https://leetcode-cn.com/problems/ones-and-zeroes)|[C++](OJ/leet474/leet474.cpp), [Rust](OJ/leet474/src/main.rs)|Medium|
 |477|[汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance)|[C++](OJ/leet477/leet477.cpp)|Medium|
 |479|[最大回文数乘积](https://leetcode-cn.com/problems/largest-palindrome-product)|[C++](OJ/leet479/leet479.cpp)|Hard|
 |480|[滑动窗口中位数⭐](https://leetcode-cn.com/problems/sliding-window-median)|[C++](OJ/leet480/leet480_multiset.cpp), [C++](OJ/leet480/leet480_pbds.cpp), [C++](OJ/leet480/leet480_对顶堆.cpp)|Hard|
