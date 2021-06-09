@@ -90,7 +90,7 @@
 |96|[不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees)|[C++](OJ/leet096/leet096.cpp)|Medium|
 |97|[交错字符串⭐](https://leetcode-cn.com/problems/interleaving-string)|[C++](OJ/leet097/leet097.cpp), [Python](OJ/leet097/leet097.py)|Medium|
 |98|[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree)|[C++](OJ/leet098/leet098.cpp)|Medium|
-|99|[恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree)|[C++](OJ/leet099/leet099.cpp), [C++](OJ/leet099/leet099_v2.cpp)|Hard|
+|99|[恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree)|[C++](OJ/leet099/leet099.cpp), [C++](OJ/leet099/leet099_v2.cpp)|Medium|
 |100|[相同的树](https://leetcode-cn.com/problems/same-tree)|[C++](OJ/leet100/leet100.cpp)|Easy|
 |101|[对称二叉树](https://leetcode-cn.com/problems/symmetric-tree)|[C++](OJ/leet101/leet101.cpp)|Easy|
 |102|[二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)|[C++](OJ/leet102/leet102.cpp)|Medium|
@@ -306,7 +306,7 @@
 |486|[预测赢家](https://leetcode-cn.com/problems/predict-the-winner)|[C++](OJ/leet486/leet486.cpp), [Python](OJ/leet486/leet486.py)|Medium|
 |491|[递增子序列](https://leetcode-cn.com/problems/increasing-subsequences)|[C++](OJ/leet491/leet491.cpp), [C++](OJ/leet491/leet491v1.cpp), [Python](OJ/leet491/leet491.py), [Rust](OJ/leet491/src/main.rs)|Medium|
 |493|[翻转对](https://leetcode-cn.com/problems/reverse-pairs)|[C++](OJ/leet493/leet493.cpp)|Hard|
-|494|[目标和⭐](https://leetcode-cn.com/problems/target-sum)|[C++](OJ/leet494/leet494.cpp), [C++](OJ/leet494/leet494V1.cpp), [Python](OJ/leet494/leet494.py)|Medium|
+|494|[目标和⭐](https://leetcode-cn.com/problems/target-sum)|[C++](OJ/leet494/leet494.cpp), [C++](OJ/leet494/leet494V1.cpp), [Python](OJ/leet494/leet494.py), [Rust](OJ/leet494/src/main.rs)|Medium|
 |495|[提莫攻击](https://leetcode-cn.com/problems/teemo-attacking)|[C++](OJ/leet495/leet495.cpp)|Easy|
 |496|[下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i)|[C++](OJ/leet496/leet496.cpp)|Easy|
 |502|[IPO](https://leetcode-cn.com/problems/ipo)|[C++](OJ/leet502/leet502.cpp)|Hard|
@@ -352,7 +352,7 @@
 |648|[单词替换](https://leetcode-cn.com/problems/replace-words)|[Python](OJ/leet648/leet648.py)|Medium|
 |650|[只有两个键的键盘⭐](https://leetcode-cn.com/problems/2-keys-keyboard)|[C++](OJ/leet650/leet650-素数分解.cpp), [C++](OJ/leet650/leet650.cpp)|Medium|
 |657|[机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin)|[Python](OJ/leet657/leet657.py)|Easy|
-|665|[非递减数列](https://leetcode-cn.com/problems/non-decreasing-array)|[C++](OJ/leet665/leet665.cpp)|Easy|
+|665|[非递减数列](https://leetcode-cn.com/problems/non-decreasing-array)|[C++](OJ/leet665/leet665.cpp)|Medium|
 |673|[最长递增子序列的个数⭐](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence)|[C++](OJ/leet673/leet673.cpp), [C++](OJ/leet673/leet673_动态规划_O(N^2).cpp), [C++](OJ/leet673/leet673_树状数组.cpp), [Python](OJ/leet673/leet673_线段树.py)|Medium|
 |679|[24 点游戏](https://leetcode-cn.com/problems/24-game)|[C++](OJ/leet679/leet679.cpp)|Hard|
 |682|[棒球比赛](https://leetcode-cn.com/problems/baseball-game)|[Rust](OJ/leet682/src/main.rs)|Easy|
@@ -410,6 +410,7 @@
 |873|[最长的斐波那契子序列的长度](https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence)|[C++](OJ/leet873/leet873.cpp), [Rust](OJ/leet873/src/main.rs)|Medium|
 |876|[链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list)|[C++](OJ/leet876/leet876.cpp)|Easy|
 |877|[石子游戏⭐](https://leetcode-cn.com/problems/stone-game)|[Python](OJ/leet877/leet877.py)|Medium|
+|879|[盈利计划⭐](https://leetcode-cn.com/problems/profitable-schemes)|[C++](OJ/leet879/leet879.cpp)|Hard|
 |886|[可能的二分法⭐](https://leetcode-cn.com/problems/possible-bipartition)|[Python](OJ/leet886/leet886.py)|Medium|
 |887|[鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop)|[C++](OJ/leet887/leet887.cpp), [Go](OJ/leet887/leet887.go)|Hard|
 |888|[公平的糖果棒交换](https://leetcode-cn.com/problems/fair-candy-swap)|[C++](OJ/leet888/leet888.cpp)|Easy|
