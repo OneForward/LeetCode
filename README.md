@@ -141,6 +141,7 @@
 |149|[直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line)|[C++](OJ/leet149/leet149.cpp), [C++](OJ/leet149/leet149v1.cpp), [Python](OJ/leet149/leet149.py), [Python](OJ/leet149/leet149v1.py)|Hard|
 |150|[逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation)|[C++](OJ/leet150/leet150.cpp), [C++](OJ/leet150/leet150v1.cpp)|Medium|
 |151|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string)|[C++](OJ/leet151/leet151.cpp), [Python](OJ/leet151/leet151.py)|Medium|
+|152|[乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray)|[C++](OJ/leet152/leet152.cpp)|Medium|
 |153|[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array)|[C++](OJ/leet153/leet153.cpp)|Medium|
 |154|[寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii)|[C++](OJ/leet154/leet154.cpp)|Hard|
 |155|[最小栈](https://leetcode-cn.com/problems/min-stack)|[C++](OJ/leet155/leet155.cpp)|Easy|

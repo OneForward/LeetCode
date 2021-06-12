@@ -21,13 +21,11 @@ int solution(const vector<int>& v) {
     // f(i) = max(abs(Ai), abs(f(i-1) * Ai))? 
     // Time O(N) Space O(1)
     
-    int ans = INT_MIN;
-    int pos = 1, neg = 1;
+    int ans = INT_MIN, pos = 1, neg = 1;
     for (auto&& x: v) {
-        if (x == 0) pos = neg = 0;
         auto oldpos = pos, oldneg = neg;
-        pos = x > 0 ? oldpos * x : oldneg * x;
-        neg = x > 0 ? oldneg * x : oldpos * x;
+        pos = max({x, oldpos * x, oldneg * x});
+        neg = min({x, oldpos * x, oldneg * x});
         ans = max(ans, pos);
     }
     return ans;
