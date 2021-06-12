@@ -157,7 +157,7 @@
 |174|[地下城游戏](https://leetcode-cn.com/problems/dungeon-game)|[C++](OJ/leet174/leet174.cpp)|Hard|
 |179|[最大数](https://leetcode-cn.com/problems/largest-number)|[C++](OJ/leet179/leet179.cpp), [C++](OJ/leet179/leet179v1.cpp)|Medium|
 |188|[买卖股票的最佳时机 IV⭐](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv)|[C++](OJ/leet188/leet188-dp.cpp), [C++](OJ/leet188/leet188.cpp), [Go](OJ/leet188/leet188.go), [Java](OJ/leet188/leet188.java), [Rust](OJ/leet188/src/main.rs)|Hard|
-|189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[C++](OJ/leet189/leet189.cpp)|Medium|
+|189|[旋转数组⭐](https://leetcode-cn.com/problems/rotate-array)|[C++](OJ/leet189/leet189.cpp)|Medium|
 |190|[颠倒二进制位⭐](https://leetcode-cn.com/problems/reverse-bits)|[C++](OJ/leet190/leet190.cpp)|Easy|
 |191|[位1的个数](https://leetcode-cn.com/problems/number-of-1-bits)|[C++](OJ/leet191/leet191.cpp)|Easy|
 |195|[第十行](https://leetcode-cn.com/problems/tenth-line)|[Shell](OJ/leet195/leet195.sh)|Easy|
@@ -210,7 +210,7 @@
 |273|[整数转换英文表示](https://leetcode-cn.com/problems/integer-to-english-words)|[C++](OJ/leet273/leet273.cpp)|Hard|
 |274|[H 指数](https://leetcode-cn.com/problems/h-index)|[C++](OJ/leet274/leet274.cpp), [C++](OJ/leet274/leet274v1.cpp)|Medium|
 |275|[H 指数 II](https://leetcode-cn.com/problems/h-index-ii)|[C++](OJ/leet275/leet275.cpp), [Go](OJ/leet275/leet275.go), [Rust](OJ/leet275/src/main.rs)|Medium|
-|279|[完全平方数](https://leetcode-cn.com/problems/perfect-squares)|[C++](OJ/leet279/leet279.cpp)|Medium|
+|279|[完全平方数⭐](https://leetcode-cn.com/problems/perfect-squares)|[C++](OJ/leet279/leet279.cpp), [Rust](OJ/leet279/src/main-动态规划.rs), [Rust](OJ/leet279/src/main.rs)|Medium|
 |283|[移动零](https://leetcode-cn.com/problems/move-zeroes)|[C++](OJ/leet283/leet283.cpp)|Easy|
 |287|[寻找重复数⭐](https://leetcode-cn.com/problems/find-the-duplicate-number)|[C++](OJ/leet287/leet287.cpp), [Python](OJ/leet287/leet287.py)|Medium|
 |295|[数据流的中位数⭐](https://leetcode-cn.com/problems/find-median-from-data-stream)|[C++](OJ/leet295/leet295.cpp), [C++](OJ/leet295/leet295_multiset.cpp), [C++](OJ/leet295/leet295_对顶堆.cpp)|Hard|
@@ -507,6 +507,7 @@
 |1438|[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)|[C++](OJ/leet1438/leet1438.cpp)|Medium|
 |1439|[有序矩阵中的第 k 个最小数组和⭐](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows)|[C++](OJ/leet1439/leet1439-二分.cpp), [C++](OJ/leet1439/leet1439-堆.cpp), [C++](OJ/leet1439/leet1439-暴力.cpp)|Hard|
 |1442|[形成两个异或相等数组的三元组数目⭐](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)|[C++](OJ/leet1442/leet1442.cpp)|Medium|
+|1449|[数位成本和为目标值的最大数字](https://leetcode-cn.com/problems/form-largest-integer-with-digits-that-add-up-to-target)|[C++](OJ/leet1449/leet1449.cpp)|Hard|
 |1456|[定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|[C++](OJ/leet1456/leet1456.cpp)|Medium|
 |1473|[粉刷房子 III](https://leetcode-cn.com/problems/paint-house-iii)|[Python](OJ/leet1473/leet1473.py), [Rust](OJ/leet1473/src/main.rs)|Hard|
 |1482|[制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets)|[C++](OJ/leet1482/leet1482.cpp), [Rust](OJ/leet1482/src/main.rs)|Medium|
