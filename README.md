@@ -211,6 +211,7 @@
 |273|[整数转换英文表示](https://leetcode-cn.com/problems/integer-to-english-words)|[C++](OJ/leet273/leet273.cpp)|Hard|
 |274|[H 指数](https://leetcode-cn.com/problems/h-index)|[C++](OJ/leet274/leet274.cpp), [C++](OJ/leet274/leet274v1.cpp)|Medium|
 |275|[H 指数 II](https://leetcode-cn.com/problems/h-index-ii)|[C++](OJ/leet275/leet275.cpp), [Go](OJ/leet275/leet275.go), [Rust](OJ/leet275/src/main.rs)|Medium|
+|278|[第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version)|[C++](OJ/leet278/leet278.cpp)|Easy|
 |279|[完全平方数⭐](https://leetcode-cn.com/problems/perfect-squares)|[C++](OJ/leet279/leet279.cpp), [Rust](OJ/leet279/src/main-动态规划.rs), [Rust](OJ/leet279/src/main.rs)|Medium|
 |283|[移动零](https://leetcode-cn.com/problems/move-zeroes)|[C++](OJ/leet283/leet283.cpp)|Easy|
 |287|[寻找重复数⭐](https://leetcode-cn.com/problems/find-the-duplicate-number)|[C++](OJ/leet287/leet287.cpp), [Python](OJ/leet287/leet287.py)|Medium|
@@ -556,6 +557,9 @@
 |1865|[找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum)|[Rust](OJ/leet1865/src/main.rs)|Medium|
 |1871|[跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii)|[C++](OJ/leet1871/leet1871.cpp)|Medium|
 |1877|[数组中最大数对和的最小值⭐](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[Rust](OJ/leet1877/src/main.rs)|Medium|
+|5784|[重新分配字符使所有字符串都相等](https://leetcode-cn.com/problems/redistribute-characters-to-make-all-strings-equal)|[Python](OJ/leet5784/leet5784.py)|Easy|
+|5785|[合并若干三元组以形成目标三元组](https://leetcode-cn.com/problems/merge-triplets-to-form-target-triplet)|[Python](OJ/leet5785/leet5785.py)|Medium|
+|5786|[可移除字符的最大数目](https://leetcode-cn.com/problems/maximum-number-of-removable-characters)|[C++](OJ/leet5786/leet5786.cpp)|Medium|
 
 ## LCCI
 
