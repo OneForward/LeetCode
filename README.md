@@ -253,6 +253,7 @@
 |371|[两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers)|[C++](OJ/leet371/leet371.cpp)|Medium|
 |372|[超级次方⭐](https://leetcode-cn.com/problems/super-pow)|[C++](OJ/leet372/leet372.cpp), [C++](OJ/leet372/leet372v1.cpp)|Medium|
 |373|[查找和最小的K对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums)|[C++](OJ/leet373/leet373.cpp), [Rust](OJ/leet373/src/main.rs)|Medium|
+|374|[猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower)|[C++](OJ/leet374/leet374.cpp)|Easy|
 |375|[猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii)|[C++](OJ/leet375/leet375.cpp)|Medium|
 |376|[摆动序列⭐](https://leetcode-cn.com/problems/wiggle-subsequence)|[Python](OJ/leet376/leet376.py)|Medium|
 |377|[组合总和 Ⅳ⭐](https://leetcode-cn.com/problems/combination-sum-iv)|[C++](OJ/leet377/leet377.cpp), [Python](OJ/leet377/leet377.py)|Medium|
