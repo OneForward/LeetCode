@@ -60,7 +60,7 @@
 |62|[不同路径](https://leetcode-cn.com/problems/unique-paths)|[C++](OJ/leet062/leet062.cpp)|Medium|
 |63|[不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii)|[C++](OJ/leet063/leet063.cpp)|Medium|
 |64|[最小路径和](https://leetcode-cn.com/problems/minimum-path-sum)|[C++](OJ/leet064/leet064.cpp)|Medium|
-|65|[有效数字](https://leetcode-cn.com/problems/valid-number)|[C++](OJ/leet065/leet065-自动机.cpp), [C++](OJ/leet065/leet065.cpp)|Hard|
+|65|[有效数字](https://leetcode-cn.com/problems/valid-number)|[C++](OJ/leet065/leet065.cpp), [C++](OJ/leet065/leet065v1.cpp), [Rust](OJ/leet065/src/main.rs)|Hard|
 |68|[文本左右对齐](https://leetcode-cn.com/problems/text-justification)|[C++](OJ/leet068/leet068.cpp), [Python](OJ/leet068/leet068.py)|Hard|
 |70|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)|[C++](OJ/leet070/leet070.cpp)|Easy|
 |71|[简化路径](https://leetcode-cn.com/problems/simplify-path)|[C++](OJ/leet071/leet071.cpp)|Medium|
@@ -405,6 +405,7 @@
 |841|[钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms)|[Python](OJ/leet841/leet841.py)|Medium|
 |843|[猜猜这个单词](https://leetcode-cn.com/problems/guess-the-word)|[Python](OJ/leet843/leet843.py)|Hard|
 |850|[矩形面积 II](https://leetcode-cn.com/problems/rectangle-area-ii)|[C++](OJ/leet850/leet850.cpp), [C++](OJ/leet850/leet850_线段树.cpp), [C++](OJ/leet850/main.cpp), [Python](OJ/leet850/leet850.py), [Rust](OJ/leet850/src/main.rs)|Hard|
+|852|[山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array)|[C++](OJ/leet852/leet852.cpp)|Easy|
 |855|[考场就座](https://leetcode-cn.com/problems/exam-room)|[Rust](OJ/leet855/src/main.rs)|Medium|
 |862|[和至少为 K 的最短子数组⭐](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k)|[C++](OJ/leet862/leet862.cpp), [Rust](OJ/leet862/src/main.rs)|Hard|
 |866|[回文素数](https://leetcode-cn.com/problems/prime-palindrome)|[C++](OJ/leet866/leet866.cpp), [C++](OJ/leet866/leet866v1.cpp), [C++](OJ/leet866/leet866v2.cpp)|Medium|
@@ -558,9 +559,6 @@
 |1865|[找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum)|[Rust](OJ/leet1865/src/main.rs)|Medium|
 |1871|[跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii)|[C++](OJ/leet1871/leet1871.cpp)|Medium|
 |1877|[数组中最大数对和的最小值⭐](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[Rust](OJ/leet1877/src/main.rs)|Medium|
-|5784|[重新分配字符使所有字符串都相等](https://leetcode-cn.com/problems/redistribute-characters-to-make-all-strings-equal)|[Python](OJ/leet5784/leet5784.py)|Easy|
-|5785|[合并若干三元组以形成目标三元组](https://leetcode-cn.com/problems/merge-triplets-to-form-target-triplet)|[Python](OJ/leet5785/leet5785.py)|Medium|
-|5786|[可移除字符的最大数目](https://leetcode-cn.com/problems/maximum-number-of-removable-characters)|[C++](OJ/leet5786/leet5786.cpp)|Medium|
 
 ## LCCI
 
