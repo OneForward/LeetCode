@@ -305,6 +305,7 @@
 |477|[汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance)|[C++](OJ/leet477/leet477.cpp)|Medium|
 |479|[最大回文数乘积](https://leetcode-cn.com/problems/largest-palindrome-product)|[C++](OJ/leet479/leet479.cpp)|Hard|
 |480|[滑动窗口中位数⭐](https://leetcode-cn.com/problems/sliding-window-median)|[C++](OJ/leet480/leet480_multiset.cpp), [C++](OJ/leet480/leet480_pbds.cpp), [C++](OJ/leet480/leet480_对顶堆.cpp)|Hard|
+|483|[最小好进制](https://leetcode-cn.com/problems/smallest-good-base)|[C++](OJ/leet483/leet483.cpp), [C++](OJ/leet483/leet483v1.cpp)|Hard|
 |485|[最大连续 1 的个数](https://leetcode-cn.com/problems/max-consecutive-ones)|[C++](OJ/leet485/leet485.cpp)|Easy|
 |486|[预测赢家](https://leetcode-cn.com/problems/predict-the-winner)|[C++](OJ/leet486/leet486.cpp), [Python](OJ/leet486/leet486.py)|Medium|
 |491|[递增子序列](https://leetcode-cn.com/problems/increasing-subsequences)|[C++](OJ/leet491/leet491.cpp), [C++](OJ/leet491/leet491v1.cpp), [Python](OJ/leet491/leet491.py), [Rust](OJ/leet491/src/main.rs)|Medium|
