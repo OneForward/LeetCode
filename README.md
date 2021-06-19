@@ -491,6 +491,7 @@
 |1226|[哲学家进餐⭐](https://leetcode-cn.com/problems/the-dining-philosophers)|[C++](OJ/leet1226/leet1226.cpp), [C++](OJ/leet1226/leet1226_Condition_奇数左_偶数右.cpp), [C++](OJ/leet1226/leet1226_Condition_至多4人同时.cpp)|Medium|
 |1227|[飞机座位分配概率](https://leetcode-cn.com/problems/airplane-seat-assignment-probability)|[Python](OJ/leet1227/leet1227.py)|Medium|
 |1238|[循环码排列](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation)|[C++](OJ/leet1238/leet1238.cpp)|Medium|
+|1239|[串联字符串的最大长度](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[C++](OJ/leet1239/leet1239.cpp), [Rust](OJ/leet1239/src/main.rs)|Medium|
 |1262|[可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three)|[C++](OJ/leet1262/leet1262.cpp)|Medium|
 |1269|[停在原地的方案数](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps)|[C++](OJ/leet1269/leet1269.cpp), [Rust](OJ/leet1269/src/main.rs)|Hard|
 |1272|[删除区间](https://leetcode-cn.com/problems/remove-interval)|[Python](OJ/leet1272/leet1272.py)|Medium|
