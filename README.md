@@ -525,6 +525,7 @@
 |1510|[石子游戏 IV](https://leetcode-cn.com/problems/stone-game-iv)|[C++](OJ/leet1510/leet1510.cpp)|Hard|
 |1563|[石子游戏 V](https://leetcode-cn.com/problems/stone-game-v)|[C++](OJ/leet1563/leet1563.cpp)|Hard|
 |1579|[保证图可完全遍历](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable)|[C++](OJ/leet1579/leet1579.cpp)|Hard|
+|1600|[皇位继承顺序](https://leetcode-cn.com/problems/throne-inheritance)|[C++](OJ/leet1600/leet1600.cpp)|Medium|
 |1603|[设计停车系统](https://leetcode-cn.com/problems/design-parking-system)|[C++](OJ/leet1603/leet1603.cpp)|Easy|
 |1611|[使整数变为 0 的最少操作次数](https://leetcode-cn.com/problems/minimum-one-bit-operations-to-make-integers-zero)|[C++](OJ/leet1611/leet1611.cpp)|Hard|
 |1622|[奇妙序列⭐](https://leetcode-cn.com/problems/fancy-sequence)|[Python](OJ/leet1622/leet1622.py), [Python](OJ/leet1622/leet1622v2.py)|Hard|
