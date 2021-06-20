@@ -524,6 +524,7 @@
 |1503|[所有蚂蚁掉下来前的最后一刻](https://leetcode-cn.com/problems/last-moment-before-all-ants-fall-out-of-a-plank)|[Python](OJ/leet1503/leet1503.py)|Medium|
 |1510|[石子游戏 IV](https://leetcode-cn.com/problems/stone-game-iv)|[C++](OJ/leet1510/leet1510.cpp)|Hard|
 |1563|[石子游戏 V](https://leetcode-cn.com/problems/stone-game-v)|[C++](OJ/leet1563/leet1563.cpp)|Hard|
+|1567|[乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product)|[Rust](OJ/leet1567/src/main.rs)|Medium|
 |1579|[保证图可完全遍历](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable)|[C++](OJ/leet1579/leet1579.cpp)|Hard|
 |1600|[皇位继承顺序](https://leetcode-cn.com/problems/throne-inheritance)|[C++](OJ/leet1600/leet1600.cpp)|Medium|
 |1603|[设计停车系统](https://leetcode-cn.com/problems/design-parking-system)|[C++](OJ/leet1603/leet1603.cpp)|Easy|
@@ -553,6 +554,7 @@
 |1787|[使所有区间的异或结果为零⭐](https://leetcode-cn.com/problems/make-the-xor-of-all-segments-equal-to-zero)|[C++](OJ/leet1787/leet1787.cpp)|Hard|
 |1791|[找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph)|[C++](OJ/leet1791/leet1791.cpp), [Rust](OJ/leet1791/src/main.rs)|Medium|
 |1813|[句子相似性 III](https://leetcode-cn.com/problems/sentence-similarity-iii)|[Python](OJ/leet1813/leet1813.py)|Medium|
+|1814|[统计一个数组中好对子的数目](https://leetcode-cn.com/problems/count-nice-pairs-in-an-array)|[Rust](OJ/leet1814/src/main.rs)|Medium|
 |1819|[序列中不同最大公约数的数目⭐](https://leetcode-cn.com/problems/number-of-different-subsequences-gcds)|[C++](OJ/leet1819/leet1819.cpp)|Hard|
 |1823|[找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game)|[C++](OJ/leet1823/leet1823.cpp)|Medium|
 |1824|[最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps)|[C++](OJ/leet1824/leet1824.cpp)|Medium|
