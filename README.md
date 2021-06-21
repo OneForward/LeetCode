@@ -270,7 +270,8 @@
 |395|[至少有 K 个重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Python](OJ/leet395/leet395.py), [Python](OJ/leet395/leet395v2.py)|Medium|
 |398|[随机数索引⭐](https://leetcode-cn.com/problems/random-pick-index)|[C++](OJ/leet398/leet398.cpp), [C++](OJ/leet398/leet398v1.cpp)|Medium|
 |399|[除法求值](https://leetcode-cn.com/problems/evaluate-division)|[C++](OJ/leet399/leet399.cpp), [Python](OJ/leet399/leet399.py)|Medium|
-|402|[移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits)|[Python](OJ/leet402/leet402.py)|Medium|
+|401|[二进制手表](https://leetcode-cn.com/problems/binary-watch)|[Rust](OJ/leet401/src/main.rs)|Easy|
+|402|[移掉 K 位数字](https://leetcode-cn.com/problems/remove-k-digits)|[Python](OJ/leet402/leet402.py)|Medium|
 |403|[青蛙过河](https://leetcode-cn.com/problems/frog-jump)|[C++](OJ/leet403/leet403.cpp)|Hard|
 |404|[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves)|[C++](OJ/leet404/leet404.cpp)|Easy|
 |405|[数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal)|[C++](OJ/leet405/leet405.cpp)|Easy|
