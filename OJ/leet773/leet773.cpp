@@ -54,6 +54,7 @@ public:
         const int DIR[][2] = {{1,0}, {-1,0}, {0, 1}, {0,-1}};
 
         auto [h, x, y] = getState(); int ans = 0; visited[h] = true;
+        if (h == 11190) return 0;
         
         queue<Tuple> Q;  Q.push({h, x, y});
 
