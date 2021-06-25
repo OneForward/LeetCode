@@ -141,11 +141,11 @@ namespace Stack
 int main(int argc, char const *argv[])
 {
     prettyPrintTree(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null}));
-    // cout << Recusive::preOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
-    // cout << Stack::preOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
-    // cout << Recusive::inOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
-    // cout << Stack::inOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
-    // cout << Recusive::postOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
-    // cout << Stack::postOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
+    cout << Recusive::preOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
+    cout << Stack::preOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
+    cout << Recusive::inOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
+    cout << Stack::inOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
+    cout << Recusive::postOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
+    cout << Stack::postOrder(toTree({1,2,3,null,null,4,5,null,6,7,null,8,null})) << endl;
     return 0;
 }

@@ -138,7 +138,7 @@
 |146|[LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache)|[C++](OJ/leet146/leet146.cpp), [Python](OJ/leet146/leet146.py)|Medium|
 |147|[对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list)|[C++](OJ/leet147/leet147.cpp)|Medium|
 |148|[排序链表⭐](https://leetcode-cn.com/problems/sort-list)|[C++](OJ/leet148/leet148.cpp)|Medium|
-|149|[直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line)|[C++](OJ/leet149/leet149.cpp), [C++](OJ/leet149/leet149v1.cpp), [Python](OJ/leet149/leet149.py), [Python](OJ/leet149/leet149v1.py)|Hard|
+|149|[直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line)|[C++](OJ/leet149/leet149.cpp), [C++](OJ/leet149/leet149v1.cpp), [Python](OJ/leet149/leet149.py), [Python](OJ/leet149/leet149v1.py), [Rust](OJ/leet149/src/main.rs)|Hard|
 |150|[逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation)|[C++](OJ/leet150/leet150.cpp), [C++](OJ/leet150/leet150v1.cpp)|Medium|
 |151|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string)|[C++](OJ/leet151/leet151.cpp), [Python](OJ/leet151/leet151.py)|Medium|
 |152|[乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray)|[C++](OJ/leet152/leet152.cpp)|Medium|
@@ -386,10 +386,12 @@
 |740|[删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn)|[Python](OJ/leet740/leet740.py), [Rust](OJ/leet740/src/main.rs)|Medium|
 |741|[摘樱桃](https://leetcode-cn.com/problems/cherry-pickup)|[Python](OJ/leet741/leet741.py)|Hard|
 |746|[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs)|[C++](OJ/leet746/leet746.cpp), [Python](OJ/leet746/leet746.py)|Easy|
+|752|[打开转盘锁](https://leetcode-cn.com/problems/open-the-lock)|[C++](OJ/leet752/leet752.cpp)|Medium|
 |753|[破解保险箱](https://leetcode-cn.com/problems/cracking-the-safe)|[Python](OJ/leet753/leet753.py)|Hard|
 |763|[划分字母区间](https://leetcode-cn.com/problems/partition-labels)|[C++](OJ/leet763/leet763.cpp)|Medium|
 |765|[情侣牵手](https://leetcode-cn.com/problems/couples-holding-hands)|[C++](OJ/leet765/leet765.cpp)|Hard|
 |766|[托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix)|[Python](OJ/leet766/leet766.py)|Easy|
+|773|[滑动谜题⭐](https://leetcode-cn.com/problems/sliding-puzzle)|[C++](OJ/leet773/leet773.cpp), [C++](OJ/leet773/leet773v1.cpp)|Hard|
 |777|[在LR字符串中交换相邻字符](https://leetcode-cn.com/problems/swap-adjacent-in-lr-string)|[Python](OJ/leet777/leet777.py)|Medium|
 |778|[水位上升的泳池中游泳](https://leetcode-cn.com/problems/swim-in-rising-water)|[Python](OJ/leet778/leet778.py)|Hard|
 |781|[森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest)|[C++](OJ/leet781/leet781.cpp)|Medium|
@@ -553,7 +555,7 @@
 |1763|[最长的美好子字符串](https://leetcode-cn.com/problems/longest-nice-substring)|[C++](OJ/leet1763/leet1763.cpp)|Easy|
 |1765|[地图中的最高点](https://leetcode-cn.com/problems/map-of-highest-peak)|[C++](OJ/leet1765/leet1765.cpp)|Medium|
 |1787|[使所有区间的异或结果为零⭐](https://leetcode-cn.com/problems/make-the-xor-of-all-segments-equal-to-zero)|[C++](OJ/leet1787/leet1787.cpp)|Hard|
-|1791|[找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph)|[C++](OJ/leet1791/leet1791.cpp), [Rust](OJ/leet1791/src/main.rs)|Medium|
+|1791|[找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph)|[C++](OJ/leet1791/leet1791.cpp), [Rust](OJ/leet1791/src/main.rs)|Easy|
 |1813|[句子相似性 III](https://leetcode-cn.com/problems/sentence-similarity-iii)|[Python](OJ/leet1813/leet1813.py)|Medium|
 |1814|[统计一个数组中好对子的数目](https://leetcode-cn.com/problems/count-nice-pairs-in-an-array)|[Rust](OJ/leet1814/src/main.rs)|Medium|
 |1819|[序列中不同最大公约数的数目⭐](https://leetcode-cn.com/problems/number-of-different-subsequences-gcds)|[C++](OJ/leet1819/leet1819.cpp)|Hard|

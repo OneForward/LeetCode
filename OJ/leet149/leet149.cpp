@@ -16,45 +16,29 @@ leet149
 #include <utility>
 using namespace std;
 
-int gcd(int x, int y) {
-    if (y == 0) return x;
-    return gcd(y, x%y);
-}
-
 class Solution {
 public:
     
     int maxPoints(const vector<vector<int>>& points) {
-        // 32ms, 80%
         if (points.empty()) return 0;
 
         auto f = [] (const vector<int>& p1, const vector<int>& p2)  {
             int y = (p1[1] - p2[1]), x = (p1[0] - p2[0]);
-            if (y == 0) return (long long)0;
-
-            int k = gcd(x, y);
-            y /= k; x /= k; if (y < 0) y = -y, x = -x;
-            return ((long long) y << 32) ^ (long long)x ;
+            
+            return (double)y / x;
         };
         
         int ans = 0;
         for (int i = 0; i < points.size(); ++i) {
             const auto& p1 = points[i];
-            unordered_map<long long, int> M; int INF = 0, SAME = 0;
+            unordered_map<double, int> M; int Vertical = 0;
             for (int j = i+1; j < points.size(); ++j) {
                 const auto& p2 = points[j];
-                if (p1[0] == p2[0]) {
-                    if (p1[1] == p2[1]) SAME++;
-                    else INF++;
-                }
-                else {
-                    M[f(p2, p1)]++; 
-                }
+                if (p1[0] == p2[0]) Vertical++;
+                else  M[f(p2, p1)]++; 
             }
-            ans = max(ans, INF+SAME);
-            for (const auto& [k, v]: M) {
-                ans = max(ans, v+SAME);
-            }
+            ans = max(ans, Vertical);
+            for (const auto& [k, v]: M)  ans = max(ans, v);
         }
         return ans + 1;
     }
