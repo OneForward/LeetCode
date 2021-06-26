@@ -444,6 +444,7 @@
 |973|[最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin)|[C++](OJ/leet973/leet973.cpp)|Medium|
 |975|[奇偶跳](https://leetcode-cn.com/problems/odd-even-jump)|[C++](OJ/leet975/leet975.cpp)|Hard|
 |978|[最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray)|[C++](OJ/leet978/leet978.cpp)|Medium|
+|980|[不同路径 III⭐](https://leetcode-cn.com/problems/unique-paths-iii)|[Python](OJ/leet980/leet980.py)|Hard|
 |981|[基于时间的键值存储](https://leetcode-cn.com/problems/time-based-key-value-store)|[C++](OJ/leet981/leet981.cpp), [C++](OJ/leet981/leet981V1.cpp), [Rust](OJ/leet981/src/main.rs)|Medium|
 |982|[按位与为零的三元组](https://leetcode-cn.com/problems/triples-with-bitwise-and-equal-to-zero)|[Python](OJ/leet982/leet982.py)|Hard|
 |986|[区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections)|[C++](OJ/leet986/leet986.cpp), [Python](OJ/leet986/leet986.py)|Medium|
@@ -568,6 +569,7 @@
 |1865|[找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum)|[Rust](OJ/leet1865/src/main.rs)|Medium|
 |1871|[跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii)|[C++](OJ/leet1871/leet1871.cpp)|Medium|
 |1877|[数组中最大数对和的最小值⭐](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[Rust](OJ/leet1877/src/main.rs)|Medium|
+|1906|[查询差绝对值的最小值](https://leetcode-cn.com/problems/minimum-absolute-difference-queries)|[Rust](OJ/leet1906/src/main.rs), [Rust](OJ/leet1906/src/二分法.rs)|Medium|
 
 ## LCCI
 
