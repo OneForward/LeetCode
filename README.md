@@ -508,6 +508,7 @@
 |1345|[跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv)|[C++](OJ/leet1345/leet1345.cpp), [Rust](OJ/leet1345/src/main.rs)|Hard|
 |1353|[最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended)|[C++](OJ/leet1353/leet1353.cpp)|Medium|
 |1363|[形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three)|[C++](OJ/leet1363/leet1363.cpp)|Hard|
+|1402|[做菜顺序](https://leetcode-cn.com/problems/reducing-dishes)|[Rust](OJ/leet1402/src/main.rs)|Hard|
 |1405|[最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string)|[C++](OJ/leet1405/leet1405.cpp)|Medium|
 |1406|[石子游戏 III](https://leetcode-cn.com/problems/stone-game-iii)|[Python](OJ/leet1406/leet1406.py)|Hard|
 |1409|[查询带键的排列](https://leetcode-cn.com/problems/queries-on-a-permutation-with-key)|[C++](OJ/leet1409/leet1409-树状数组.cpp), [C++](OJ/leet1409/leet1409.cpp)|Medium|
