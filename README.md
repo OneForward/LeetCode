@@ -430,6 +430,7 @@
 |901|[股票价格跨度](https://leetcode-cn.com/problems/online-stock-span)|[C++](OJ/leet901/leet901.cpp), [Rust](OJ/leet901/src/main.rs), [Rust](OJ/leet901/src/mainV1.rs)|Medium|
 |907|[子数组的最小值之和](https://leetcode-cn.com/problems/sum-of-subarray-minimums)|[Python](OJ/leet907/leet907.py)|Medium|
 |908|[最小差值 I](https://leetcode-cn.com/problems/smallest-range-i)|[Rust](OJ/leet908/src/main.rs)|Easy|
+|909|[蛇梯棋](https://leetcode-cn.com/problems/snakes-and-ladders)|[Rust](OJ/leet909/src/main.rs)|Medium|
 |910|[最小差值 II⭐](https://leetcode-cn.com/problems/smallest-range-ii)|[C++](OJ/leet910/leet910.cpp), [Rust](OJ/leet910/src/main.rs)|Medium|
 |913|[猫和老鼠⭐](https://leetcode-cn.com/problems/cat-and-mouse)|[C++](OJ/leet913/leet913.cpp)|Hard|
 |918|[环形子数组的最大和⭐](https://leetcode-cn.com/problems/maximum-sum-circular-subarray)|[C++](OJ/leet918/leet918.cpp), [Rust](OJ/leet918/src/main.rs)|Medium|
