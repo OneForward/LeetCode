@@ -151,7 +151,7 @@
 |165|[比较版本号](https://leetcode-cn.com/problems/compare-version-numbers)|[C++](OJ/leet165/leet165.cpp)|Medium|
 |166|[分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal)|[C++](OJ/leet166/leet166.cpp)|Medium|
 |167|[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted)|[C++](OJ/leet167/leet167.cpp)|Easy|
-|168|[Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title)|[C++](OJ/leet168/leet168.cpp)|Easy|
+|168|[Excel表列名称⭐](https://leetcode-cn.com/problems/excel-sheet-column-title)|[C++](OJ/leet168/leet168.cpp), [C++](OJ/leet168/leet168v2.cpp), [Rust](OJ/leet168/src/main.rs)|Easy|
 |169|[多数元素](https://leetcode-cn.com/problems/majority-element)|[C++](OJ/leet169/leet169.cpp)|Easy|
 |172|[阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[C++](OJ/leet172/leet172.cpp)|Easy|
 |173|[二叉搜索树迭代器⭐](https://leetcode-cn.com/problems/binary-search-tree-iterator)|[C++](OJ/leet173/leet173.cpp)|Medium|
@@ -403,6 +403,7 @@
 |805|[数组的均值分割](https://leetcode-cn.com/problems/split-array-with-same-average)|[C++](OJ/leet805/leet805.cpp), [C++](OJ/leet805/leet805v2.cpp)|Hard|
 |810|[黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game)|[Rust](OJ/leet810/src/main.rs)|Hard|
 |813|[最大平均值和的分组](https://leetcode-cn.com/problems/largest-sum-of-averages)|[C++](OJ/leet813/leet813.cpp)|Medium|
+|815|[公交路线](https://leetcode-cn.com/problems/bus-routes)|[C++](OJ/leet815/leet815.cpp), [Rust](OJ/leet815/src/main.rs), [Rust](OJ/leet815/src/mainv1.rs)|Hard|
 |832|[翻转图像](https://leetcode-cn.com/problems/flipping-an-image)|[C++](OJ/leet832/leet832.cpp)|Easy|
 |837|[新21点](https://leetcode-cn.com/problems/new-21-game)|[C++](OJ/leet837/leet837.cpp)|Medium|
 |839|[相似字符串组](https://leetcode-cn.com/problems/similar-string-groups)|[Python](OJ/leet839/leet839.py)|Hard|

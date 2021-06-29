@@ -21,18 +21,18 @@ class Solution {
 public:
     string convertToTitle(int n) {
         // 0ms
-        vector<char> v; 
-        do {
-            v.push_back((n-1) % 26 + 'A'); n = (n-1) / 26;
-        } while (n);
-        return string(v.rbegin(), v.rend());
+        string s;
+        while (n) {
+            s.push_back((n-1) % 26 + 'A'); n = (n-1) / 26;
+        };
+        return string(s.rbegin(), s.rend());
     }
 };
 
 int main(int argc, char const *argv[])
 {
     Solution sol;   
-    cout << sol.convertToTitle(28) << endl;
+    cout << sol.convertToTitle(701) << endl;
     for (int n = 1; n < 55; ++n)
         cout << n << ": " << sol.convertToTitle(n) << endl;
     return 0;
