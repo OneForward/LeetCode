@@ -636,6 +636,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |LCP 03|[机器人大冒险](https://leetcode-cn.com/problems/programmable-robot)|[C++](OJ/lcp03/lcp03.cpp), [C++](OJ/lcp03/lcp03v1.cpp)|Medium|
+|LCP 07|[传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi)|[C++](OJ/lcp07/lcp07.cpp)|Easy|
 |LCP 08|[剧情触发时间](https://leetcode-cn.com/problems/ju-qing-hong-fa-shi-jian)|[C++](OJ/lcp08/lcp08.cpp), [C++](OJ/lcp08/lcp08v1.cpp), [Rust](OJ/lcp08/src/main.rs)|Medium|
 |LCP 09|[最小跳跃次数](https://leetcode-cn.com/problems/zui-xiao-tiao-yue-ci-shu)|[C++](OJ/lcp09/lcp09.cpp), [Rust](OJ/lcp09/src/main.rs)|Hard|
 |LCP 14|[切分数组](https://leetcode-cn.com/problems/qie-fen-shu-zu)|[C++](OJ/lcp14/lcp014.cpp)|Hard|
