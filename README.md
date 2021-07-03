@@ -293,6 +293,7 @@
 |445|[两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii)|[C++](OJ/leet445/leet445-栈.cpp), [C++](OJ/leet445/leet445-翻转.cpp)|Medium|
 |446|[等差数列划分 II - 子序列](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence)|[C++](OJ/leet446/leet446.cpp)|Hard|
 |448|[找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[C++](OJ/leet448/leet448.cpp)|Easy|
+|451|[根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency)|[Rust](OJ/leet451/src/main.rs)|Medium|
 |454|[四数相加 II](https://leetcode-cn.com/problems/4sum-ii)|[Python](OJ/leet454/leet454.py)|Medium|
 |456|[132 模式⭐](https://leetcode-cn.com/problems/132-pattern)|[C++](OJ/leet456/leet456.cpp), [C++](OJ/leet456/leet456v1.cpp), [Python](OJ/leet456/leet456.py)|Medium|
 |459|[重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern)|[C++](OJ/leet459/leet459.cpp)|Easy|
@@ -465,6 +466,7 @@
 |1025|[除数博弈](https://leetcode-cn.com/problems/divisor-game)|[C++](OJ/leet1025/leet1025.cpp)|Easy|
 |1027|[最长等差数列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence)|[C++](OJ/leet1027/leet1027-哈希.cpp), [C++](OJ/leet1027/leet1027.cpp)|Medium|
 |1028|[从先序遍历还原二叉树](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal)|[C++](OJ/leet1028/leet1028.cpp)|Hard|
+|1032|[字符流⭐](https://leetcode-cn.com/problems/stream-of-characters)|[C++](OJ/leet1032/leet1032.cpp), [C++](OJ/leet1032/test.cpp)|Hard|
 |1033|[移动石子直到连续](https://leetcode-cn.com/problems/moving-stones-until-consecutive)|[C++](OJ/leet1033/leet1033.cpp)|Easy|
 |1035|[不相交的线](https://leetcode-cn.com/problems/uncrossed-lines)|[Rust](OJ/leet1035/src/main.rs)|Medium|
 |1040|[移动石子直到连续 II⭐](https://leetcode-cn.com/problems/moving-stones-until-consecutive-ii)|[Python](OJ/leet1040/leet1040.py)|Medium|
@@ -496,6 +498,7 @@
 |1218|[最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference)|[C++](OJ/leet1218/leet1218.cpp)|Medium|
 |1226|[哲学家进餐⭐](https://leetcode-cn.com/problems/the-dining-philosophers)|[C++](OJ/leet1226/leet1226.cpp), [C++](OJ/leet1226/leet1226_Condition_奇数左_偶数右.cpp), [C++](OJ/leet1226/leet1226_Condition_至多4人同时.cpp)|Medium|
 |1227|[飞机座位分配概率](https://leetcode-cn.com/problems/airplane-seat-assignment-probability)|[Python](OJ/leet1227/leet1227.py)|Medium|
+|1237|[找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation)|[C++](OJ/leet1237/leet1237.cpp)|Medium|
 |1238|[循环码排列](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation)|[C++](OJ/leet1238/leet1238.cpp)|Medium|
 |1239|[串联字符串的最大长度](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[C++](OJ/leet1239/leet1239.cpp), [Rust](OJ/leet1239/src/main.rs)|Medium|
 |1262|[可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three)|[C++](OJ/leet1262/leet1262.cpp)|Medium|
@@ -509,6 +512,7 @@
 |1319|[连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected)|[C++](OJ/leet1319/leet1319.cpp), [Python](OJ/leet1319/leet1319.py)|Medium|
 |1340|[跳跃游戏 V⭐](https://leetcode-cn.com/problems/jump-game-v)|[C++](OJ/leet1340/leet1340.cpp)|Hard|
 |1345|[跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv)|[C++](OJ/leet1345/leet1345.cpp), [Rust](OJ/leet1345/src/main.rs)|Hard|
+|1352|[最后 K 个数的乘积](https://leetcode-cn.com/problems/product-of-the-last-k-numbers)|[C++](OJ/leet1352/leet1352-二分法.cpp)|Medium|
 |1353|[最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended)|[C++](OJ/leet1353/leet1353.cpp)|Medium|
 |1363|[形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three)|[C++](OJ/leet1363/leet1363.cpp)|Hard|
 |1402|[做菜顺序](https://leetcode-cn.com/problems/reducing-dishes)|[Rust](OJ/leet1402/src/main.rs)|Hard|
