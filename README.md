@@ -357,6 +357,7 @@
 |647|[回文子串](https://leetcode-cn.com/problems/palindromic-substrings)|[C++](OJ/leet647/leet647.cpp)|Medium|
 |648|[单词替换](https://leetcode-cn.com/problems/replace-words)|[Python](OJ/leet648/leet648.py)|Medium|
 |650|[只有两个键的键盘⭐](https://leetcode-cn.com/problems/2-keys-keyboard)|[C++](OJ/leet650/leet650-素数分解.cpp), [C++](OJ/leet650/leet650.cpp)|Medium|
+|654|[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree)|[C++](OJ/leet654/leet654v1.cpp)|Medium|
 |657|[机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin)|[Python](OJ/leet657/leet657.py)|Easy|
 |665|[非递减数列](https://leetcode-cn.com/problems/non-decreasing-array)|[C++](OJ/leet665/leet665.cpp)|Medium|
 |673|[最长递增子序列的个数⭐](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence)|[C++](OJ/leet673/leet673.cpp), [C++](OJ/leet673/leet673_动态规划_O(N^2).cpp), [C++](OJ/leet673/leet673_树状数组.cpp), [Python](OJ/leet673/leet673_线段树.py)|Medium|
@@ -434,6 +435,7 @@
 |908|[最小差值 I](https://leetcode-cn.com/problems/smallest-range-i)|[Rust](OJ/leet908/src/main.rs)|Easy|
 |909|[蛇梯棋](https://leetcode-cn.com/problems/snakes-and-ladders)|[Rust](OJ/leet909/src/main.rs)|Medium|
 |910|[最小差值 II⭐](https://leetcode-cn.com/problems/smallest-range-ii)|[C++](OJ/leet910/leet910.cpp), [Rust](OJ/leet910/src/main.rs)|Medium|
+|912|[排序数组](https://leetcode-cn.com/problems/sort-an-array)|[C++](OJ/leet912/leet912.cpp), [Rust](OJ/leet912/src/main.rs), [Rust](OJ/leet912/src/mainV1.rs)|Medium|
 |913|[猫和老鼠⭐](https://leetcode-cn.com/problems/cat-and-mouse)|[C++](OJ/leet913/leet913.cpp)|Hard|
 |918|[环形子数组的最大和⭐](https://leetcode-cn.com/problems/maximum-sum-circular-subarray)|[C++](OJ/leet918/leet918.cpp), [Rust](OJ/leet918/src/main.rs)|Medium|
 |919|[完全二叉树插入器](https://leetcode-cn.com/problems/complete-binary-tree-inserter)|[C++](OJ/leet919/leet919.cpp)|Medium|
