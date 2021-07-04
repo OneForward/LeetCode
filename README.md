@@ -353,6 +353,7 @@
 |633|[平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers)|[C++](OJ/leet633/leet633.cpp)|Medium|
 |638|[大礼包⭐](https://leetcode-cn.com/problems/shopping-offers)|[C++](OJ/leet638/leet638.cpp), [Python](OJ/leet638/leet638.py)|Medium|
 |640|[求解方程](https://leetcode-cn.com/problems/solve-the-equation)|[C++](OJ/leet640/leet640.cpp), [Python](OJ/leet640/leet640.py), [Rust](OJ/leet640/src/main.rs)|Medium|
+|645|[错误的集合](https://leetcode-cn.com/problems/set-mismatch)|[Rust](OJ/leet645/src/main.rs)|Easy|
 |646|[最长数对链⭐](https://leetcode-cn.com/problems/maximum-length-of-pair-chain)|[C++](OJ/leet646/leet646.cpp)|Medium|
 |647|[回文子串](https://leetcode-cn.com/problems/palindromic-substrings)|[C++](OJ/leet647/leet647.cpp)|Medium|
 |648|[单词替换](https://leetcode-cn.com/problems/replace-words)|[Python](OJ/leet648/leet648.py)|Medium|
