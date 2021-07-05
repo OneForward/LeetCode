@@ -384,6 +384,7 @@
 |719|[找出第 k 小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance)|[C++](OJ/leet719/leet719.cpp)|Hard|
 |721|[账户合并](https://leetcode-cn.com/problems/accounts-merge)|[C++](OJ/leet721/leet721.cpp), [Python](OJ/leet721/leet721.py)|Medium|
 |724|[寻找数组的中心下标](https://leetcode-cn.com/problems/find-pivot-index)|[Python](OJ/leet724/leet724.py)|Easy|
+|726|[原子的数量](https://leetcode-cn.com/problems/number-of-atoms)|[C++](OJ/leet726/leet726.cpp)|Hard|
 |730|[统计不同回文子序列](https://leetcode-cn.com/problems/count-different-palindromic-subsequences)|[C++](OJ/leet730/leet730.cpp), [Go](OJ/leet730/leet730.go)|Hard|
 |739|[每日温度](https://leetcode-cn.com/problems/daily-temperatures)|[C++](OJ/leet739/leet739.cpp)|Medium|
 |740|[删除并获得点数](https://leetcode-cn.com/problems/delete-and-earn)|[Python](OJ/leet740/leet740.py), [Rust](OJ/leet740/src/main.rs)|Medium|
@@ -496,6 +497,7 @@
 |1178|[猜字谜⭐](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle)|[C++](OJ/leet1178/leet1178.cpp), [C++](OJ/leet1178/leet1178v2.cpp), [Python](OJ/leet1178/leet1178.py)|Hard|
 |1190|[反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses)|[C++](OJ/leet1190/leet1190.cpp)|Medium|
 |1195|[交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded)|[C++](OJ/leet1195/leet1195.cpp)|Medium|
+|1201|[丑数 III](https://leetcode-cn.com/problems/ugly-number-iii)|[Rust](OJ/leet1201/src/main.rs)|Medium|
 |1208|[尽可能使字符串相等](https://leetcode-cn.com/problems/get-equal-substrings-within-budget)|[C++](OJ/leet1208/leet1208.cpp), [Python](OJ/leet1208/leet1208.py)|Medium|
 |1217|[玩筹码](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position)|[Python](OJ/leet1217/leet1217.py), [Rust](OJ/leet1217/src/main.rs)|Easy|
 |1218|[最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference)|[C++](OJ/leet1218/leet1218.cpp)|Medium|
