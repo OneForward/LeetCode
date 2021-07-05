@@ -21,6 +21,17 @@ macro_rules!vec2d {
 }
 
 #[macro_export]
+macro_rules!vec_of_strings2d {
+    [ $( [ $( $d:expr ),* ] ),* ] => {
+        vec![
+            $(
+                vec_of_strings![$($d),*],
+            )* 
+        ]
+    }
+}
+
+#[macro_export]
 macro_rules! min {
     ($x: expr) => ($x);
     ($x: expr, $($z: expr),+) => (::std::cmp::min($x, min!($($z),*)));
