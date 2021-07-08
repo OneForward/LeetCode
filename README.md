@@ -425,7 +425,7 @@
 |877|[石子游戏⭐](https://leetcode-cn.com/problems/stone-game)|[Python](OJ/leet877/leet877.py)|Medium|
 |879|[盈利计划⭐](https://leetcode-cn.com/problems/profitable-schemes)|[C++](OJ/leet879/leet879.cpp)|Hard|
 |886|[可能的二分法⭐](https://leetcode-cn.com/problems/possible-bipartition)|[Python](OJ/leet886/leet886.py)|Medium|
-|887|[鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop)|[C++](OJ/leet887/leet887.cpp), [Go](OJ/leet887/leet887.go)|Hard|
+|887|[鸡蛋掉落⭐](https://leetcode-cn.com/problems/super-egg-drop)|[C++](OJ/leet887/leet887.cpp), [Go](OJ/leet887/leet887.go)|Hard|
 |888|[公平的糖果棒交换](https://leetcode-cn.com/problems/fair-candy-swap)|[C++](OJ/leet888/leet888.cpp)|Easy|
 |889|[根据前序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)|[C++](OJ/leet889/leet889.cpp)|Medium|
 |895|[最大频率栈](https://leetcode-cn.com/problems/maximum-frequency-stack)|[Python](OJ/leet895/leet895.py)|Hard|
@@ -441,6 +441,7 @@
 |913|[猫和老鼠⭐](https://leetcode-cn.com/problems/cat-and-mouse)|[C++](OJ/leet913/leet913.cpp)|Hard|
 |918|[环形子数组的最大和⭐](https://leetcode-cn.com/problems/maximum-sum-circular-subarray)|[C++](OJ/leet918/leet918.cpp), [Rust](OJ/leet918/src/main.rs)|Medium|
 |919|[完全二叉树插入器](https://leetcode-cn.com/problems/complete-binary-tree-inserter)|[C++](OJ/leet919/leet919.cpp)|Medium|
+|930|[和相同的二元子数组](https://leetcode-cn.com/problems/binary-subarrays-with-sum)|[Rust](OJ/leet930/src/main.rs)|Medium|
 |938|[二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst)|[C++](OJ/leet938/leet938.cpp), [Rust](OJ/leet938/src/main.rs)|Easy|
 |940|[不同的子序列 II](https://leetcode-cn.com/problems/distinct-subsequences-ii)|[Python](OJ/leet940/leet940.py)|Hard|
 |946|[验证栈序列⭐](https://leetcode-cn.com/problems/validate-stack-sequences)|[C++](OJ/leet946/leet946.cpp)|Medium|
@@ -583,6 +584,7 @@
 |1871|[跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii)|[C++](OJ/leet1871/leet1871.cpp)|Medium|
 |1877|[数组中最大数对和的最小值⭐](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[Rust](OJ/leet1877/src/main.rs)|Medium|
 |1906|[查询差绝对值的最小值](https://leetcode-cn.com/problems/minimum-absolute-difference-queries)|[Rust](OJ/leet1906/src/main.rs), [Rust](OJ/leet1906/src/二分法.rs)|Medium|
+|1915|[最美子字符串的数目](https://leetcode-cn.com/problems/number-of-wonderful-substrings)|[Rust](OJ/leet1915/src/main.rs)|Medium|
 
 ## LCCI
 
