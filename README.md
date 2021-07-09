@@ -513,6 +513,7 @@
 |1277|[统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones)|[C++](OJ/leet1277/leet1277.cpp)|Medium|
 |1288|[删除被覆盖区间⭐](https://leetcode-cn.com/problems/remove-covered-intervals)|[C++](OJ/leet1288/leet1288.cpp)|Medium|
 |1289|[下降路径最小和  II⭐](https://leetcode-cn.com/problems/minimum-falling-path-sum-ii)|[C++](OJ/leet1289/leet1289.cpp), [Python](OJ/leet1289/leet1289.py)|Hard|
+|1302|[层数最深叶子节点的和](https://leetcode-cn.com/problems/deepest-leaves-sum)|[C++](OJ/leet1302/leet1302.cpp)|Medium|
 |1306|[跳跃游戏 III](https://leetcode-cn.com/problems/jump-game-iii)|[C++](OJ/leet1306/leet1306.cpp)|Medium|
 |1310|[子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray)|[Rust](OJ/leet1310/src/main.rs)|Medium|
 |1319|[连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected)|[C++](OJ/leet1319/leet1319.cpp), [Python](OJ/leet1319/leet1319.py)|Medium|
