@@ -583,6 +583,7 @@
 |1865|[找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum)|[Rust](OJ/leet1865/src/main.rs)|Medium|
 |1871|[跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii)|[C++](OJ/leet1871/leet1871.cpp)|Medium|
 |1877|[数组中最大数对和的最小值⭐](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[Rust](OJ/leet1877/src/main.rs)|Medium|
+|1884|[鸡蛋掉落-两枚鸡蛋](https://leetcode-cn.com/problems/egg-drop-with-2-eggs-and-n-floors)|[Rust](OJ/leet1884/src/main.rs)|Medium|
 |1906|[查询差绝对值的最小值](https://leetcode-cn.com/problems/minimum-absolute-difference-queries)|[Rust](OJ/leet1906/src/main.rs), [Rust](OJ/leet1906/src/二分法.rs)|Medium|
 |1915|[最美子字符串的数目](https://leetcode-cn.com/problems/number-of-wonderful-substrings)|[Rust](OJ/leet1915/src/main.rs)|Medium|
 
@@ -634,6 +635,7 @@
 |面试题 17.07|[婴儿名字](https://leetcode-cn.com/problems/baby-names-lcci)|[Python](OJ/lcci17.07/lcci17.07.py)|Medium|
 |面试题 17.08|[马戏团人塔⭐](https://leetcode-cn.com/problems/circus-tower-lcci)|[C++](OJ/lcci17.08/lcci17.08.cpp), [Rust](OJ/lcci17.08/src/main.rs)|Medium|
 |面试题 17.09|[第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci)|[C++](OJ/lcci17.09/lcci17.09.cpp)|Medium|
+|面试题 17.10|[主要元素](https://leetcode-cn.com/problems/find-majority-element-lcci)|[Rust](OJ/lcci17.10/src/main.rs)|Easy|
 |面试题 17.11|[单词距离](https://leetcode-cn.com/problems/find-closest-lcci)|[Rust](OJ/lcci17.11/src/main.rs)|Medium|
 |面试题 17.13|[恢复空格](https://leetcode-cn.com/problems/re-space-lcci)|[C++](OJ/lcci17.13/lcci17.13.cpp), [Rust](OJ/lcci17.13/src/main.rs)|Medium|
 |面试题 17.15|[最长单词⭐](https://leetcode-cn.com/problems/longest-word-lcci)|[Rust](OJ/lcci17.15/src/main.rs)|Medium|
