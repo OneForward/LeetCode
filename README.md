@@ -545,6 +545,7 @@
 |1563|[石子游戏 V](https://leetcode-cn.com/problems/stone-game-v)|[C++](OJ/leet1563/leet1563.cpp)|Hard|
 |1567|[乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product)|[Rust](OJ/leet1567/src/main.rs)|Medium|
 |1579|[保证图可完全遍历](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable)|[C++](OJ/leet1579/leet1579.cpp)|Hard|
+|1590|[使数组和能被 P 整除](https://leetcode-cn.com/problems/make-sum-divisible-by-p)|[Rust](OJ/leet1590/src/main.rs)|Medium|
 |1600|[皇位继承顺序](https://leetcode-cn.com/problems/throne-inheritance)|[C++](OJ/leet1600/leet1600.cpp)|Medium|
 |1603|[设计停车系统](https://leetcode-cn.com/problems/design-parking-system)|[C++](OJ/leet1603/leet1603.cpp)|Easy|
 |1611|[使整数变为 0 的最少操作次数](https://leetcode-cn.com/problems/minimum-one-bit-operations-to-make-integers-zero)|[C++](OJ/leet1611/leet1611.cpp)|Hard|
@@ -579,6 +580,7 @@
 |1823|[找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game)|[C++](OJ/leet1823/leet1823.cpp)|Medium|
 |1824|[最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps)|[C++](OJ/leet1824/leet1824.cpp)|Medium|
 |1825|[求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average)|[C++](OJ/leet1825/leet1825.cpp)|Hard|
+|1828|[统计一个圆中点的数目](https://leetcode-cn.com/problems/queries-on-number-of-points-inside-a-circle)|[Rust](OJ/leet1828/src/main.rs)|Medium|
 |1833|[雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[C++](OJ/leet1833/leet1833.cpp)|Medium|
 |1856|[子数组最小乘积的最大值⭐](https://leetcode-cn.com/problems/maximum-subarray-min-product)|[C++](OJ/leet1856/leet1856.cpp)|Medium|
 |1865|[找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum)|[Rust](OJ/leet1865/src/main.rs)|Medium|
