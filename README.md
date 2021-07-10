@@ -374,6 +374,7 @@
 |697|[数组的度](https://leetcode-cn.com/problems/degree-of-an-array)|[C++](OJ/leet697/leet697.cpp)|Easy|
 |698|[划分为k个相等的子集⭐](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets)|[C++](OJ/leet698/leet698.cpp), [C++](OJ/leet698/leet698v1.cpp), [C++](OJ/leet698/leet698v2.cpp), [Python](OJ/leet698/leet698.py)|Medium|
 |699|[掉落的方块](https://leetcode-cn.com/problems/falling-squares)|[C++](OJ/leet699/leet699.cpp)|Hard|
+|701|[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree)|[C++](OJ/leet701/leet701.cpp)|Medium|
 |703|[数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream)|[C++](OJ/leet703/leet703.cpp)|Easy|
 |705|[设计哈希集合](https://leetcode-cn.com/problems/design-hashset)|[C++](OJ/leet705/leet705-开哈希表.cpp), [C++](OJ/leet705/leet705-简单数组.cpp), [C++](OJ/leet705/leet705-链表.cpp)|Easy|
 |706|[设计哈希映射](https://leetcode-cn.com/problems/design-hashmap)|[C++](OJ/leet706/leet706.cpp), [Rust](OJ/leet706/src/main.rs)|Easy|
@@ -417,6 +418,7 @@
 |852|[山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array)|[C++](OJ/leet852/leet852.cpp)|Easy|
 |855|[考场就座](https://leetcode-cn.com/problems/exam-room)|[Rust](OJ/leet855/src/main.rs)|Medium|
 |862|[和至少为 K 的最短子数组⭐](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k)|[C++](OJ/leet862/leet862.cpp), [Rust](OJ/leet862/src/main.rs)|Hard|
+|865|[具有所有最深节点的最小子树](https://leetcode-cn.com/problems/smallest-subtree-with-all-the-deepest-nodes)|[C++](OJ/leet865/leet865.cpp)|Medium|
 |866|[回文素数](https://leetcode-cn.com/problems/prime-palindrome)|[C++](OJ/leet866/leet866.cpp), [C++](OJ/leet866/leet866v1.cpp), [C++](OJ/leet866/leet866v2.cpp)|Medium|
 |867|[转置矩阵](https://leetcode-cn.com/problems/transpose-matrix)|[C++](OJ/leet867/leet867.cpp)|Easy|
 |872|[叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees)|[C++](OJ/leet872/leet872.cpp)|Easy|
@@ -493,6 +495,7 @@
 |1116|[打印零与奇偶数](https://leetcode-cn.com/problems/print-zero-even-odd)|[C++](OJ/leet1116/leet1116.cpp)|Medium|
 |1117|[H2O 生成](https://leetcode-cn.com/problems/building-h2o)|[C++](OJ/leet1117/leet1117.cpp)|Medium|
 |1122|[数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array)|[C++](OJ/leet1122/main.cpp), [Rust](OJ/leet1122/src/main.rs)|Easy|
+|1123|[最深叶节点的最近公共祖先⭐](https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves)|[C++](OJ/leet1123/leet1123.cpp), [C++](OJ/leet1123/leet1123v1.cpp)|Medium|
 |1128|[等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs)|[C++](OJ/leet1128/leet1128.cpp)|Easy|
 |1140|[石子游戏 II](https://leetcode-cn.com/problems/stone-game-ii)|[Python](OJ/leet1140/leet1140.py)|Medium|
 |1143|[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence)|[C++](OJ/leet1143/leet1143.cpp), [C++](OJ/leet1143/leet1143v1.cpp)|Medium|
@@ -519,6 +522,7 @@
 |1306|[跳跃游戏 III](https://leetcode-cn.com/problems/jump-game-iii)|[C++](OJ/leet1306/leet1306.cpp)|Medium|
 |1310|[子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray)|[Rust](OJ/leet1310/src/main.rs)|Medium|
 |1319|[连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected)|[C++](OJ/leet1319/leet1319.cpp), [Python](OJ/leet1319/leet1319.py)|Medium|
+|1325|[删除给定值的叶子节点](https://leetcode-cn.com/problems/delete-leaves-with-a-given-value)|[C++](OJ/leet1325/leet1325.cpp)|Medium|
 |1340|[跳跃游戏 V⭐](https://leetcode-cn.com/problems/jump-game-v)|[C++](OJ/leet1340/leet1340.cpp)|Hard|
 |1345|[跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv)|[C++](OJ/leet1345/leet1345.cpp), [Rust](OJ/leet1345/src/main.rs)|Hard|
 |1352|[最后 K 个数的乘积](https://leetcode-cn.com/problems/product-of-the-last-k-numbers)|[C++](OJ/leet1352/leet1352-二分法.cpp)|Medium|
@@ -536,6 +540,7 @@
 |1438|[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)|[C++](OJ/leet1438/leet1438.cpp)|Medium|
 |1439|[有序矩阵中的第 k 个最小数组和⭐](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows)|[C++](OJ/leet1439/leet1439-二分.cpp), [C++](OJ/leet1439/leet1439-堆.cpp), [C++](OJ/leet1439/leet1439-暴力.cpp)|Hard|
 |1442|[形成两个异或相等数组的三元组数目⭐](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)|[C++](OJ/leet1442/leet1442.cpp)|Medium|
+|1448|[统计二叉树中好节点的数目](https://leetcode-cn.com/problems/count-good-nodes-in-binary-tree)|[C++](OJ/leet1448/leet1448.cpp)|Medium|
 |1449|[数位成本和为目标值的最大数字](https://leetcode-cn.com/problems/form-largest-integer-with-digits-that-add-up-to-target)|[C++](OJ/leet1449/leet1449.cpp)|Hard|
 |1456|[定长子串中元音的最大数目](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)|[C++](OJ/leet1456/leet1456.cpp)|Medium|
 |1473|[粉刷房子 III](https://leetcode-cn.com/problems/paint-house-iii)|[Python](OJ/leet1473/leet1473.py), [Rust](OJ/leet1473/src/main.rs)|Hard|
