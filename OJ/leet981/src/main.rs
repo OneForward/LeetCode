@@ -38,6 +38,7 @@ impl TimeMap {
     }
     
     fn get(&self, key: String, timestamp: i32) -> String {
+        let mut ans = String::new();
         if let Some(v) = self.M.get(&key) {
             let (mut lft, mut rht) = (0, v.len());
             while lft < rht {
@@ -45,10 +46,9 @@ impl TimeMap {
                 if v[mid].0 > timestamp { rht = mid; }
                 else {lft = mid + 1;}
             }
-            if lft == 0 { String::new() }
-            else { v[lft-1].1.clone() }
+            if lft > 0 { ans = v[lft-1].1.clone(); }
         }
-        else { String::new() }
+        ans
     }
 }
 
