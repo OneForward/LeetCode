@@ -209,7 +209,7 @@
 |264|[丑数 II](https://leetcode-cn.com/problems/ugly-number-ii)|[C++](OJ/leet264/leet264.cpp), [C++](OJ/leet264/main.cpp)|Medium|
 |268|[丢失的数字](https://leetcode-cn.com/problems/missing-number)|[C++](OJ/leet268/leet268.cpp), [C++](OJ/leet268/leet268v1.cpp)|Easy|
 |273|[整数转换英文表示](https://leetcode-cn.com/problems/integer-to-english-words)|[C++](OJ/leet273/leet273.cpp)|Hard|
-|274|[H 指数](https://leetcode-cn.com/problems/h-index)|[C++](OJ/leet274/leet274.cpp), [C++](OJ/leet274/leet274v1.cpp)|Medium|
+|274|[H 指数](https://leetcode-cn.com/problems/h-index)|[C++](OJ/leet274/leet274.cpp), [C++](OJ/leet274/leet274v1.cpp), [Rust](OJ/leet274/src/main.rs)|Medium|
 |275|[H 指数 II](https://leetcode-cn.com/problems/h-index-ii)|[C++](OJ/leet275/leet275.cpp), [Go](OJ/leet275/leet275.go), [Rust](OJ/leet275/src/main.rs)|Medium|
 |278|[第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version)|[C++](OJ/leet278/leet278.cpp)|Easy|
 |279|[完全平方数⭐](https://leetcode-cn.com/problems/perfect-squares)|[C++](OJ/leet279/leet279.cpp), [Rust](OJ/leet279/src/main-动态规划.rs), [Rust](OJ/leet279/src/main.rs)|Medium|
@@ -599,6 +599,7 @@
 |1884|[鸡蛋掉落-两枚鸡蛋](https://leetcode-cn.com/problems/egg-drop-with-2-eggs-and-n-floors)|[Rust](OJ/leet1884/src/main.rs)|Medium|
 |1906|[查询差绝对值的最小值](https://leetcode-cn.com/problems/minimum-absolute-difference-queries)|[Rust](OJ/leet1906/src/main.rs), [Rust](OJ/leet1906/src/二分法.rs)|Medium|
 |1915|[最美子字符串的数目](https://leetcode-cn.com/problems/number-of-wonderful-substrings)|[Rust](OJ/leet1915/src/main.rs)|Medium|
+|5809|[长度为 3 的不同回文子序列](https://leetcode-cn.com/problems/unique-length-3-palindromic-subsequences)|[C++](OJ/leet5809/leet5809.cpp)|Medium|
 
 ## LCCI
 
