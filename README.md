@@ -361,6 +361,7 @@
 |654|[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree)|[C++](OJ/leet654/leet654v1.cpp)|Medium|
 |657|[机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin)|[Python](OJ/leet657/leet657.py)|Easy|
 |665|[非递减数列](https://leetcode-cn.com/problems/non-decreasing-array)|[C++](OJ/leet665/leet665.cpp)|Medium|
+|668|[乘法表中第k小的数](https://leetcode-cn.com/problems/kth-smallest-number-in-multiplication-table)|[Rust](OJ/leet668/src/main.rs)|Hard|
 |673|[最长递增子序列的个数⭐](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence)|[C++](OJ/leet673/leet673.cpp), [C++](OJ/leet673/leet673_动态规划_O(N^2).cpp), [C++](OJ/leet673/leet673_树状数组.cpp), [Python](OJ/leet673/leet673_线段树.py)|Medium|
 |679|[24 点游戏](https://leetcode-cn.com/problems/24-game)|[C++](OJ/leet679/leet679.cpp)|Hard|
 |682|[棒球比赛](https://leetcode-cn.com/problems/baseball-game)|[Rust](OJ/leet682/src/main.rs)|Easy|
@@ -599,7 +600,6 @@
 |1884|[鸡蛋掉落-两枚鸡蛋](https://leetcode-cn.com/problems/egg-drop-with-2-eggs-and-n-floors)|[Rust](OJ/leet1884/src/main.rs)|Medium|
 |1906|[查询差绝对值的最小值](https://leetcode-cn.com/problems/minimum-absolute-difference-queries)|[Rust](OJ/leet1906/src/main.rs), [Rust](OJ/leet1906/src/二分法.rs)|Medium|
 |1915|[最美子字符串的数目](https://leetcode-cn.com/problems/number-of-wonderful-substrings)|[Rust](OJ/leet1915/src/main.rs)|Medium|
-|5809|[长度为 3 的不同回文子序列](https://leetcode-cn.com/problems/unique-length-3-palindromic-subsequences)|[C++](OJ/leet5809/leet5809.cpp)|Medium|
 
 ## LCCI
 
