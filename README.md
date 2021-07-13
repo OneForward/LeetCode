@@ -588,6 +588,7 @@
 |1791|[找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph)|[C++](OJ/leet1791/leet1791.cpp), [Rust](OJ/leet1791/src/main.rs)|Easy|
 |1813|[句子相似性 III](https://leetcode-cn.com/problems/sentence-similarity-iii)|[Python](OJ/leet1813/leet1813.py)|Medium|
 |1814|[统计一个数组中好对子的数目](https://leetcode-cn.com/problems/count-nice-pairs-in-an-array)|[Rust](OJ/leet1814/src/main.rs)|Medium|
+|1818|[绝对差值和](https://leetcode-cn.com/problems/minimum-absolute-sum-difference)|[Rust](OJ/leet1818/src/main.rs)|Medium|
 |1819|[序列中不同最大公约数的数目⭐](https://leetcode-cn.com/problems/number-of-different-subsequences-gcds)|[C++](OJ/leet1819/leet1819.cpp)|Hard|
 |1823|[找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game)|[C++](OJ/leet1823/leet1823.cpp)|Medium|
 |1824|[最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps)|[C++](OJ/leet1824/leet1824.cpp)|Medium|
