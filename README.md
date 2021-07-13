@@ -181,7 +181,7 @@
 |214|[最短回文串](https://leetcode-cn.com/problems/shortest-palindrome)|[C++](OJ/leet214/leet214.cpp)|Hard|
 |215|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array)|[C++](OJ/leet215/leet215.cpp)|Medium|
 |216|[组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii)|[C++](OJ/leet216/leet216.cpp)|Medium|
-|218|[天际线问题⭐](https://leetcode-cn.com/problems/the-skyline-problem)|[C++](OJ/leet218/leet218.cpp), [C++](OJ/leet218/leet218_WA.cpp)|Hard|
+|218|[天际线问题⭐](https://leetcode-cn.com/problems/the-skyline-problem)|[C++](OJ/leet218/leet218.cpp), [C++](OJ/leet218/leet218_WA.cpp), [Rust](OJ/leet218/src/main.rs)|Hard|
 |219|[存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii)|[C++](OJ/leet219/leet219.cpp)|Easy|
 |220|[存在重复元素 III](https://leetcode-cn.com/problems/contains-duplicate-iii)|[C++](OJ/leet220/leet220-平衡树.cpp), [C++](OJ/leet220/leet220-桶哈希.cpp), [Java](OJ/leet220/leet220.java)|Medium|
 |221|[最大正方形](https://leetcode-cn.com/problems/maximal-square)|[C++](OJ/leet221/leet221.cpp)|Medium|
