@@ -407,6 +407,7 @@
 |787|[K 站中转内最便宜的航班⭐](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops)|[C++](OJ/leet787/leet787-Bellman-Ford.cpp), [C++](OJ/leet787/leet787-Dijkstra.cpp), [Rust](OJ/leet787/src/main.rs)|Medium|
 |793|[阶乘函数后 K 个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function)|[Python](OJ/leet793/leet793.py)|Hard|
 |805|[数组的均值分割](https://leetcode-cn.com/problems/split-array-with-same-average)|[C++](OJ/leet805/leet805.cpp), [C++](OJ/leet805/leet805v2.cpp)|Hard|
+|807|[保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline)|[Rust](OJ/leet807/src/main.rs)|Medium|
 |810|[黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game)|[Rust](OJ/leet810/src/main.rs)|Hard|
 |813|[最大平均值和的分组](https://leetcode-cn.com/problems/largest-sum-of-averages)|[C++](OJ/leet813/leet813.cpp)|Medium|
 |815|[公交路线](https://leetcode-cn.com/problems/bus-routes)|[C++](OJ/leet815/leet815.cpp), [Rust](OJ/leet815/src/main.rs), [Rust](OJ/leet815/src/mainv1.rs)|Hard|
