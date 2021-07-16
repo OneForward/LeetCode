@@ -595,6 +595,7 @@
 |1825|[求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average)|[C++](OJ/leet1825/leet1825.cpp)|Hard|
 |1828|[统计一个圆中点的数目](https://leetcode-cn.com/problems/queries-on-number-of-points-inside-a-circle)|[Rust](OJ/leet1828/src/main.rs)|Medium|
 |1833|[雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[C++](OJ/leet1833/leet1833.cpp)|Medium|
+|1846|[减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging)|[Rust](OJ/leet1846/src/main.rs)|Medium|
 |1856|[子数组最小乘积的最大值⭐](https://leetcode-cn.com/problems/maximum-subarray-min-product)|[C++](OJ/leet1856/leet1856.cpp)|Medium|
 |1865|[找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum)|[Rust](OJ/leet1865/src/main.rs)|Medium|
 |1871|[跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii)|[C++](OJ/leet1871/leet1871.cpp)|Medium|
@@ -676,6 +677,30 @@
 |LCP 34|[二叉树染色⭐](https://leetcode-cn.com/problems/er-cha-shu-ran-se-UGC)|[C++](OJ/lcp34/lcp034.cpp)|Medium|
 |LCP 35|[电动车游城市⭐](https://leetcode-cn.com/problems/DFPeFJ)|[C++](OJ/lcp35/lcp35.cpp)|Hard|
 |LCP 36|[最多牌组数⭐](https://leetcode-cn.com/problems/Up5XYM)|[C++](OJ/lcp36/lcp36.cpp)|Hard|
+
+## LCOF
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|剑指 Offer 03|[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof)|[C++](OJ/lcof03/lcof03.cpp)|Easy|
+|剑指 Offer 11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)|[C++](OJ/lcof11/lcof11.cpp)|Easy|
+|剑指 Offer 12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof)|[C++](OJ/lcof12/lcof12.cpp)|Medium|
+|剑指 Offer 15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)|[C++](OJ/lcof15/lcof15.cpp)|Easy|
+|剑指 Offer 26|[树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof)|[C++](OJ/lcof26/lcof26.cpp)|Medium|
+|剑指 Offer 32 - I|[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof)|[C++](OJ/lcof32/lcof32.cpp)|Medium|
+|剑指 Offer 36|[二叉搜索树与双向链表⭐](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof)|[C++](OJ/lcof36/lcof36.cpp), [C++](OJ/lcof36/lcof36v1.cpp)|Medium|
+|剑指 Offer 37|[序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof)|[C++](OJ/lcof37/lcof37.cpp), [C++](OJ/lcof37/lcof37v2.cpp)|Hard|
+|剑指 Offer 38|[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof)|[C++](OJ/lcof38/lcof38.cpp), [C++](OJ/lcof38/lcof38v2.cpp), [Python](OJ/lcof38/lcof38.py)|Medium|
+|剑指 Offer 44|[数字序列中某一位的数字](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof)|[C++](OJ/lcof44/lcof44.cpp)|Medium|
+|剑指 Offer 45|[把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof)|[C++](OJ/lcof45/lcof45.cpp)|Medium|
+|剑指 Offer 46|[把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof)|[C++](OJ/lcof46/lcof46.cpp)|Medium|
+|剑指 Offer 47|[礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof)|[C++](OJ/lcof47/lcof47.cpp)|Medium|
+|剑指 Offer 48|[最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof)|[C++](OJ/lcof48/offer048.cpp)|Medium|
+|剑指 Offer 51|[数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof)|[C++](OJ/lcof51/lcof51.cpp)|Hard|
+|剑指 Offer 59 - I|[滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof)|[C++](OJ/lcof59/offer059.cpp)|Hard|
+|剑指 Offer 59 - II|[队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof)|[C++](OJ/lcof59_II/offer059_II.cpp)|Medium|
+|剑指 Offer 60|[n个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof)|[C++](OJ/lcof60/lcof60.cpp)|Medium|
+|剑指 Offer 68 - I|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof)|[C++](OJ/lcof68/lcof68.cpp), [C++](OJ/lcof68/lcof68v1.cpp)|Easy|
 
 ## SJTU
 

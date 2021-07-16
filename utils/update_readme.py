@@ -98,6 +98,10 @@ print('\n## LCP\n' + md)
 leets = OJ.glob('lcp**')
 printSols(leets)
 
+print('\n## LCOF\n' + md)
+leets = OJ.glob('lcof**')
+printSols(leets)
+
 
 import re 
 md = f"""
