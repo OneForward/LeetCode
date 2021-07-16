@@ -697,6 +697,7 @@
 |剑指 Offer 47|[礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof)|[C++](OJ/lcof47/lcof47.cpp)|Medium|
 |剑指 Offer 48|[最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof)|[C++](OJ/lcof48/offer048.cpp)|Medium|
 |剑指 Offer 51|[数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof)|[C++](OJ/lcof51/lcof51.cpp)|Hard|
+|剑指 Offer 53 - I|[在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof)|[Rust](OJ/lcof53_I/src/main.rs)|Easy|
 |剑指 Offer 59 - I|[滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof)|[C++](OJ/lcof59/offer059.cpp)|Hard|
 |剑指 Offer 59 - II|[队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof)|[C++](OJ/lcof59_II/offer059_II.cpp)|Medium|
 |剑指 Offer 60|[n个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof)|[C++](OJ/lcof60/lcof60.cpp)|Medium|

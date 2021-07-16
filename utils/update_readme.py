@@ -40,6 +40,7 @@ def translate(f: str):
     if f.startswith('leet'): return str(int(f.replace('leet', '')))
     if f.startswith('lcof'): 
         f = f.replace('lcof', '剑指 Offer ')
+        f = f.replace('_I', ' - I')
         f = f.replace('_II', ' - II')
         return f
     return ''
