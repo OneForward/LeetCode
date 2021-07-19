@@ -595,6 +595,7 @@
 |1825|[求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average)|[C++](OJ/leet1825/leet1825.cpp)|Hard|
 |1828|[统计一个圆中点的数目](https://leetcode-cn.com/problems/queries-on-number-of-points-inside-a-circle)|[Rust](OJ/leet1828/src/main.rs)|Medium|
 |1833|[雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars)|[C++](OJ/leet1833/leet1833.cpp)|Medium|
+|1838|[最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element)|[Rust](OJ/leet1838/src/main.rs)|Medium|
 |1846|[减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging)|[Rust](OJ/leet1846/src/main.rs)|Medium|
 |1856|[子数组最小乘积的最大值⭐](https://leetcode-cn.com/problems/maximum-subarray-min-product)|[C++](OJ/leet1856/leet1856.cpp)|Medium|
 |1865|[找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum)|[Rust](OJ/leet1865/src/main.rs)|Medium|
