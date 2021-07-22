@@ -357,6 +357,7 @@
 |646|[最长数对链⭐](https://leetcode-cn.com/problems/maximum-length-of-pair-chain)|[C++](OJ/leet646/leet646.cpp)|Medium|
 |647|[回文子串](https://leetcode-cn.com/problems/palindromic-substrings)|[C++](OJ/leet647/leet647.cpp)|Medium|
 |648|[单词替换](https://leetcode-cn.com/problems/replace-words)|[Python](OJ/leet648/leet648.py)|Medium|
+|649|[Dota2 参议院⭐](https://leetcode-cn.com/problems/dota2-senate)|[Rust](OJ/leet649/src/main.rs)|Medium|
 |650|[只有两个键的键盘⭐](https://leetcode-cn.com/problems/2-keys-keyboard)|[C++](OJ/leet650/leet650-素数分解.cpp), [C++](OJ/leet650/leet650.cpp)|Medium|
 |654|[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree)|[C++](OJ/leet654/leet654v1.cpp)|Medium|
 |657|[机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin)|[Python](OJ/leet657/leet657.py)|Easy|
