@@ -310,6 +310,7 @@
 |483|[最小好进制](https://leetcode-cn.com/problems/smallest-good-base)|[C++](OJ/leet483/leet483.cpp), [C++](OJ/leet483/leet483v1.cpp)|Hard|
 |485|[最大连续 1 的个数](https://leetcode-cn.com/problems/max-consecutive-ones)|[C++](OJ/leet485/leet485.cpp)|Easy|
 |486|[预测赢家](https://leetcode-cn.com/problems/predict-the-winner)|[C++](OJ/leet486/leet486.cpp), [Python](OJ/leet486/leet486.py)|Medium|
+|488|[祖玛游戏](https://leetcode-cn.com/problems/zuma-game)|[Python](OJ/leet488/leet488.py)|Hard|
 |491|[递增子序列](https://leetcode-cn.com/problems/increasing-subsequences)|[C++](OJ/leet491/leet491.cpp), [C++](OJ/leet491/leet491v1.cpp), [Python](OJ/leet491/leet491.py), [Rust](OJ/leet491/src/main.rs)|Medium|
 |493|[翻转对](https://leetcode-cn.com/problems/reverse-pairs)|[C++](OJ/leet493/leet493.cpp)|Hard|
 |494|[目标和⭐](https://leetcode-cn.com/problems/target-sum)|[C++](OJ/leet494/leet494.cpp), [C++](OJ/leet494/leet494V1.cpp), [Python](OJ/leet494/leet494.py), [Rust](OJ/leet494/src/main.rs)|Medium|
