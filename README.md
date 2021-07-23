@@ -604,6 +604,7 @@
 |1871|[跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii)|[C++](OJ/leet1871/leet1871.cpp)|Medium|
 |1877|[数组中最大数对和的最小值⭐](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[Rust](OJ/leet1877/src/main.rs)|Medium|
 |1884|[鸡蛋掉落-两枚鸡蛋](https://leetcode-cn.com/problems/egg-drop-with-2-eggs-and-n-floors)|[Rust](OJ/leet1884/src/main.rs)|Medium|
+|1893|[检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered)|[Rust](OJ/leet1893/src/main.rs)|Easy|
 |1906|[查询差绝对值的最小值](https://leetcode-cn.com/problems/minimum-absolute-difference-queries)|[Rust](OJ/leet1906/src/main.rs), [Rust](OJ/leet1906/src/二分法.rs)|Medium|
 |1915|[最美子字符串的数目](https://leetcode-cn.com/problems/number-of-wonderful-substrings)|[Rust](OJ/leet1915/src/main.rs)|Medium|
 
