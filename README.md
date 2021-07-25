@@ -577,7 +577,9 @@
 |1720|[解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array)|[Rust](OJ/leet1720/src/main.rs)|Easy|
 |1723|[完成所有工作的最短时间⭐](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs)|[C++](OJ/leet1723/leet1723-二分搜索.cpp), [C++](OJ/leet1723/leet1723-动态规划.cpp), [Rust](OJ/leet1723/src/main.rs)|Hard|
 |1734|[解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation)|[C++](OJ/leet1734/leet1734.cpp), [Rust](OJ/leet1734/src/main.rs)|Medium|
+|1736|[替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits)|[Rust](OJ/leet1736/src/main.rs)|Easy|
 |1738|[找出第 K 大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value)|[C++](OJ/leet1738/leet1738.cpp)|Medium|
+|1743|[从相邻元素对还原数组](https://leetcode-cn.com/problems/restore-the-array-from-adjacent-pairs)|[Rust](OJ/leet1743/src/main.rs)|Medium|
 |1744|[你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day)|[C++](OJ/leet1744/leet1744.cpp), [Rust](OJ/leet1744/src/main.rs)|Medium|
 |1745|[回文串分割 IV](https://leetcode-cn.com/problems/palindrome-partitioning-iv)|[C++](OJ/leet1745/leet1745.cpp)|Hard|
 |1749|[任意子数组和的绝对值的最大值](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray)|[C++](OJ/leet1749/leet1749.cpp)|Medium|
