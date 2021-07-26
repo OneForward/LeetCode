@@ -574,6 +574,7 @@
 |1703|[得到连续 K 个 1 的最少相邻交换次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones)|[C++](OJ/leet1703/leet1703.cpp)|Hard|
 |1707|[与数组中元素的最大异或值⭐](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array)|[C++](OJ/leet1707/leet1707-离线.cpp), [C++](OJ/leet1707/leet1707.cpp), [Rust](OJ/leet1707/src/main.rs)|Hard|
 |1711|[大餐计数](https://leetcode-cn.com/problems/count-good-meals)|[Rust](OJ/leet1711/src/main.rs)|Medium|
+|1713|[得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence)|[C++](OJ/leet1713/leet1713.cpp), [Rust](OJ/leet1713/src/main.rs)|Hard|
 |1720|[解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array)|[Rust](OJ/leet1720/src/main.rs)|Easy|
 |1723|[完成所有工作的最短时间⭐](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs)|[C++](OJ/leet1723/leet1723-二分搜索.cpp), [C++](OJ/leet1723/leet1723-动态规划.cpp), [Rust](OJ/leet1723/src/main.rs)|Hard|
 |1734|[解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation)|[C++](OJ/leet1734/leet1734.cpp), [Rust](OJ/leet1734/src/main.rs)|Medium|
