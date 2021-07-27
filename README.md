@@ -364,6 +364,7 @@
 |657|[机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin)|[Python](OJ/leet657/leet657.py)|Easy|
 |665|[非递减数列](https://leetcode-cn.com/problems/non-decreasing-array)|[C++](OJ/leet665/leet665.cpp)|Medium|
 |668|[乘法表中第k小的数](https://leetcode-cn.com/problems/kth-smallest-number-in-multiplication-table)|[Rust](OJ/leet668/src/main.rs)|Hard|
+|671|[二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree)|[C++](OJ/leet671/leet671.cpp)|Easy|
 |673|[最长递增子序列的个数⭐](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence)|[C++](OJ/leet673/leet673.cpp), [C++](OJ/leet673/leet673_动态规划_O(N^2).cpp), [C++](OJ/leet673/leet673_树状数组.cpp), [Python](OJ/leet673/leet673_线段树.py)|Medium|
 |679|[24 点游戏](https://leetcode-cn.com/problems/24-game)|[C++](OJ/leet679/leet679.cpp)|Hard|
 |682|[棒球比赛](https://leetcode-cn.com/problems/baseball-game)|[Rust](OJ/leet682/src/main.rs)|Easy|

@@ -19,11 +19,11 @@ using namespace std;
 
 class Solution {
 public:
-    string convertToTitle(int n) {
+    string convertToTitle(int f) {
         // 0ms
         string s;
-        while (n) {
-            s.push_back((n-1) % 26 + 'A'); n = (n-1) / 26;
+        while (f) {
+            s.push_back((f-1) % 26 + 'A'); f = (f-1) / 26;
         };
         return string(s.rbegin(), s.rend());
     }
@@ -33,7 +33,7 @@ int main(int argc, char const *argv[])
 {
     Solution sol;   
     cout << sol.convertToTitle(701) << endl;
-    for (int n = 1; n < 55; ++n)
-        cout << n << ": " << sol.convertToTitle(n) << endl;
+    for (int f = 1; f < 55; ++f)
+        cout << f << ": " << sol.convertToTitle(f) << endl;
     return 0;
 }
