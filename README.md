@@ -423,6 +423,7 @@
 |852|[山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array)|[C++](OJ/leet852/leet852.cpp)|Easy|
 |855|[考场就座](https://leetcode-cn.com/problems/exam-room)|[Rust](OJ/leet855/src/main.rs)|Medium|
 |862|[和至少为 K 的最短子数组⭐](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k)|[C++](OJ/leet862/leet862.cpp), [Rust](OJ/leet862/src/main.rs)|Hard|
+|863|[二叉树中所有距离为 K 的结点](https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree)|[C++](OJ/leet863/leet863.cpp)|Medium|
 |865|[具有所有最深节点的最小子树](https://leetcode-cn.com/problems/smallest-subtree-with-all-the-deepest-nodes)|[C++](OJ/leet865/leet865.cpp)|Medium|
 |866|[回文素数](https://leetcode-cn.com/problems/prime-palindrome)|[C++](OJ/leet866/leet866.cpp), [C++](OJ/leet866/leet866v1.cpp), [C++](OJ/leet866/leet866v2.cpp)|Medium|
 |867|[转置矩阵](https://leetcode-cn.com/problems/transpose-matrix)|[C++](OJ/leet867/leet867.cpp)|Easy|
@@ -495,6 +496,7 @@
 |1074|[元素和为目标值的子矩阵数量](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target)|[C++](OJ/leet1074/leet1074.cpp), [Python](OJ/leet1074/leet1074.py), [Rust](OJ/leet1074/src/main.rs)|Hard|
 |1092|[最短公共超序列⭐](https://leetcode-cn.com/problems/shortest-common-supersequence)|[C++](OJ/leet1092/leet1092.cpp)|Hard|
 |1095|[山脉数组中查找目标值](https://leetcode-cn.com/problems/find-in-mountain-array)|[C++](OJ/leet1095/leet1095.cpp)|Hard|
+|1104|[二叉树寻路](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree)|[C++](OJ/leet1104/leet1104.cpp)|Medium|
 |1114|[按序打印⭐](https://leetcode-cn.com/problems/print-in-order)|[C++](OJ/leet1114/leet1114.cpp), [C++](OJ/leet1114/leet1114_Atomic.cpp), [C++](OJ/leet1114/leet1114_Condition.cpp), [Python](OJ/leet1114/leet1114_Barrier.py), [Python](OJ/leet1114/leet1114_Condition.py), [Python](OJ/leet1114/leet1114_Event.py)|Easy|
 |1115|[交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately)|[C++](OJ/leet1115/leet1115.cpp), [C++](OJ/leet1115/leet1115v1.cpp)|Medium|
 |1116|[打印零与奇偶数](https://leetcode-cn.com/problems/print-zero-even-odd)|[C++](OJ/leet1116/leet1116.cpp)|Medium|
@@ -690,7 +692,6 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|剑指 Offer 03|[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof)|[C++](OJ/lcof03/lcof03.cpp)|Easy|
 |剑指 Offer 11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)|[C++](OJ/lcof11/lcof11.cpp)|Easy|
 |剑指 Offer 12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof)|[C++](OJ/lcof12/lcof12.cpp)|Medium|
 |剑指 Offer 15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)|[C++](OJ/lcof15/lcof15.cpp)|Easy|
