@@ -194,7 +194,7 @@
 |229|[求众数 II⭐](https://leetcode-cn.com/problems/majority-element-ii)|[C++](OJ/leet229/leet229.cpp), [C++](OJ/leet229/leet229v1.cpp), [Python](OJ/leet229/leet229.py)|Medium|
 |231|[2 的幂](https://leetcode-cn.com/problems/power-of-two)|[C++](OJ/leet231/leet231.cpp)|Easy|
 |232|[用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks)|[C++](OJ/leet232/leet232.cpp)|Easy|
-|233|[数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one)|[C++](OJ/leet233/leet233-包含1的数字的个数.cpp), [C++](OJ/leet233/leet233.cpp)|Hard|
+|233|[数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one)|[C++](OJ/leet233/leet233-包含1的数字的个数.cpp), [C++](OJ/leet233/leet233.cpp), [Rust](OJ/leet233/src/main.rs)|Hard|
 |234|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)|[C++](OJ/leet234/leet234.cpp)|Easy|
 |235|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|[C++](OJ/leet235/leet235.cpp)|Easy|
 |236|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree)|[C++](OJ/leet236/leet236.cpp)|Medium|
@@ -227,7 +227,7 @@
 |309|[最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)|[C++](OJ/leet309/leet309.cpp)|Medium|
 |310|[最小高度树](https://leetcode-cn.com/problems/minimum-height-trees)|[C++](OJ/leet310/leet310.cpp)|Medium|
 |312|[戳气球⭐](https://leetcode-cn.com/problems/burst-balloons)|[C++](OJ/leet312/leet312.cpp), [C++](OJ/leet312/leet312v1.cpp)|Hard|
-|313|[超级丑数](https://leetcode-cn.com/problems/super-ugly-number)|[C++](OJ/leet313/leet313.cpp), [C++](OJ/leet313/leet313v1.cpp)|Medium|
+|313|[超级丑数⭐](https://leetcode-cn.com/problems/super-ugly-number)|[C++](OJ/leet313/leet313.cpp), [C++](OJ/leet313/leet313v1.cpp), [Rust](OJ/leet313/src/main-O(NK).rs), [Rust](OJ/leet313/src/main.rs)|Medium|
 |315|[计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self)|[C++](OJ/leet315/leet315.cpp)|Hard|
 |316|[去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters)|[Python](OJ/leet316/leet316.py)|Medium|
 |318|[最大单词长度乘积](https://leetcode-cn.com/problems/maximum-product-of-word-lengths)|[Python](OJ/leet318/leet318.py)|Medium|
@@ -343,7 +343,7 @@
 |566|[重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix)|[C++](OJ/leet566/leet566.cpp)|Easy|
 |567|[字符串的排列](https://leetcode-cn.com/problems/permutation-in-string)|[C++](OJ/leet567/leet567.cpp)|Medium|
 |576|[出界的路径数](https://leetcode-cn.com/problems/out-of-boundary-paths)|[C++](OJ/leet576/leet576.cpp)|Medium|
-|581|[最短无序连续子数组⭐](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray)|[C++](OJ/leet581/leet581.cpp), [C++](OJ/leet581/leet581v1.cpp)|Medium|
+|581|[最短无序连续子数组⭐](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray)|[C++](OJ/leet581/leet581.cpp), [C++](OJ/leet581/leet581v1.cpp), [Rust](OJ/leet581/src/main.rs)|Medium|
 |587|[安装栅栏⭐](https://leetcode-cn.com/problems/erect-the-fence)|[C++](OJ/leet587/leet587.cpp)|Hard|
 |594|[最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence)|[C++](OJ/leet594/leet594.cpp)|Easy|
 |600|[不含连续1的非负整数](https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones)|[C++](OJ/leet600/leet600.cpp)|Hard|
@@ -481,7 +481,7 @@
 |1027|[最长等差数列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence)|[C++](OJ/leet1027/leet1027-哈希.cpp), [C++](OJ/leet1027/leet1027.cpp)|Medium|
 |1028|[从先序遍历还原二叉树](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal)|[C++](OJ/leet1028/leet1028.cpp)|Hard|
 |1032|[字符流⭐](https://leetcode-cn.com/problems/stream-of-characters)|[C++](OJ/leet1032/leet1032.cpp), [C++](OJ/leet1032/test.cpp)|Hard|
-|1033|[移动石子直到连续](https://leetcode-cn.com/problems/moving-stones-until-consecutive)|[C++](OJ/leet1033/leet1033.cpp)|Easy|
+|1033|[移动石子直到连续](https://leetcode-cn.com/problems/moving-stones-until-consecutive)|[C++](OJ/leet1033/leet1033.cpp)|Medium|
 |1035|[不相交的线](https://leetcode-cn.com/problems/uncrossed-lines)|[Rust](OJ/leet1035/src/main.rs)|Medium|
 |1038|[把二叉搜索树转换为累加树⭐](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree)|[C++](OJ/leet1038/leet1038.cpp), [C++](OJ/leet1038/leet1038v1.cpp)|Medium|
 |1040|[移动石子直到连续 II⭐](https://leetcode-cn.com/problems/moving-stones-until-consecutive-ii)|[Python](OJ/leet1040/leet1040.py)|Medium|
@@ -504,6 +504,7 @@
 |1122|[数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array)|[C++](OJ/leet1122/main.cpp), [Rust](OJ/leet1122/src/main.rs)|Easy|
 |1123|[最深叶节点的最近公共祖先⭐](https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves)|[C++](OJ/leet1123/leet1123.cpp), [C++](OJ/leet1123/leet1123v1.cpp)|Medium|
 |1128|[等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs)|[C++](OJ/leet1128/leet1128.cpp)|Easy|
+|1137|[第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number)|[Rust](OJ/leet1137/src/main.rs)|Easy|
 |1140|[石子游戏 II](https://leetcode-cn.com/problems/stone-game-ii)|[Python](OJ/leet1140/leet1140.py)|Medium|
 |1143|[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence)|[C++](OJ/leet1143/leet1143.cpp), [C++](OJ/leet1143/leet1143v1.cpp)|Medium|
 |1155|[掷骰子的N种方法](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum)|[C++](OJ/leet1155/leet1155.cpp), [Python](OJ/leet1155/leet1155.py)|Medium|
@@ -530,6 +531,7 @@
 |1310|[子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray)|[Rust](OJ/leet1310/src/main.rs)|Medium|
 |1319|[连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected)|[C++](OJ/leet1319/leet1319.cpp), [Python](OJ/leet1319/leet1319.py)|Medium|
 |1325|[删除给定值的叶子节点](https://leetcode-cn.com/problems/delete-leaves-with-a-given-value)|[C++](OJ/leet1325/leet1325.cpp)|Medium|
+|1337|[矩阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix)|[Rust](OJ/leet1337/src/main.rs)|Easy|
 |1340|[跳跃游戏 V⭐](https://leetcode-cn.com/problems/jump-game-v)|[C++](OJ/leet1340/leet1340.cpp)|Hard|
 |1345|[跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv)|[C++](OJ/leet1345/leet1345.cpp), [Rust](OJ/leet1345/src/main.rs)|Hard|
 |1352|[最后 K 个数的乘积](https://leetcode-cn.com/problems/product-of-the-last-k-numbers)|[C++](OJ/leet1352/leet1352-二分法.cpp)|Medium|
@@ -561,6 +563,7 @@
 |1563|[石子游戏 V](https://leetcode-cn.com/problems/stone-game-v)|[C++](OJ/leet1563/leet1563.cpp)|Hard|
 |1567|[乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product)|[Rust](OJ/leet1567/src/main.rs)|Medium|
 |1579|[保证图可完全遍历](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable)|[C++](OJ/leet1579/leet1579.cpp)|Hard|
+|1583|[统计不开心的朋友](https://leetcode-cn.com/problems/count-unhappy-friends)|[Rust](OJ/leet1583/src/main.rs)|Medium|
 |1590|[使数组和能被 P 整除](https://leetcode-cn.com/problems/make-sum-divisible-by-p)|[Rust](OJ/leet1590/src/main.rs)|Medium|
 |1600|[皇位继承顺序](https://leetcode-cn.com/problems/throne-inheritance)|[C++](OJ/leet1600/leet1600.cpp)|Medium|
 |1603|[设计停车系统](https://leetcode-cn.com/problems/design-parking-system)|[C++](OJ/leet1603/leet1603.cpp)|Easy|
@@ -692,6 +695,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|剑指 Offer 03|[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof)|[C++](OJ/lcof03/lcof03.cpp)|Easy|
 |剑指 Offer 11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)|[C++](OJ/lcof11/lcof11.cpp)|Easy|
 |剑指 Offer 12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof)|[C++](OJ/lcof12/lcof12.cpp)|Medium|
 |剑指 Offer 15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)|[C++](OJ/lcof15/lcof15.cpp)|Easy|
