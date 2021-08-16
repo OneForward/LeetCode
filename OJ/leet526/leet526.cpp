@@ -16,8 +16,8 @@ public:
         vector<int> path; int ans = 0;
         vector<bool> used(n+1);
         function<void()> f = [&]() {
-            if (path.size() == n) { ans++; return; }
-            for (size_t i = 1; i <= n; i++)
+            if ((int)path.size() == n) { ans++; return; }
+            for (int i = 1; i <= n; i++)
             {
                 if (used[i]) continue;
                 auto j = path.size() + 1;

@@ -327,7 +327,7 @@
 |522|[最长特殊序列 II](https://leetcode-cn.com/problems/longest-uncommon-subsequence-ii)|[Python](OJ/leet522/leet522.py)|Medium|
 |523|[连续的子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum)|[C++](OJ/leet523/leet523.cpp), [Python](OJ/leet523/leet523.py), [Rust](OJ/leet523/src/main.rs)|Medium|
 |525|[连续数组⭐](https://leetcode-cn.com/problems/contiguous-array)|[C++](OJ/leet525/leet525.cpp), [Rust](OJ/leet525/src/main.rs)|Medium|
-|526|[优美的排列](https://leetcode-cn.com/problems/beautiful-arrangement)|[C++](OJ/leet526/leet526-状态压缩DP.cpp), [C++](OJ/leet526/leet526.cpp)|Medium|
+|526|[优美的排列⭐](https://leetcode-cn.com/problems/beautiful-arrangement)|[C++](OJ/leet526/leet526-状态压缩DP.cpp), [C++](OJ/leet526/leet526.cpp), [Rust](OJ/leet526/src/main.rs)|Medium|
 |528|[按权重随机选择](https://leetcode-cn.com/problems/random-pick-with-weight)|[C++](OJ/leet528/leet528.cpp)|Medium|
 |530|[二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst)|[C++](OJ/leet530/leet530.cpp)|Easy|
 |537|[复数乘法⭐](https://leetcode-cn.com/problems/complex-number-multiplication)|[C++](OJ/leet537/leet537.cpp)|Medium|
@@ -342,7 +342,7 @@
 |561|[数组拆分 I](https://leetcode-cn.com/problems/array-partition-i)|[C++](OJ/leet561/leet561.cpp)|Easy|
 |566|[重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix)|[C++](OJ/leet566/leet566.cpp)|Easy|
 |567|[字符串的排列](https://leetcode-cn.com/problems/permutation-in-string)|[C++](OJ/leet567/leet567.cpp)|Medium|
-|576|[出界的路径数](https://leetcode-cn.com/problems/out-of-boundary-paths)|[C++](OJ/leet576/leet576.cpp)|Medium|
+|576|[出界的路径数](https://leetcode-cn.com/problems/out-of-boundary-paths)|[C++](OJ/leet576/leet576.cpp), [Rust](OJ/leet576/src/main.rs)|Medium|
 |581|[最短无序连续子数组⭐](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray)|[C++](OJ/leet581/leet581.cpp), [C++](OJ/leet581/leet581v1.cpp), [Rust](OJ/leet581/src/main.rs)|Medium|
 |587|[安装栅栏⭐](https://leetcode-cn.com/problems/erect-the-fence)|[C++](OJ/leet587/leet587.cpp)|Hard|
 |594|[最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence)|[C++](OJ/leet594/leet594.cpp)|Easy|
