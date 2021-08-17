@@ -278,7 +278,7 @@
 |406|[根据身高重建队列⭐](https://leetcode-cn.com/problems/queue-reconstruction-by-height)|[C++](OJ/leet406/leet406.cpp), [C++](OJ/leet406/leet406v1.cpp)|Medium|
 |407|[接雨水 II⭐](https://leetcode-cn.com/problems/trapping-rain-water-ii)|[C++](OJ/leet407/leet407.cpp)|Hard|
 |409|[最长回文串](https://leetcode-cn.com/problems/longest-palindrome)|[Python](OJ/leet409/leet409.py)|Easy|
-|413|[等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices)|[C++](OJ/leet413/leet413.cpp)|Medium|
+|413|[等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices)|[C++](OJ/leet413/leet413.cpp), [Rust](OJ/leet413/src/main.rs)|Medium|
 |414|[第三大的数](https://leetcode-cn.com/problems/third-maximum-number)|[C++](OJ/leet414/leet414.cpp)|Easy|
 |416|[分割等和子集⭐](https://leetcode-cn.com/problems/partition-equal-subset-sum)|[C++](OJ/leet416/leet416.cpp)|Medium|
 |418|[屏幕可显示句子的数量](https://leetcode-cn.com/problems/sentence-screen-fitting)|[C++](OJ/leet418/leet418.cpp)|Medium|
@@ -291,7 +291,7 @@
 |441|[排列硬币](https://leetcode-cn.com/problems/arranging-coins)|[C++](OJ/leet441/leet441.cpp)|Easy|
 |442|[数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array)|[Python](OJ/leet442/leet442.py)|Medium|
 |445|[两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii)|[C++](OJ/leet445/leet445-栈.cpp), [C++](OJ/leet445/leet445-翻转.cpp)|Medium|
-|446|[等差数列划分 II - 子序列](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence)|[C++](OJ/leet446/leet446.cpp)|Hard|
+|446|[等差数列划分 II - 子序列](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence)|[C++](OJ/leet446/leet446.cpp), [Rust](OJ/leet446/src/main.rs)|Hard|
 |448|[找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[C++](OJ/leet448/leet448.cpp)|Easy|
 |451|[根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency)|[Rust](OJ/leet451/src/main.rs)|Medium|
 |454|[四数相加 II](https://leetcode-cn.com/problems/4sum-ii)|[Python](OJ/leet454/leet454.py)|Medium|
@@ -335,6 +335,7 @@
 |543|[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree)|[C++](OJ/leet543/main.cpp), [Rust](OJ/leet543/src/main.rs)|Easy|
 |546|[移除盒子⭐](https://leetcode-cn.com/problems/remove-boxes)|[C++](OJ/leet546/leet546.cpp), [C++](OJ/leet546/leet546v1.cpp), [C++](OJ/leet546/leet546v2.cpp)|Hard|
 |547|[省份数量](https://leetcode-cn.com/problems/number-of-provinces)|[C++](OJ/leet547/leet547_bfs.cpp), [C++](OJ/leet547/leet547_dfs.cpp), [C++](OJ/leet547/leet547_并查集.cpp), [Python](OJ/leet547/leet547.py)|Medium|
+|551|[学生出勤记录 I](https://leetcode-cn.com/problems/student-attendance-record-i)|[Rust](OJ/leet551/src/main.rs)|Easy|
 |554|[砖墙](https://leetcode-cn.com/problems/brick-wall)|[Python](OJ/leet554/leet554.py), [Rust](OJ/leet554/src/main.rs)|Medium|
 |556|[下一个更大元素 III](https://leetcode-cn.com/problems/next-greater-element-iii)|[C++](OJ/leet556/leet556.cpp)|Medium|
 |557|[反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)|[Python](OJ/leet557/leet557.py)|Easy|
