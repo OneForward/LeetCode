@@ -244,6 +244,7 @@
 |342|[4的幂⭐](https://leetcode-cn.com/problems/power-of-four)|[C++](OJ/leet342/leet342.cpp), [Python](OJ/leet342/leet342.py)|Easy|
 |343|[整数拆分](https://leetcode-cn.com/problems/integer-break)|[Python](OJ/leet343/leet343.py)|Medium|
 |344|[反转字符串](https://leetcode-cn.com/problems/reverse-string)|[Python](OJ/leet344/leet344.py)|Easy|
+|345|[反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|[C++](OJ/leet345/leet345-Space(O(N)).cpp), [C++](OJ/leet345/leet345-双指针-space(O(1)).cpp)|Easy|
 |347|[前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements)|[Python](OJ/leet347/leet347.py)|Medium|
 |354|[俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes)|[C++](OJ/leet354/leet354.cpp)|Hard|
 |357|[计算各个位数不同的数字个数](https://leetcode-cn.com/problems/count-numbers-with-unique-digits)|[C++](OJ/leet357/leet357.cpp), [Python](OJ/leet357/leet357.py)|Medium|
@@ -290,6 +291,7 @@
 |438|[找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)|[C++](OJ/leet438/leet438.cpp)|Medium|
 |441|[排列硬币](https://leetcode-cn.com/problems/arranging-coins)|[C++](OJ/leet441/leet441.cpp)|Easy|
 |442|[数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array)|[Python](OJ/leet442/leet442.py)|Medium|
+|443|[压缩字符串](https://leetcode-cn.com/problems/string-compression)|[C++](OJ/leet443/leet443.cpp)|Medium|
 |445|[两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii)|[C++](OJ/leet445/leet445-栈.cpp), [C++](OJ/leet445/leet445-翻转.cpp)|Medium|
 |446|[等差数列划分 II - 子序列](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence)|[C++](OJ/leet446/leet446.cpp), [Rust](OJ/leet446/src/main.rs)|Hard|
 |448|[找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[C++](OJ/leet448/leet448.cpp)|Easy|
