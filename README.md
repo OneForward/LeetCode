@@ -411,6 +411,7 @@
 |784|[字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation)|[C++](OJ/leet784/leet784.cpp)|Medium|
 |786|[第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction)|[C++](OJ/leet786/leet786.cpp)|Hard|
 |787|[K 站中转内最便宜的航班⭐](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops)|[C++](OJ/leet787/leet787-Bellman-Ford.cpp), [C++](OJ/leet787/leet787-Dijkstra.cpp), [Rust](OJ/leet787/src/main.rs)|Medium|
+|789|[逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts)|[Rust](OJ/leet789/src/main.rs)|Medium|
 |793|[阶乘函数后 K 个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function)|[Python](OJ/leet793/leet793.py)|Hard|
 |805|[数组的均值分割](https://leetcode-cn.com/problems/split-array-with-same-average)|[C++](OJ/leet805/leet805.cpp), [C++](OJ/leet805/leet805v2.cpp)|Hard|
 |807|[保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline)|[Rust](OJ/leet807/src/main.rs)|Medium|
