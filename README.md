@@ -338,6 +338,7 @@
 |546|[移除盒子⭐](https://leetcode-cn.com/problems/remove-boxes)|[C++](OJ/leet546/leet546.cpp), [C++](OJ/leet546/leet546v1.cpp), [C++](OJ/leet546/leet546v2.cpp)|Hard|
 |547|[省份数量](https://leetcode-cn.com/problems/number-of-provinces)|[C++](OJ/leet547/leet547_bfs.cpp), [C++](OJ/leet547/leet547_dfs.cpp), [C++](OJ/leet547/leet547_并查集.cpp), [Python](OJ/leet547/leet547.py)|Medium|
 |551|[学生出勤记录 I](https://leetcode-cn.com/problems/student-attendance-record-i)|[Rust](OJ/leet551/src/main.rs)|Easy|
+|552|[学生出勤记录 II](https://leetcode-cn.com/problems/student-attendance-record-ii)|[Rust](OJ/leet552/src/main.rs)|Hard|
 |554|[砖墙](https://leetcode-cn.com/problems/brick-wall)|[Python](OJ/leet554/leet554.py), [Rust](OJ/leet554/src/main.rs)|Medium|
 |556|[下一个更大元素 III](https://leetcode-cn.com/problems/next-greater-element-iii)|[C++](OJ/leet556/leet556.cpp)|Medium|
 |557|[反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)|[Python](OJ/leet557/leet557.py)|Easy|
@@ -413,6 +414,7 @@
 |787|[K 站中转内最便宜的航班⭐](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops)|[C++](OJ/leet787/leet787-Bellman-Ford.cpp), [C++](OJ/leet787/leet787-Dijkstra.cpp), [Rust](OJ/leet787/src/main.rs)|Medium|
 |789|[逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts)|[Rust](OJ/leet789/src/main.rs)|Medium|
 |793|[阶乘函数后 K 个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function)|[Python](OJ/leet793/leet793.py)|Hard|
+|797|[所有可能的路径](https://leetcode-cn.com/problems/all-paths-from-source-to-target)|[C++](OJ/leet797/leet797.cpp)|Medium|
 |805|[数组的均值分割](https://leetcode-cn.com/problems/split-array-with-same-average)|[C++](OJ/leet805/leet805.cpp), [C++](OJ/leet805/leet805v2.cpp)|Hard|
 |807|[保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline)|[Rust](OJ/leet807/src/main.rs)|Medium|
 |810|[黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game)|[Rust](OJ/leet810/src/main.rs)|Hard|
@@ -575,6 +577,7 @@
 |1622|[奇妙序列⭐](https://leetcode-cn.com/problems/fancy-sequence)|[Python](OJ/leet1622/leet1622.py), [Python](OJ/leet1622/leet1622v2.py)|Hard|
 |1630|[等差子数组](https://leetcode-cn.com/problems/arithmetic-subarrays)|[C++](OJ/leet1630/leet1630.cpp)|Medium|
 |1631|[最小体力消耗路径](https://leetcode-cn.com/problems/path-with-minimum-effort)|[C++](OJ/leet1631/leet1631.cpp), [Python](OJ/leet1631/leet1631.py)|Medium|
+|1646|[获取生成数组中的最大值](https://leetcode-cn.com/problems/get-maximum-in-generated-array)|[Rust](OJ/leet1646/src/main.rs)|Easy|
 |1654|[到家的最少跳跃次数⭐](https://leetcode-cn.com/problems/minimum-jumps-to-reach-home)|[C++](OJ/leet1654/leet1654.cpp), [Python](OJ/leet1654/leet1654.py)|Medium|
 |1658|[将 x 减到 0 的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-reduce-x-to-zero)|[Python](OJ/leet1658/leet1658.py)|Medium|
 |1669|[合并两个链表](https://leetcode-cn.com/problems/merge-in-between-linked-lists)|[C++](OJ/leet1669/leet1669.cpp)|Medium|
