@@ -438,6 +438,7 @@
 |876|[链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list)|[C++](OJ/leet876/leet876.cpp)|Easy|
 |877|[石子游戏⭐](https://leetcode-cn.com/problems/stone-game)|[Python](OJ/leet877/leet877.py)|Medium|
 |879|[盈利计划⭐](https://leetcode-cn.com/problems/profitable-schemes)|[C++](OJ/leet879/leet879.cpp)|Hard|
+|881|[救生艇](https://leetcode-cn.com/problems/boats-to-save-people)|[Rust](OJ/leet881/src/main.rs)|Medium|
 |886|[可能的二分法⭐](https://leetcode-cn.com/problems/possible-bipartition)|[Python](OJ/leet886/leet886.py)|Medium|
 |887|[鸡蛋掉落⭐](https://leetcode-cn.com/problems/super-egg-drop)|[C++](OJ/leet887/leet887.cpp), [Go](OJ/leet887/leet887.go)|Hard|
 |888|[公平的糖果棒交换](https://leetcode-cn.com/problems/fair-candy-swap)|[C++](OJ/leet888/leet888.cpp)|Easy|
