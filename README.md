@@ -215,7 +215,7 @@
 |279|[完全平方数⭐](https://leetcode-cn.com/problems/perfect-squares)|[C++](OJ/leet279/leet279.cpp), [Rust](OJ/leet279/src/main-动态规划.rs), [Rust](OJ/leet279/src/main.rs)|Medium|
 |283|[移动零](https://leetcode-cn.com/problems/move-zeroes)|[C++](OJ/leet283/leet283.cpp)|Easy|
 |287|[寻找重复数⭐](https://leetcode-cn.com/problems/find-the-duplicate-number)|[C++](OJ/leet287/leet287.cpp), [Python](OJ/leet287/leet287.py)|Medium|
-|295|[数据流的中位数⭐](https://leetcode-cn.com/problems/find-median-from-data-stream)|[C++](OJ/leet295/leet295.cpp), [C++](OJ/leet295/leet295_multiset.cpp), [C++](OJ/leet295/leet295_对顶堆.cpp)|Hard|
+|295|[数据流的中位数⭐](https://leetcode-cn.com/problems/find-median-from-data-stream)|[C++](OJ/leet295/leet295.cpp), [C++](OJ/leet295/leet295_multiset.cpp), [C++](OJ/leet295/leet295_对顶堆.cpp), [Rust](OJ/leet295/src/main.rs)|Hard|
 |297|[二叉树的序列化与反序列化⭐](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree)|[C++](OJ/leet297/leet297-BFS.cpp), [C++](OJ/leet297/leet297-DFS.cpp), [C++](OJ/leet297/leet297-括号LL1文法.cpp)|Hard|
 |299|[猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows)|[Python](OJ/leet299/leet299.py)|Medium|
 |300|[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence)|[C++](OJ/leet300/leet300.cpp), [C++](OJ/leet300/leet300_树状数组.cpp)|Medium|
