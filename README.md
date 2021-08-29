@@ -145,6 +145,7 @@
 |153|[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array)|[C++](OJ/leet153/leet153.cpp)|Medium|
 |154|[寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii)|[C++](OJ/leet154/leet154.cpp)|Hard|
 |155|[最小栈](https://leetcode-cn.com/problems/min-stack)|[C++](OJ/leet155/leet155.cpp)|Easy|
+|158|[用 Read4 读取 N 个字符 II](https://leetcode-cn.com/problems/read-n-characters-given-read4-ii-call-multiple-times)|[Rust](OJ/leet158/src/main.rs)|Hard|
 |160|[相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists)|[C++](OJ/leet160/leet160.cpp)|Easy|
 |162|[寻找峰值](https://leetcode-cn.com/problems/find-peak-element)|[C++](OJ/leet162/leet162.cpp)|Medium|
 |164|[最大间距](https://leetcode-cn.com/problems/maximum-gap)|[C++](OJ/leet164/leet164.cpp)|Hard|
