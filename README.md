@@ -515,7 +515,6 @@
 |1140|[石子游戏 II](https://leetcode-cn.com/problems/stone-game-ii)|[Python](OJ/leet1140/leet1140.py)|Medium|
 |1143|[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence)|[C++](OJ/leet1143/leet1143.cpp), [C++](OJ/leet1143/leet1143v1.cpp)|Medium|
 |1155|[掷骰子的N种方法](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum)|[C++](OJ/leet1155/leet1155.cpp), [Python](OJ/leet1155/leet1155.py)|Medium|
-|1158|[市场分析 I](https://leetcode-cn.com/problems/market-analysis-i)|[Rust](OJ/leet1158/src/main.rs)|Medium|
 |1178|[猜字谜⭐](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle)|[C++](OJ/leet1178/leet1178.cpp), [C++](OJ/leet1178/leet1178v2.cpp), [Python](OJ/leet1178/leet1178.py)|Hard|
 |1190|[反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses)|[C++](OJ/leet1190/leet1190.cpp)|Medium|
 |1195|[交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded)|[C++](OJ/leet1195/leet1195.cpp)|Medium|
@@ -572,6 +571,7 @@
 |1567|[乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product)|[Rust](OJ/leet1567/src/main.rs)|Medium|
 |1579|[保证图可完全遍历](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable)|[C++](OJ/leet1579/leet1579.cpp)|Hard|
 |1583|[统计不开心的朋友](https://leetcode-cn.com/problems/count-unhappy-friends)|[Rust](OJ/leet1583/src/main.rs)|Medium|
+|1588|[所有奇数长度子数组的和⭐](https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays)|[Rust](OJ/leet1588/src/main.rs)|Easy|
 |1590|[使数组和能被 P 整除](https://leetcode-cn.com/problems/make-sum-divisible-by-p)|[Rust](OJ/leet1590/src/main.rs)|Medium|
 |1600|[皇位继承顺序](https://leetcode-cn.com/problems/throne-inheritance)|[C++](OJ/leet1600/leet1600.cpp)|Medium|
 |1603|[设计停车系统](https://leetcode-cn.com/problems/design-parking-system)|[C++](OJ/leet1603/leet1603.cpp)|Easy|
