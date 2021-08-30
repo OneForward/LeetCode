@@ -330,7 +330,7 @@
 |523|[连续的子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum)|[C++](OJ/leet523/leet523.cpp), [Python](OJ/leet523/leet523.py), [Rust](OJ/leet523/src/main.rs)|Medium|
 |525|[连续数组⭐](https://leetcode-cn.com/problems/contiguous-array)|[C++](OJ/leet525/leet525.cpp), [Rust](OJ/leet525/src/main.rs)|Medium|
 |526|[优美的排列⭐](https://leetcode-cn.com/problems/beautiful-arrangement)|[C++](OJ/leet526/leet526-状态压缩DP.cpp), [C++](OJ/leet526/leet526.cpp), [Rust](OJ/leet526/src/main.rs)|Medium|
-|528|[按权重随机选择](https://leetcode-cn.com/problems/random-pick-with-weight)|[C++](OJ/leet528/leet528.cpp)|Medium|
+|528|[按权重随机选择⭐](https://leetcode-cn.com/problems/random-pick-with-weight)|[C++](OJ/leet528/leet528.cpp)|Medium|
 |530|[二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst)|[C++](OJ/leet530/leet530.cpp)|Easy|
 |537|[复数乘法⭐](https://leetcode-cn.com/problems/complex-number-multiplication)|[C++](OJ/leet537/leet537.cpp)|Medium|
 |541|[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii)|[Python](OJ/leet541/leet541.py)|Easy|

@@ -5,49 +5,27 @@ leet528
 */
 
 
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <stack>
-#include <string>
-#include <unordered_set>
-#include <unordered_map>
-#include <algorithm>
-#include <tuple>
-#include <cassert>
-#include <utility>
+#include "../utils/LeetCpp.utils.hpp"
 using namespace std;
 
 
-template<class T>
-ostream& operator<<(ostream& os, const vector<T>& v) {
-    for (const auto& vi: v) os << vi << ", "; os << endl;
-    return os;
-}
-
-template<class T>
-ostream& operator<<(ostream& os, const vector<vector<T>>& v) {
-    for (const auto& row: v) os << row;
-    return os;
-}
-
-
+#define ALL(A) A.begin(),A.end()
+using VI=vector<int>;
 
 class Solution {
-    vector<int> cdf;
+    VI cdf;
 public:
     Solution(vector<int>& w) {
         cdf = w;
-        for (int i = 1; i < w.size(); ++i) { 
+        for (size_t i = 1; i < w.size(); ++i) { 
             cdf[i] += cdf[i-1];
         }
-        // cout << cdf;
     }
     
     int pickIndex() {
         auto x = rand() % cdf.back();
-        auto ans = upper_bound(cdf.begin(), cdf.end(), x);
-        return ans-cdf.begin();
+        auto ans = upper_bound(ALL(cdf), x) - cdf.begin();
+        return ans;
     }
 };
 
