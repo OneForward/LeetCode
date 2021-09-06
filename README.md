@@ -384,6 +384,7 @@
 |699|[掉落的方块](https://leetcode-cn.com/problems/falling-squares)|[C++](OJ/leet699/leet699.cpp)|Hard|
 |701|[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree)|[C++](OJ/leet701/leet701.cpp)|Medium|
 |703|[数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream)|[C++](OJ/leet703/leet703.cpp)|Easy|
+|704|[二分查找](https://leetcode-cn.com/problems/binary-search)|[C++](OJ/leet704/leet704.cpp)|Easy|
 |705|[设计哈希集合](https://leetcode-cn.com/problems/design-hashset)|[C++](OJ/leet705/leet705-开哈希表.cpp), [C++](OJ/leet705/leet705-简单数组.cpp), [C++](OJ/leet705/leet705-链表.cpp)|Easy|
 |706|[设计哈希映射](https://leetcode-cn.com/problems/design-hashmap)|[C++](OJ/leet706/leet706.cpp), [Rust](OJ/leet706/src/main.rs)|Easy|
 |710|[黑名单中的随机数⭐](https://leetcode-cn.com/problems/random-pick-with-blacklist)|[C++](OJ/leet710/leet710.cpp)|Hard|
