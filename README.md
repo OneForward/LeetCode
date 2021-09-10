@@ -342,7 +342,7 @@
 |554|[砖墙](https://leetcode-cn.com/problems/brick-wall)|[Python](OJ/leet554/leet554.py), [Rust](OJ/leet554/src/main.rs)|Medium|
 |556|[下一个更大元素 III](https://leetcode-cn.com/problems/next-greater-element-iii)|[C++](OJ/leet556/leet556.cpp)|Medium|
 |557|[反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)|[Python](OJ/leet557/leet557.py)|Easy|
-|560|[和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k)|[C++](OJ/leet560/leet560.cpp)|Medium|
+|560|[和为 K 的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k)|[C++](OJ/leet560/leet560.cpp)|Medium|
 |561|[数组拆分 I](https://leetcode-cn.com/problems/array-partition-i)|[C++](OJ/leet561/leet561.cpp)|Easy|
 |566|[重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix)|[C++](OJ/leet566/leet566.cpp)|Easy|
 |567|[字符串的排列](https://leetcode-cn.com/problems/permutation-in-string)|[C++](OJ/leet567/leet567.cpp)|Medium|
@@ -524,6 +524,7 @@
 |1208|[尽可能使字符串相等](https://leetcode-cn.com/problems/get-equal-substrings-within-budget)|[C++](OJ/leet1208/leet1208.cpp), [Python](OJ/leet1208/leet1208.py)|Medium|
 |1217|[玩筹码](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position)|[Python](OJ/leet1217/leet1217.py), [Rust](OJ/leet1217/src/main.rs)|Easy|
 |1218|[最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference)|[C++](OJ/leet1218/leet1218.cpp)|Medium|
+|1221|[分割平衡字符串](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings)|[C++](OJ/leet1221/leet1221.cpp)|Easy|
 |1226|[哲学家进餐⭐](https://leetcode-cn.com/problems/the-dining-philosophers)|[C++](OJ/leet1226/leet1226.cpp), [C++](OJ/leet1226/leet1226_Condition_奇数左_偶数右.cpp), [C++](OJ/leet1226/leet1226_Condition_至多4人同时.cpp)|Medium|
 |1227|[飞机座位分配概率](https://leetcode-cn.com/problems/airplane-seat-assignment-probability)|[Python](OJ/leet1227/leet1227.py)|Medium|
 |1237|[找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation)|[C++](OJ/leet1237/leet1237.cpp)|Medium|
@@ -625,6 +626,7 @@
 |1877|[数组中最大数对和的最小值⭐](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array)|[Rust](OJ/leet1877/src/main.rs)|Medium|
 |1884|[鸡蛋掉落-两枚鸡蛋](https://leetcode-cn.com/problems/egg-drop-with-2-eggs-and-n-floors)|[Rust](OJ/leet1884/src/main.rs)|Medium|
 |1893|[检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered)|[Rust](OJ/leet1893/src/main.rs)|Easy|
+|1894|[找到需要补充粉笔的学生编号](https://leetcode-cn.com/problems/find-the-student-that-will-replace-the-chalk)|[Rust](OJ/leet1894/src/main.rs)|Medium|
 |1906|[查询差绝对值的最小值](https://leetcode-cn.com/problems/minimum-absolute-difference-queries)|[Rust](OJ/leet1906/src/main.rs), [Rust](OJ/leet1906/src/二分法.rs)|Medium|
 |1915|[最美子字符串的数目](https://leetcode-cn.com/problems/number-of-wonderful-substrings)|[Rust](OJ/leet1915/src/main.rs)|Medium|
 
