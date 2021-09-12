@@ -370,6 +370,7 @@
 |668|[乘法表中第k小的数](https://leetcode-cn.com/problems/kth-smallest-number-in-multiplication-table)|[Rust](OJ/leet668/src/main.rs)|Hard|
 |671|[二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree)|[C++](OJ/leet671/leet671.cpp)|Easy|
 |673|[最长递增子序列的个数⭐](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence)|[C++](OJ/leet673/leet673.cpp), [C++](OJ/leet673/leet673_动态规划_O(N^2).cpp), [C++](OJ/leet673/leet673_树状数组.cpp), [Python](OJ/leet673/leet673_线段树.py)|Medium|
+|678|[有效的括号字符串⭐](https://leetcode-cn.com/problems/valid-parenthesis-string)|[C++](OJ/leet678/leet678.cpp)|Medium|
 |679|[24 点游戏](https://leetcode-cn.com/problems/24-game)|[C++](OJ/leet679/leet679.cpp)|Hard|
 |682|[棒球比赛](https://leetcode-cn.com/problems/baseball-game)|[Rust](OJ/leet682/src/main.rs)|Easy|
 |684|[冗余连接](https://leetcode-cn.com/problems/redundant-connection)|[C++](OJ/leet684/leet684.cpp)|Medium|
