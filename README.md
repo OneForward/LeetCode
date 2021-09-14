@@ -329,6 +329,7 @@
 |521|[最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i)|[Rust](OJ/leet521/src/leet521.rs), [Rust](OJ/leet521/src/leet522.rs), [Rust](OJ/leet521/src/main.rs)|Easy|
 |522|[最长特殊序列 II](https://leetcode-cn.com/problems/longest-uncommon-subsequence-ii)|[Python](OJ/leet522/leet522.py)|Medium|
 |523|[连续的子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum)|[C++](OJ/leet523/leet523.cpp), [Python](OJ/leet523/leet523.py), [Rust](OJ/leet523/src/main.rs)|Medium|
+|524|[通过删除字母匹配到字典里最长单词](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting)|[C++](OJ/leet524/leet524.cpp)|Medium|
 |525|[连续数组⭐](https://leetcode-cn.com/problems/contiguous-array)|[C++](OJ/leet525/leet525.cpp), [Rust](OJ/leet525/src/main.rs)|Medium|
 |526|[优美的排列⭐](https://leetcode-cn.com/problems/beautiful-arrangement)|[C++](OJ/leet526/leet526-状态压缩DP.cpp), [C++](OJ/leet526/leet526.cpp), [Rust](OJ/leet526/src/main.rs)|Medium|
 |528|[按权重随机选择⭐](https://leetcode-cn.com/problems/random-pick-with-weight)|[C++](OJ/leet528/leet528.cpp)|Medium|
