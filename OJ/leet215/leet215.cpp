@@ -4,32 +4,40 @@ leet215
 
 */
 
+#include "../utils/LeetCpp.utils.hpp"
 
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <unordered_set>
-#include <unordered_map>
-#include <algorithm>
-#include <tuple>
-#include <cassert>
-#include <utility>
 using namespace std;
+
+#define ALL(A) A.begin(),A.end()
+using VI=vector<int>;
+using VVI=vector<VI>;
+
+
+int partition(vector<int>& A, int lft, int rht) {
+    swap(A[rht-1], A[rand()%(rht - lft) + lft]);
+    
+    rht--;
+    auto x = A[rht];
+    int j = lft;
+    for (int i = lft; i < rht; i++)
+    {
+        if (A[i] > x) swap(A[i], A[j++]);
+    }
+    swap(A[rht], A[j]);
+    return j;
+}
 
 class Solution {
 public:
-    int findKthLargest1(const vector<int>& nums, int k) {
-        // 24ms
-        priority_queue<int> Q(nums.begin(), nums.end());
-        while (--k) Q.pop();
-        return Q.top();
-    }
-    int findKthLargest(const vector<int>& nums, int k) {
-        // 36ms
-        priority_queue<int, vector<int>, greater<int>> Q;
-        for (int i = 0; i < k; ++i) Q.push(nums[i]);
-        for (int i = k; i < nums.size(); ++i)  Q.push(nums[i]), Q.pop();
-        return Q.top();
+    int findKthLargest(vector<int> A, int k) {
+        k--;
+        int lft = 0, rht = A.size();
+        while (lft < rht) {
+            int p = partition(A, lft, rht);
+            if (p >= k) rht = p;
+            else lft = p + 1;
+        }
+        return A[lft];
     }
 };
 

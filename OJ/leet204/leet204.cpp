@@ -45,22 +45,19 @@ public:
         
     int countPrimes(int n) {
         // 线性筛, O(n), 用于辅助分解质因数
-        vector<bool> isPrime(n, true); int cnt = 0;
-        vector<int> P;
-        for (int i = 2; i < n; i++)
+        vector<int> P; P.reserve(400000);
+        vector<bool> isPrime(5000000, true);
+        for (int x = 2; x < n; x++)
         {
-            if (isPrime[i]) P.push_back(i), cnt++;
-            for (int j = 0; j < P.size(); j++)
-            {
-                auto x = i * P[j];
-                if (x >= n) break;
-                isPrime[x] = false; 
-                if (i % P[j] == 0) break;
+            if (isPrime[x]) P.push_back(x);
+            for (auto&& p: P) {
+                auto y = p * x;
+                if (y >= n) break;
+                isPrime[y] = false;
+                if (x % p == 0) break;
             }
-            
         }
-        
-        return cnt;
+        return (int)P.size();
     }
 };
 

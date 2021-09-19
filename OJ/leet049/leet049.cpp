@@ -4,44 +4,45 @@ leet049
 
 */
 
+#include "../utils/LeetCpp.utils.hpp"
 
-#include <iostream>
-#include <vector>
-#include <unordered_set>
-#include <unordered_map>
-#include <algorithm>
-#include <tuple>
-#include <cassert>
-#include <utility>
 using namespace std;
 
+#define ALL(A) A.begin(),A.end()
+using VS=vector<string>;
+using VVS=vector<VS>;
+using LL = long long int;
+
+const LL MOD = 1e9 + 7;
+LL hashfunc(const string& s) {
+    LL x = 0;  char f[26]{};
+    for (auto&& ch: s) {
+        f[ch - 'a']++;
+    }
+    for (auto&& cnt: f) {
+        x = (x * 101 + cnt) %  MOD;
+    }
+    return x;
+};
 class Solution {
 public:
-    vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        // 80ms
-        unordered_map<string, vector<string>> dict;
-        for (const auto& si: strs) {
-            string s = si;
-            sort(s.begin(), s.end());
-            auto [ptr, ok] = dict.insert({s, {si}});
-            if (!ok) ptr->second.push_back(si);
-        }
-        vector<vector<string>> ans;
-        for (const auto& item: dict) {
-            ans.push_back(item.second);
+    VVS groupAnagrams(const VS& strs) {
+        VVS ans;
+        unordered_map<LL, size_t> M;
+        for (auto&& word: strs) {   
+            auto x = hashfunc(word);
+            if (M.find(x) != M.end()) { ans[M[x]].push_back(word); }
+            else M[x] = ans.size(), ans.push_back({word});
         }
         return ans;
     }
 };
+
 int main(int argc, char const *argv[])
 {
-    vector<string> strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
     Solution sol;   
-    auto ans = sol.groupAnagrams(strs);
-
-    for (auto row: ans) {
-        for (auto ri: row) cout << ri << ", ";
-        cout << endl;
-    }
+    cout << sol.groupAnagrams({"eat", "tea", "tan", "ate", "nat", "bat"}) << endl;
+    cout << sol.groupAnagrams({""}) << endl;
+    cout << sol.groupAnagrams({"a"}) << endl;
     return 0;
 }
