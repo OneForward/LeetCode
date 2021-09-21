@@ -17,21 +17,22 @@ class Solution {
 public:
     int lengthOfLastWord(string s) {
         // 0ms
-        if (s.size() == 0) return 0;
-        int p1 = 0, p2 = 0;
-        for (int i = 0; i < s.size()-1; ++i) {
-            if (s[i] == ' ' && s[i+1] != ' ') p1 = i+1;
-            if (s[i] != ' ' && s[i+1] == ' ') p2 = i+1;
-        }
-        if (s[s.size()-1] != ' ')  p2 = s.size();
-        return p2 - p1;
+        int N = s.size();
+        int p = N - 1, len = 0;
+        while (p >= 0 and s[p] == ' ') --p;
+        while (p >= 0 and s[p] != ' ') --p, ++len;
+        return len;
     }
 };
+
 int main(int argc, char const *argv[])
 {
-    string s = " ";
     Solution sol;
-    cout << sol.lengthOfLastWord(s) << endl;
+    cout << sol.lengthOfLastWord("") << endl;
+    cout << sol.lengthOfLastWord(" ") << endl;
+    cout << sol.lengthOfLastWord("   ") << endl;
+    cout << sol.lengthOfLastWord("   word") << endl;
+    cout << sol.lengthOfLastWord("   word ") << endl;
 
     return 0;
 }

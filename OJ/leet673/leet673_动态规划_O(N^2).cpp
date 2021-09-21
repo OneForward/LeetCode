@@ -20,7 +20,7 @@ leet673
 #include <cassert>
 #include <functional>
 #include <utility>
-// #include "../utils/LeetCpp.utils.hpp"
+#include "../utils/LeetCpp.utils.hpp"
 
 using namespace std;
 
@@ -51,6 +51,8 @@ public:
         {
             if (len[i] == maxlen) ans += count[i];
         }
+        cout << len << endl;
+        cout << count << endl;
         return ans;
     }
 };
