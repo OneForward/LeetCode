@@ -10,7 +10,7 @@ using VI=vector<long long>;
 
 int main()
 {
-    freopen("in.txt", "r", stdin);
+    // freopen("in.txt", "r", stdin);
 
     int N, K;
     cin >> N >> K;
