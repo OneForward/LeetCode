@@ -483,7 +483,7 @@
 |994|[腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges)|[Python](OJ/leet994/leet994.py)|Medium|
 |995|[K 连续位的最小翻转次数](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips)|[C++](OJ/leet995/leet995.cpp), [Python](OJ/leet995/leet995.py)|Hard|
 |999|[可以被一步捕获的棋子数](https://leetcode-cn.com/problems/available-captures-for-rook)|[Rust](OJ/leet999/src/main.rs)|Easy|
-|1002|[查找常用字符](https://leetcode-cn.com/problems/find-common-characters)|[C++](OJ/leet1002/main.cpp)|Easy|
+|1002|[查找共用字符](https://leetcode-cn.com/problems/find-common-characters)|[C++](OJ/leet1002/main.cpp)|Easy|
 |1004|[最大连续1的个数 III⭐](https://leetcode-cn.com/problems/max-consecutive-ones-iii)|[C++](OJ/leet1004/leet1004.cpp), [C++](OJ/leet1004/leet1004v1.cpp), [Python](OJ/leet1004/leet1004.py)|Medium|
 |1006|[笨阶乘](https://leetcode-cn.com/problems/clumsy-factorial)|[C++](OJ/leet1006/leet1006.cpp)|Medium|
 |1009|[十进制整数的反码](https://leetcode-cn.com/problems/complement-of-base-10-integer)|[C++](OJ/leet1009/leet1009.cpp)|Easy|
