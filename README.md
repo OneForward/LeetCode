@@ -153,7 +153,7 @@
 |167|[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted)|[C++](OJ/leet167/leet167.cpp)|Easy|
 |168|[Excel表列名称⭐](https://leetcode-cn.com/problems/excel-sheet-column-title)|[C++](OJ/leet168/leet168.cpp), [C++](OJ/leet168/leet168v2.cpp), [Rust](OJ/leet168/src/main.rs)|Easy|
 |169|[多数元素](https://leetcode-cn.com/problems/majority-element)|[C++](OJ/leet169/leet169.cpp)|Easy|
-|172|[阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[C++](OJ/leet172/leet172.cpp)|Easy|
+|172|[阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[C++](OJ/leet172/leet172.cpp)|Medium|
 |173|[二叉搜索树迭代器⭐](https://leetcode-cn.com/problems/binary-search-tree-iterator)|[C++](OJ/leet173/leet173.cpp)|Medium|
 |174|[地下城游戏](https://leetcode-cn.com/problems/dungeon-game)|[C++](OJ/leet174/leet174.cpp)|Hard|
 |179|[最大数](https://leetcode-cn.com/problems/largest-number)|[C++](OJ/leet179/leet179.cpp), [C++](OJ/leet179/leet179v1.cpp)|Medium|
@@ -286,6 +286,7 @@
 |421|[数组中两个数的最大异或值⭐](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array)|[C++](OJ/leet421/leet421.cpp), [C++](OJ/leet421/leet421_字典树.cpp), [Python](OJ/leet421/leet421.py), [Rust](OJ/leet421/src/main.rs)|Medium|
 |424|[替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement)|[C++](OJ/leet424/leet424.cpp), [C++](OJ/leet424/leet424_超时.cpp)|Medium|
 |429|[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal)|[C++](OJ/leet429/leet429.cpp)|Medium|
+|430|[扁平化多级双向链表⭐](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list)|[C++](OJ/leet430/leet430.cpp)|Medium|
 |432|[全 O(1) 的数据结构⭐](https://leetcode-cn.com/problems/all-oone-data-structure)|[C++](OJ/leet432/leet432.cpp)|Hard|
 |437|[路径总和 III](https://leetcode-cn.com/problems/path-sum-iii)|[C++](OJ/leet437/leet437.cpp)|Medium|
 |438|[找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)|[C++](OJ/leet438/leet438.cpp)|Medium|
