@@ -325,6 +325,7 @@
 |513|[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value)|[C++](OJ/leet513/leet513.cpp)|Medium|
 |515|[在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row)|[C++](OJ/leet515/leet515.cpp), [Rust](OJ/leet515/src/main.rs)|Medium|
 |516|[最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence)|[C++](OJ/leet516/leet516.cpp), [Python](OJ/leet516/leet516.py), [Rust](OJ/leet516/src/main.rs)|Medium|
+|517|[超级洗衣机⭐](https://leetcode-cn.com/problems/super-washing-machines)|[C++](OJ/leet517/leet517.cpp)|Hard|
 |518|[零钱兑换 II⭐](https://leetcode-cn.com/problems/coin-change-2)|[C++](OJ/leet518/leet518.cpp)|Medium|
 |519|[随机翻转矩阵](https://leetcode-cn.com/problems/random-flip-matrix)|[C++](OJ/leet519/leet519.cpp)|Medium|
 |521|[最长特殊序列 Ⅰ](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i)|[Rust](OJ/leet521/src/leet521.rs), [Rust](OJ/leet521/src/leet522.rs), [Rust](OJ/leet521/src/main.rs)|Easy|
