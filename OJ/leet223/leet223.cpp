@@ -5,24 +5,14 @@ leet223
 */
 
 
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <stack>
-#include <string>
-#include <unordered_set>
-#include <unordered_map>
-#include <algorithm>
-#include <tuple>
-#include <cassert>
-#include <utility>
+#include "../utils/LeetCpp.utils.hpp"
 using namespace std;
 
 class Solution {
 public:
     int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
-        int dx = max( (long long)min(C, G) - max(A, E), (long long)0 );
-        int dy = max( (long long)min(D, H) - max(B, F), (long long)0 );
+        int dx = max( min(C, G) - max(A, E), 0 );
+        int dy = max( min(D, H) - max(B, F), 0 );
         return (long long)(D - B) * (C - A)  -  dx * dy + (H - F) * (G - E);
     }
 };
