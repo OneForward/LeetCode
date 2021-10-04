@@ -311,6 +311,7 @@
 |477|[汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance)|[C++](OJ/leet477/leet477.cpp)|Medium|
 |479|[最大回文数乘积](https://leetcode-cn.com/problems/largest-palindrome-product)|[C++](OJ/leet479/leet479.cpp)|Hard|
 |480|[滑动窗口中位数⭐](https://leetcode-cn.com/problems/sliding-window-median)|[C++](OJ/leet480/leet480_multiset.cpp), [C++](OJ/leet480/leet480_pbds.cpp), [C++](OJ/leet480/leet480_对顶堆.cpp)|Hard|
+|482|[密钥格式化](https://leetcode-cn.com/problems/license-key-formatting)|[Python](OJ/leet482/leet482.py)|Easy|
 |483|[最小好进制](https://leetcode-cn.com/problems/smallest-good-base)|[C++](OJ/leet483/leet483.cpp), [C++](OJ/leet483/leet483v1.cpp)|Hard|
 |485|[最大连续 1 的个数](https://leetcode-cn.com/problems/max-consecutive-ones)|[C++](OJ/leet485/leet485.cpp)|Easy|
 |486|[预测赢家](https://leetcode-cn.com/problems/predict-the-winner)|[C++](OJ/leet486/leet486.cpp), [Python](OJ/leet486/leet486.py)|Medium|
@@ -563,6 +564,7 @@
 |1414|[和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k)|[Python](OJ/leet1414/leet1414.py)|Medium|
 |1418|[点菜展示表](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant)|[Rust](OJ/leet1418/src/main.rs)|Medium|
 |1423|[可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards)|[Python](OJ/leet1423/leet1423.py)|Medium|
+|1436|[旅行终点站](https://leetcode-cn.com/problems/destination-city)|[Python](OJ/leet1436/leet1436.py)|Easy|
 |1438|[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)|[C++](OJ/leet1438/leet1438.cpp)|Medium|
 |1439|[有序矩阵中的第 k 个最小数组和⭐](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows)|[C++](OJ/leet1439/leet1439-二分.cpp), [C++](OJ/leet1439/leet1439-堆.cpp), [C++](OJ/leet1439/leet1439-暴力.cpp)|Hard|
 |1442|[形成两个异或相等数组的三元组数目⭐](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)|[C++](OJ/leet1442/leet1442.cpp)|Medium|
