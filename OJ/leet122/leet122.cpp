@@ -25,6 +25,7 @@ public:
     int maxProfit(const vector<int>& prices) {
         // 4ms, O(N)
         // 原理：对于任意的 A[i] > A[i+1], 假若在 A[i] 时买入，都不如在 A[i+1] 时买入
+        // 因此每次直接寻找递增序列的部分
         int ans = 0, start = 0;
         while (start < prices.size()) {
             int i = start;
