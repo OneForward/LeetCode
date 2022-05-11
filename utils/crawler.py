@@ -3,7 +3,7 @@ import os, requests, requests_cache, re
 class Leetcode:
     LEETCODE_URL = 'https://leetcode-cn.com'
     LEETCODE_LIST_URL = 'https://leetcode-cn.com/api/problems/all/'
-    LEETCODE_QUESTIONS = "https://leetcode-cn.com/list/api/questions"
+    LEETCODE_QUESTIONS = "https://leetcode.cn/list/api/questions"
     LEETCODE_GRAPHQL = 'https://leetcode-cn.com/graphql'
     def __init__(self):
         self.cookies = os.environ['LEETCODE_COOKIE']
