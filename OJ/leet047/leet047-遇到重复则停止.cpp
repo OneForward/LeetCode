@@ -24,15 +24,13 @@ public:
             VVI newvs;
             for (auto&& v: vs)
             {
-                int len = v.size(), i = 0;
-                for (i = 0; i < len; i++)
+                for (int i = 0; i <= v.size(); i++)
                 {
                     auto newv = v;
                     newv.insert(newv.begin()+i, x);
                     newvs.push_back(newv);
-                    if (v[i] == x) break;
+                    if (i < v.size() and v[i] == x) break;
                 }
-                if (i == len) v.push_back(x), newvs.push_back(v);
             }
             vs = newvs;
         }

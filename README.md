@@ -31,7 +31,7 @@
 |30|[串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words)|[C++](OJ/leet030/leet030.cpp), [C++](OJ/leet030/leet030v1.cpp)|Hard|
 |31|[下一个排列](https://leetcode-cn.com/problems/next-permutation)|[C++](OJ/leet031/leet031.cpp)|Medium|
 |32|[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses)|[C++](OJ/leet032/leet032.cpp), [C++](OJ/leet032/leet032v1.cpp), [Python](OJ/leet032/leet032.py)|Hard|
-|33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array)|[C++](OJ/leet033/leet033-两次搜索.cpp), [C++](OJ/leet033/leet033.cpp), [Rust](OJ/leet033/src/main.rs)|Medium|
+|33|[搜索旋转排序数组⭐](https://leetcode-cn.com/problems/search-in-rotated-sorted-array)|[C++](OJ/leet033/leet033-两次搜索.cpp), [C++](OJ/leet033/leet033.cpp), [Rust](OJ/leet033/src/main.rs)|Medium|
 |34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[C++](OJ/leet034/leet034.cpp)|Medium|
 |35|[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position)|[C++](OJ/leet035/leet035.cpp)|Easy|
 |36|[有效的数独](https://leetcode-cn.com/problems/valid-sudoku)|[C++](OJ/leet036/leet036.cpp), [Python](OJ/leet036/leet036.py), [Rust](OJ/leet036/src/main.rs)|Medium|
@@ -72,7 +72,7 @@
 |78|[子集](https://leetcode-cn.com/problems/subsets)|[C++](OJ/leet078/leet078.cpp)|Medium|
 |79|[单词搜索](https://leetcode-cn.com/problems/word-search)|[C++](OJ/leet079/leet079.cpp), [C++](OJ/leet079/leet079v1.cpp)|Medium|
 |80|[删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii)|[C++](OJ/leet080/leet080.cpp)|Medium|
-|81|[搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii)|[C++](OJ/leet081/leet081.cpp), [C++](OJ/leet081/leet081v1.cpp), [Python](OJ/leet081/leet081.py)|Medium|
+|81|[搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii)|[C++](OJ/leet081/leet081-一次搜索.cpp), [C++](OJ/leet081/leet081.cpp), [C++](OJ/leet081/leet081v1.cpp), [Python](OJ/leet081/leet081.py)|Medium|
 |82|[删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii)|[C++](OJ/leet082/leet082.cpp)|Medium|
 |83|[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)|[C++](OJ/leet083/leet083.cpp)|Easy|
 |84|[柱状图中最大的矩形⭐](https://leetcode-cn.com/problems/largest-rectangle-in-histogram)|[C++](OJ/leet084/leet084.cpp)|Hard|
@@ -80,7 +80,7 @@
 |86|[分隔链表](https://leetcode-cn.com/problems/partition-list)|[C++](OJ/leet086/leet086.cpp)|Medium|
 |87|[扰乱字符串](https://leetcode-cn.com/problems/scramble-string)|[C++](OJ/leet087/leet087.cpp), [Python](OJ/leet087/leet087.py)|Hard|
 |88|[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array)|[C++](OJ/leet088/leet088.cpp)|Easy|
-|89|[格雷编码](https://leetcode-cn.com/problems/gray-code)|[C++](OJ/leet089/leet089.cpp), [Rust](OJ/leet089/src/main.rs)|Medium|
+|89|[格雷编码⭐](https://leetcode-cn.com/problems/gray-code)|[C++](OJ/leet089/leet089.cpp), [Rust](OJ/leet089/src/main.rs)|Medium|
 |90|[子集 II](https://leetcode-cn.com/problems/subsets-ii)|[C++](OJ/leet090/leet090-v2.cpp), [C++](OJ/leet090/leet090.cpp)|Medium|
 |91|[解码方法](https://leetcode-cn.com/problems/decode-ways)|[C++](OJ/leet091/leet091.cpp)|Medium|
 |92|[反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii)|[C++](OJ/leet092/leet092.cpp), [C++](OJ/leet092/leet092v1.cpp)|Medium|
@@ -475,6 +475,7 @@
 |938|[二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst)|[C++](OJ/leet938/leet938.cpp), [Rust](OJ/leet938/src/main.rs)|Easy|
 |940|[不同的子序列 II](https://leetcode-cn.com/problems/distinct-subsequences-ii)|[Python](OJ/leet940/leet940.py)|Hard|
 |942|[增减字符串匹配⭐](https://leetcode-cn.com/problems/di-string-match)|[C++](OJ/leet942/leet942.cpp)|Easy|
+|944|[删列造序](https://leetcode-cn.com/problems/delete-columns-to-make-sorted)|[C++](OJ/leet944/leet944.cpp)|Easy|
 |946|[验证栈序列⭐](https://leetcode-cn.com/problems/validate-stack-sequences)|[C++](OJ/leet946/leet946.cpp)|Medium|
 |947|[移除最多的同行或同列石头](https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column)|[C++](OJ/leet947/leet947.cpp), [C++](OJ/leet947/leet947_字典.cpp)|Medium|
 |958|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree)|[C++](OJ/leet958/leet958.cpp), [C++](OJ/leet958/leet958v1.cpp)|Medium|
