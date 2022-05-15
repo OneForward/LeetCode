@@ -389,6 +389,7 @@
 |687|[最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path)|[C++](OJ/leet687/leet687.cpp)|Medium|
 |688|[骑士在棋盘上的概率](https://leetcode-cn.com/problems/knight-probability-in-chessboard)|[C++](OJ/leet688/leet688.cpp)|Medium|
 |690|[员工的重要性](https://leetcode-cn.com/problems/employee-importance)|[C++](OJ/leet690/leet690.cpp)|Medium|
+|691|[贴纸拼词⭐](https://leetcode-cn.com/problems/stickers-to-spell-word)||Hard|
 |692|[前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words)|[C++](OJ/leet692/leet692.cpp), [Rust](OJ/leet692/src/main.rs)|Medium|
 |697|[数组的度](https://leetcode-cn.com/problems/degree-of-an-array)|[C++](OJ/leet697/leet697.cpp)|Easy|
 |698|[划分为k个相等的子集⭐](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets)|[C++](OJ/leet698/leet698.cpp), [C++](OJ/leet698/leet698v1.cpp), [C++](OJ/leet698/leet698v2.cpp), [Python](OJ/leet698/leet698.py)|Medium|
@@ -431,6 +432,7 @@
 |805|[数组的均值分割](https://leetcode-cn.com/problems/split-array-with-same-average)|[C++](OJ/leet805/leet805.cpp), [C++](OJ/leet805/leet805v2.cpp)|Hard|
 |807|[保持城市天际线](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline)|[Rust](OJ/leet807/src/main.rs)|Medium|
 |810|[黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game)|[Rust](OJ/leet810/src/main.rs)|Hard|
+|812|[最大三角形面积⭐](https://leetcode-cn.com/problems/largest-triangle-area)|[Python](OJ/leet812/leet812.py)|Easy|
 |813|[最大平均值和的分组](https://leetcode-cn.com/problems/largest-sum-of-averages)|[C++](OJ/leet813/leet813.cpp)|Medium|
 |815|[公交路线](https://leetcode-cn.com/problems/bus-routes)|[C++](OJ/leet815/leet815.cpp), [Rust](OJ/leet815/src/main.rs), [Rust](OJ/leet815/src/mainv1.rs)|Hard|
 |832|[翻转图像](https://leetcode-cn.com/problems/flipping-an-image)|[C++](OJ/leet832/leet832.cpp)|Easy|
