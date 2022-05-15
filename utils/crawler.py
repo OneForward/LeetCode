@@ -11,7 +11,6 @@ class Leetcode:
             "accept": "application/json, text/javascript, */*; q=0.01",
             "accept-encoding": "gzip, deflate, br",
             "accept-language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
-            # "cache-control": "no-cache",
             "content-type": "application/json",
             "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"101\", \"Microsoft Edge\";v=\"101\"",
             "sec-ch-ua-mobile": "?0",
@@ -21,11 +20,6 @@ class Leetcode:
             "sec-fetch-site": "same-origin",
             "x-requested-with": "XMLHttpRequest",
             "cookie": self.cookies,
-            # "cookie": "aliyungf_tc=99c9b9f75027271f724228305bdb920ceeb66ca16c034236b5f38a69450e311e; NEW_PROBLEMLIST_PAGE=1; csrftoken=CZ6YOATl633tJCcCjb5SiyTKQFoDF658uNjA9iDKWcp56TYDUNyMgiGaAZNTxNms; _bl_uid=OXlX52y1y18nC5n8qj15x3tjyOpn; LEETCODE_SESSION=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuZXh0X2FmdGVyX29hdXRoIjoiL3Byb2JsZW1zZXQvYWxnb3JpdGhtcy8iLCJfYXV0aF91c2VyX2lkIjoiMzYwOTAxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkY2RkNjEwZThmMzAwOTQ2NjZmMTEzNzg2NWVhOTUxODAzOWY5MDgxMDFlMTVmMTUwNzY0ZDI4N2FiNDMwYmMyIiwiaWQiOjM2MDkwMSwiZW1haWwiOiJvbmVmb3J3YXJkQDEyNi5jb20iLCJ1c2VybmFtZSI6Im9uZWZvcndhcmQiLCJ1c2VyX3NsdWciOiJvbmVmb3J3YXJkIiwiYXZhdGFyIjoiaHR0cHM6Ly9hc3NldHMubGVldGNvZGUuY24vYWxpeXVuLWxjLXVwbG9hZC91c2Vycy9vbmVmb3J3YXJkL2F2YXRhcl8xNTQ5NDUxNjE5LnBuZyIsInBob25lX3ZlcmlmaWVkIjp0cnVlLCJfdGltZXN0YW1wIjoxNjUyMDk2NTk2LjU5MDg5MjgsImV4cGlyZWRfdGltZV8iOjE2NTQ2Mjg0MDAsInZlcnNpb25fa2V5XyI6MCwibGF0ZXN0X3RpbWVzdGFtcF8iOjE2NTIxMDg4NzF9.TpHax8C5AXGT66Dy4XGHAGa9fI2PbED3fHB8zBuAEts",
-            # "dnt": "1",
-            # "pragma": "no-cache",
-            # "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36",
-
             }
         self.cached_solved_quest = {}
 
