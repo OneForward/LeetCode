@@ -87,7 +87,7 @@
 |93|[复原 IP 地址](https://leetcode-cn.com/problems/restore-ip-addresses)|[C++](OJ/leet093/leet093.cpp), [Python](OJ/leet093/leet093.py)|Medium|
 |94|[二叉树的中序遍历⭐](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)|[C++](OJ/leet094/leet094.cpp)|Easy|
 |95|[不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)|[C++](OJ/leet095/leet095.cpp)|Medium|
-|96|[不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees)|[C++](OJ/leet096/leet096.cpp)|Medium|
+|96|[不同的二叉搜索树⭐](https://leetcode-cn.com/problems/unique-binary-search-trees)|[C++](OJ/leet096/leet096.cpp)|Medium|
 |97|[交错字符串⭐](https://leetcode-cn.com/problems/interleaving-string)|[C++](OJ/leet097/leet097.cpp), [Python](OJ/leet097/leet097.py)|Medium|
 |98|[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree)|[C++](OJ/leet098/leet098.cpp)|Medium|
 |99|[恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree)|[C++](OJ/leet099/leet099.cpp), [C++](OJ/leet099/leet099_v2.cpp)|Medium|
@@ -191,7 +191,7 @@
 |225|[用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues)|[C++](OJ/leet225/leet225.cpp)|Easy|
 |226|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree)|[C++](OJ/leet226/leet226.cpp)|Easy|
 |227|[基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii)|[C++](OJ/leet227/leet227.cpp), [C++](OJ/leet227/leet227v2.cpp)|Medium|
-|229|[求众数 II⭐](https://leetcode-cn.com/problems/majority-element-ii)|[C++](OJ/leet229/leet229.cpp), [C++](OJ/leet229/leet229v1.cpp), [Python](OJ/leet229/leet229.py)|Medium|
+|229|[多数元素 II⭐](https://leetcode-cn.com/problems/majority-element-ii)|[C++](OJ/leet229/leet229.cpp), [C++](OJ/leet229/leet229v1.cpp), [Python](OJ/leet229/leet229.py)|Medium|
 |231|[2 的幂](https://leetcode-cn.com/problems/power-of-two)|[C++](OJ/leet231/leet231.cpp)|Easy|
 |232|[用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks)|[C++](OJ/leet232/leet232.cpp)|Easy|
 |233|[数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one)|[C++](OJ/leet233/leet233-包含1的数字的个数.cpp), [C++](OJ/leet233/leet233.cpp), [Rust](OJ/leet233/src/main.rs)|Hard|
@@ -289,6 +289,7 @@
 |429|[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal)|[C++](OJ/leet429/leet429.cpp)|Medium|
 |430|[扁平化多级双向链表⭐](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list)|[C++](OJ/leet430/leet430.cpp)|Medium|
 |432|[全 O(1) 的数据结构⭐](https://leetcode-cn.com/problems/all-oone-data-structure)|[C++](OJ/leet432/leet432.cpp)|Hard|
+|436|[寻找右区间](https://leetcode-cn.com/problems/find-right-interval)|[C++](OJ/leet436/leet436.cpp), [Python](OJ/leet436/leet436.py)|Medium|
 |437|[路径总和 III](https://leetcode-cn.com/problems/path-sum-iii)|[C++](OJ/leet437/leet437.cpp), [C++](OJ/leet437/leet437v1.cpp)|Medium|
 |438|[找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)|[C++](OJ/leet438/leet438.cpp)|Medium|
 |441|[排列硬币](https://leetcode-cn.com/problems/arranging-coins)|[C++](OJ/leet441/leet441.cpp)|Easy|
@@ -305,7 +306,7 @@
 |459|[重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern)|[C++](OJ/leet459/leet459.cpp)|Easy|
 |460|[LFU 缓存](https://leetcode-cn.com/problems/lfu-cache)|[C++](OJ/leet460/leet460-哈希表-双向链表.cpp), [C++](OJ/leet460/leet460-哈希表-哈希表-双向链表.cpp), [C++](OJ/leet460/leet460-哈希表-平衡二叉树.cpp)|Hard|
 |461|[汉明距离](https://leetcode-cn.com/problems/hamming-distance)|[C++](OJ/leet461/leet461.cpp), [Python](OJ/leet461/leet461.py)|Easy|
-|462|[最少移动次数使数组元素相等 II](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii)|[Python](OJ/leet462/leet462.py)|Medium|
+|462|[最少移动次数使数组元素相等 II](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii)|[C++](OJ/leet462/leet462.cpp), [Python](OJ/leet462/leet462.py)|Medium|
 |464|[我能赢吗](https://leetcode-cn.com/problems/can-i-win)|[Python](OJ/leet464/leet464.py)|Medium|
 |467|[环绕字符串中唯一的子字符串⭐](https://leetcode-cn.com/problems/unique-substrings-in-wraparound-string)|[C++](OJ/leet467/leet467.cpp)|Medium|
 |472|[连接词⭐](https://leetcode-cn.com/problems/concatenated-words)|[C++](OJ/leet472/leet472-递归.cpp), [Rust](OJ/leet472/src/main.rs)|Hard|
@@ -376,7 +377,7 @@
 |654|[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree)|[C++](OJ/leet654/leet654v1.cpp)|Medium|
 |657|[机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin)|[Python](OJ/leet657/leet657.py)|Easy|
 |665|[非递减数列](https://leetcode-cn.com/problems/non-decreasing-array)|[C++](OJ/leet665/leet665.cpp)|Medium|
-|668|[乘法表中第k小的数](https://leetcode-cn.com/problems/kth-smallest-number-in-multiplication-table)|[Rust](OJ/leet668/src/main.rs)|Hard|
+|668|[乘法表中第k小的数](https://leetcode-cn.com/problems/kth-smallest-number-in-multiplication-table)|[C++](OJ/leet668/leet668.cpp), [Rust](OJ/leet668/src/main.rs)|Hard|
 |671|[二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree)|[C++](OJ/leet671/leet671.cpp)|Easy|
 |673|[最长递增子序列的个数⭐](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence)|[C++](OJ/leet673/leet673.cpp), [C++](OJ/leet673/leet673_动态规划_O(N^2).cpp), [C++](OJ/leet673/leet673_树状数组.cpp), [Python](OJ/leet673/leet673_线段树.py), [Rust](OJ/leet673/src/main.rs)|Medium|
 |677|[键值映射](https://leetcode-cn.com/problems/map-sum-pairs)|[C++](OJ/leet677/leet677.cpp)|Medium|
@@ -480,6 +481,7 @@
 |944|[删列造序](https://leetcode-cn.com/problems/delete-columns-to-make-sorted)|[C++](OJ/leet944/leet944.cpp)|Easy|
 |946|[验证栈序列⭐](https://leetcode-cn.com/problems/validate-stack-sequences)|[C++](OJ/leet946/leet946.cpp)|Medium|
 |947|[移除最多的同行或同列石头](https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column)|[C++](OJ/leet947/leet947.cpp), [C++](OJ/leet947/leet947_字典.cpp)|Medium|
+|953|[验证外星语词典](https://leetcode-cn.com/problems/verifying-an-alien-dictionary)|[C++](OJ/leet953/leet953.cpp)|Easy|
 |958|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree)|[C++](OJ/leet958/leet958.cpp), [C++](OJ/leet958/leet958v1.cpp)|Medium|
 |968|[监控二叉树](https://leetcode-cn.com/problems/binary-tree-cameras)|[C++](OJ/leet968/leet968-使用哈希存储记忆的递归.cpp), [C++](OJ/leet968/leet968-动态规划.cpp)|Hard|
 |971|[翻转二叉树以匹配先序遍历](https://leetcode-cn.com/problems/flip-binary-tree-to-match-preorder-traversal)|[C++](OJ/leet971/leet971.cpp)|Medium|
