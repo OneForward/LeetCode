@@ -300,6 +300,7 @@
 |447|[回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs)|[Rust](OJ/leet447/src/main.rs)|Medium|
 |448|[找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array)|[C++](OJ/leet448/leet448.cpp)|Easy|
 |449|[序列化和反序列化二叉搜索树⭐](https://leetcode-cn.com/problems/serialize-and-deserialize-bst)|[C++](OJ/leet449/leet449.cpp)|Medium|
+|450|[删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst)|[C++](OJ/leet450/leet450.cpp)|Medium|
 |451|[根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency)|[Rust](OJ/leet451/src/main.rs)|Medium|
 |454|[四数相加 II](https://leetcode-cn.com/problems/4sum-ii)|[Python](OJ/leet454/leet454.py)|Medium|
 |456|[132 模式⭐](https://leetcode-cn.com/problems/132-pattern)|[C++](OJ/leet456/leet456.cpp), [C++](OJ/leet456/leet456v1.cpp), [Python](OJ/leet456/leet456.py)|Medium|
