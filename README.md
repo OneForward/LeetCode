@@ -330,6 +330,7 @@
 |495|[提莫攻击](https://leetcode-cn.com/problems/teemo-attacking)|[C++](OJ/leet495/leet495.cpp)|Easy|
 |496|[下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i)|[C++](OJ/leet496/leet496.cpp)|Easy|
 |497|[非重叠矩形中的随机点](https://leetcode-cn.com/problems/random-point-in-non-overlapping-rectangles)|[C++](OJ/leet497/leet497.cpp)|Medium|
+|498|[对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse)|[C++](OJ/leet498/leet498.cpp), [Rust](OJ/leet498/src/main.rs)|Medium|
 |502|[IPO](https://leetcode-cn.com/problems/ipo)|[C++](OJ/leet502/leet502.cpp)|Hard|
 |503|[下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii)|[C++](OJ/leet503/leet503.cpp)|Medium|
 |513|[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value)|[C++](OJ/leet513/leet513.cpp)|Medium|
