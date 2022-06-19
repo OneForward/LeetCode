@@ -333,6 +333,7 @@
 |498|[对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse)|[C++](OJ/leet498/leet498.cpp), [Rust](OJ/leet498/src/main.rs)|Medium|
 |502|[IPO](https://leetcode-cn.com/problems/ipo)|[C++](OJ/leet502/leet502.cpp)|Hard|
 |503|[下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii)|[C++](OJ/leet503/leet503.cpp)|Medium|
+|508|[出现次数最多的子树元素和](https://leetcode-cn.com/problems/most-frequent-subtree-sum)|[C++](OJ/leet508/leet508.cpp)|Medium|
 |513|[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value)|[C++](OJ/leet513/leet513.cpp)|Medium|
 |515|[在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row)|[C++](OJ/leet515/leet515.cpp), [Rust](OJ/leet515/src/main.rs)|Medium|
 |516|[最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence)|[C++](OJ/leet516/leet516.cpp), [Python](OJ/leet516/leet516.py), [Rust](OJ/leet516/src/main.rs)|Medium|
@@ -348,6 +349,7 @@
 |526|[优美的排列⭐](https://leetcode-cn.com/problems/beautiful-arrangement)|[C++](OJ/leet526/leet526-状态压缩DP.cpp), [C++](OJ/leet526/leet526.cpp), [Rust](OJ/leet526/src/main.rs)|Medium|
 |528|[按权重随机选择⭐](https://leetcode-cn.com/problems/random-pick-with-weight)|[C++](OJ/leet528/leet528.cpp)|Medium|
 |530|[二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst)|[C++](OJ/leet530/leet530.cpp)|Easy|
+|532|[数组中的 k-diff 数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array)|[C++](OJ/leet532/leet532.cpp)|Medium|
 |537|[复数乘法⭐](https://leetcode-cn.com/problems/complex-number-multiplication)|[C++](OJ/leet537/leet537.cpp)|Medium|
 |541|[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii)|[Python](OJ/leet541/leet541.py)|Easy|
 |543|[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree)|[C++](OJ/leet543/main.cpp), [Rust](OJ/leet543/src/main.rs)|Easy|
@@ -435,7 +437,7 @@
 |781|[森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest)|[C++](OJ/leet781/leet781.cpp)|Medium|
 |783|[二叉搜索树节点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes)|[C++](OJ/leet783/leet783.cpp), [C++](OJ/leet783/leet783v1.cpp)|Easy|
 |784|[字母大小写全排列](https://leetcode-cn.com/problems/letter-case-permutation)|[C++](OJ/leet784/leet784.cpp)|Medium|
-|786|[第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction)|[C++](OJ/leet786/leet786.cpp)|Hard|
+|786|[第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction)|[C++](OJ/leet786/leet786.cpp)|Medium|
 |787|[K 站中转内最便宜的航班⭐](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops)|[C++](OJ/leet787/leet787-Bellman-Ford.cpp), [C++](OJ/leet787/leet787-Dijkstra.cpp), [Rust](OJ/leet787/src/main.rs)|Medium|
 |789|[逃脱阻碍者](https://leetcode-cn.com/problems/escape-the-ghosts)|[Rust](OJ/leet789/src/main.rs)|Medium|
 |793|[阶乘函数后 K 个零](https://leetcode-cn.com/problems/preimage-size-of-factorial-zeroes-function)|[Python](OJ/leet793/leet793.py)|Hard|
@@ -536,6 +538,7 @@
 |1052|[爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner)|[C++](OJ/leet1052/leet1052.cpp)|Medium|
 |1053|[交换一次的先前排列](https://leetcode-cn.com/problems/previous-permutation-with-one-swap)|[C++](OJ/leet1053/leet1053-N&#32;log&#32;N.cpp), [C++](OJ/leet1053/leet1053-一次交换.cpp), [C++](OJ/leet1053/leet1053-不止一次交换.cpp)|Medium|
 |1074|[元素和为目标值的子矩阵数量](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target)|[C++](OJ/leet1074/leet1074.cpp), [Python](OJ/leet1074/leet1074.py), [Rust](OJ/leet1074/src/main.rs)|Hard|
+|1089|[复写零](https://leetcode-cn.com/problems/duplicate-zeros)|[C++](OJ/leet1089/leet1089.cpp)|Easy|
 |1092|[最短公共超序列⭐](https://leetcode-cn.com/problems/shortest-common-supersequence)|[C++](OJ/leet1092/leet1092.cpp)|Hard|
 |1095|[山脉数组中查找目标值](https://leetcode-cn.com/problems/find-in-mountain-array)|[C++](OJ/leet1095/leet1095.cpp)|Hard|
 |1104|[二叉树寻路](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree)|[C++](OJ/leet1104/leet1104.cpp)|Medium|
