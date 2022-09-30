@@ -33,6 +33,7 @@ using namespace std;
 // #define FOR(i,a,b) for(int i=(a);i<(b);++i)
 // #define REP(i,a) for(int i=0;i<(a);++i)
 // #define ALL(A) A.begin(),A.end()
+// #define RALL(A) A.rbegin(),A.rend()
 
 // template<class T> int CMP(T a[],const T b[],int n) { return memcmp(a,b,n*sizeof(T)); }
 // template<class T> void COPY(T a[],const T b[],int n) { memcpy(a,b,n*sizeof(T)); }
@@ -91,8 +92,8 @@ void sort(Container& v) {
  * 
  */
 struct ListNode {
-    int val ;
-    ListNode *next ;
+    int val{};
+    ListNode *next{} ;
 };
 
 ListNode* toList(vector<int> v, int pos = -1) {
@@ -135,9 +136,9 @@ void disp(ListNode* p, int pos = -1) {
  */
 
 struct TreeNode {
-    int val ;
-    TreeNode *left ;
-    TreeNode *right ;
+    int val {};
+    TreeNode *left {};
+    TreeNode *right {};
 };
 
 const int null = -1;
